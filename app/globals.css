@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .heading2 {
+    @apply text-[40px] md:text-[48px]  font-bold;
+  }
+
+  .heading3 {
+    @apply text-3xl md:text-h3  font-bold;
+  }
+  .subtitle {
+    @apply text-[18px] md:text-[24px] font-normal;
+  }
+}
