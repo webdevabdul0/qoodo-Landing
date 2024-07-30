@@ -14,10 +14,10 @@ const FAQ = () => {
         <h3 className="heading2 mb-[20px]">Frequently Asked Questions</h3>
       </div>
       <div>
-        {QnA.map((qna) => (
-          <Accordion type="single" collapsible>
+        {QnA.map((qna, index) => (
+          <Accordion type="single" collapsible key={index}>
             <AccordionItem
-              value="item-1"
+              value={`item-${index}`}
               className="border-[#333333] mb-[30px]"
             >
               <AccordionTrigger className="text-start text-white text-xl md:text-2xl font-semibold font-['Gilroy'] leading-10 ">
