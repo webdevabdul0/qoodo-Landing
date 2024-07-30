@@ -4,7 +4,6 @@ import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import axios from "axios";
 import ContactModal from "./ui/ContactModal";
 import { FormattedMessage } from "react-intl";
-import ReCAPTCHA from "react-google-recaptcha";
 import { Helmet } from "react-helmet-async";
 import MagicButton from "./MagicButton";
 import { FaChevronRight } from "react-icons/fa";
@@ -116,12 +115,7 @@ const Contact: React.FC = () => {
                   className="w-full h-[100px] text-white pt-5 resize-none text-base text-[rgba(163, 163, 163, 0.6)] bg-[rgba(13,13,13,0.5)] rounded-[20px] pl-5"
                 />
               </div>
-              <div>
-                <ReCAPTCHA
-                  sitekey="6LdVxokkAAAAAJCWTwQxcFKBeqQ4p4s78OopbfQN"
-                  onChange={onChange}
-                />
-              </div>
+              <div></div>
 
               <a href="#" onClick={handleSubmit}>
                 <div className="h-[60px] px-[25px] py-[15px] bg-[#4a60ff] rounded-[14px] border border-[#6971a2] justify-center items-center gap-2.5 inline-flex">
