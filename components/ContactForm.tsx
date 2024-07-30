@@ -1,11 +1,8 @@
 "use client";
-import React, { useState, ChangeEvent, FormEvent } from "react";
+import React, { useState, ChangeEvent, FormEvent, MouseEvent } from "react";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import axios from "axios";
 import ContactModal from "./ui/ContactModal";
-import { FormattedMessage } from "react-intl";
-import { Helmet } from "react-helmet-async";
-import MagicButton from "./MagicButton";
 import { FaChevronRight } from "react-icons/fa";
 
 interface InputState {
@@ -67,6 +64,13 @@ const Contact: React.FC = () => {
     }
   };
 
+  const handleClick = (e: MouseEvent<HTMLAnchorElement>) => {
+    e.preventDefault();
+    // Simulate FormEvent for handleSubmit
+    const fakeEvent = e as unknown as FormEvent<HTMLFormElement>;
+    handleSubmit(fakeEvent);
+  };
+
   return (
     <>
       <div className="px-5 sm:px-[100px]">
@@ -117,7 +121,7 @@ const Contact: React.FC = () => {
               </div>
               <div></div>
 
-              <a href="#" onClick={handleSubmit}>
+              <a href="#" onClick={handleClick}>
                 <div className="h-[60px] px-[25px] py-[15px] bg-[#4a60ff] rounded-[14px] border border-[#6971a2] justify-center items-center gap-2.5 inline-flex">
                   <div className="text-white text-base font-medium font-['Gilroy'] leading-tight">
                     Submit
