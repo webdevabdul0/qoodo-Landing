@@ -120,23 +120,23 @@ export const testimonials = [
 
 export const QnA = [
   {
-    question: "1. Is this is a question regarding qoodo?",
+    question: "What benefits does Qoodo's quality management software provide?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque luctus condimentum sem non imperdiet. Vestibulum est mi, sodales eu eros eu, ultrices varius ipsum. Nulla at congue ipsum. Duis fringilla, nulla nec dignissim rhoncus, diam lorem efficitur mi, id dapibus risus quam vel ante. Integer porta vulputate venenatis. ",
+      "Qoodo's quality management software enhances operational efficiency, improves safety and compliance, streamlines tracking and reporting processes, and integrates seamlessly with other tools, leading to increased productivity and profitability. ",
   },
   {
-    question: "2. Is this is a question regarding qoodo?",
+    question: "What key features does Qoodo offer for quality management? ",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque luctus condimentum sem non imperdiet. Vestibulum est mi, sodales eu eros eu, ultrices varius ipsum. Nulla at congue ipsum. Duis fringilla, nulla nec dignissim rhoncus, diam lorem efficitur mi, id dapibus risus quam vel ante. Integer porta vulputate venenatis. ",
+      "Qoodo includes essential features such as customizable checklist creation, detailed inspection and audit capabilities, real-time analytics and reporting, mobile accessibility for on-the-go inspections, task assignment and notifications, and centralized data storage.",
   },
   {
-    question: "3. Is this is a question regarding qoodo?",
+    question: "How does Qoodo improve safety and compliance?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque luctus condimentum sem non imperdiet. Vestibulum est mi, sodales eu eros eu, ultrices varius ipsum. Nulla at congue ipsum. Duis fringilla, nulla nec dignissim rhoncus, diam lorem efficitur mi, id dapibus risus quam vel ante. Integer porta vulputate venenatis. ",
+      "Qoodo enhances safety and compliance through regular inspections and audits, real-time tracking of compliance metrics, incident reporting and follow-up alerts, and in-app safety and compliance training, ensuring a secure environment for all stakeholders. ",
   },
   {
-    question: "4. Is this is a question regarding qoodo?",
+    question: "Is Qoodo suitable for various industries and businesses?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque luctus condimentum sem non imperdiet. Vestibulum est mi, sodales eu eros eu, ultrices varius ipsum. Nulla at congue ipsum. Duis fringilla, nulla nec dignissim rhoncus, diam lorem efficitur mi, id dapibus risus quam vel ante. Integer porta vulputate venenatis. ",
+      "Yes, Qoodo is versatile and ideal for a wide range of industries and businesses, including:\n- Food Manufacturers\n- Food Service Providers\n- Safety Managers\n- Compliance Officers\n- Quality Assurance Teams\n- Internal and External Auditors\n- Hospitality Industry\n- Healthcare Facilities\n- Manufacturing Plants\n- Retail Chains",
   },
 ];
