@@ -22,15 +22,9 @@ const QoodoLogs = () => {
 
       {/*Log Feature Style 2*/}
       <div className=" px-0 md:px-[100px] py-[50px]  bg-opacity-10 bg-gradient-to-b from-neutral-950 via-[#4a60ff]/30 to-neutral-950  flex  flex-col-reverse lg:flex-row md:justify-between items-center  gap-[20px] md:gap-[100px] ">
-        <Image
-          src={"/images/Log/2.png"}
-          width={900}
-          height={500}
-          alt="Log"
-          style={{ width: "100%", height: "auto" }}
-        />
+        <Image src={"/images/Log/2.png"} width={1500} height={1} alt="Log" />
 
-        <div className="w-full flex flex-col-reverse justify-center items-center  lg:items-start gap-5 text-center lg:text-start">
+        <div className="w-full flex flex-col justify-center items-center  lg:items-start gap-5 text-center lg:text-start">
           {/*Small Gradient badge*/}
           <div className="h-9 p-2.5 bg-white/10 rounded-[99px] border border-[#7bcbe8] justify-center items-center gap-2.5 inline-flex">
             <div className="text-white text-[14px] md:text-[16px] font-semibold font-['Gilroy'] leading-none">
