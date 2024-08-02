@@ -152,7 +152,7 @@ const QoodoFeatures: React.FC = () => {
 
   return (
     <div className="py-[70px] gap-[70px] w-full md:px-[30px]">
-      <h3 className="text-white text-3xl md:text-h3 text-center font-bold">
+      <h3 className="text-white text-3xl md:text-h3 text-start font-bold">
         Efficient Tools for Quality Management and Compliance
       </h3>
 
@@ -164,9 +164,9 @@ const QoodoFeatures: React.FC = () => {
           <div className="flex justify-start sm:w-auto w-full items-center xl:items-start flex-col gap-10 xl:gap-20">
             <h2
               ref={heading}
-              className="text-3xl md:text-[50px]   font-bold text-white"
+              className="text-3xl md:text-[42px] font-bold text-white leading-snug "
             >
-              Features
+              Key Features and How They Benefit You
             </h2>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:flex justify-start  flex-row items-start xl:flex-col gap-5 w-full">

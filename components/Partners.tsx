@@ -72,6 +72,55 @@ const Partners = () => {
               className="w-[170px] ml-[50px]"
             />
           </div>
+
+          <div>
+            <img
+              src="/Featured/partner (9).png"
+              className="w-[170px] ml-[50px]"
+            />
+          </div>
+
+          <div>
+            <img
+              src="/Featured/partner (10).png"
+              className="w-[170px] ml-[50px]"
+            />
+          </div>
+
+          <div>
+            <img
+              src="/Featured/partner (11).png"
+              className="w-[170px] ml-[50px]"
+            />
+          </div>
+
+          <div>
+            <img
+              src="/Featured/partner (12).png"
+              className="w-[170px] ml-[50px]"
+            />
+          </div>
+
+          <div>
+            <img
+              src="/Featured/partner (13).png"
+              className="w-[170px] ml-[50px]"
+            />
+          </div>
+
+          <div>
+            <img
+              src="/Featured/partner (14).png"
+              className="w-[170px] ml-[50px]"
+            />
+          </div>
+
+          <div>
+            <img
+              src="/Featured/partner (15).png"
+              className="w-[170px] ml-[50px]"
+            />
+          </div>
         </Marquee>
       </div>
     </div>

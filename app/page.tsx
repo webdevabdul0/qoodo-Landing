@@ -2,7 +2,7 @@ import React from "react";
 import Hero from "@/components/Hero";
 import Partners from "@/components/Partners";
 import QoodoFeatures from "@/components/QoodoFeatures";
-import QoodoAudit from "@/components/QoodoAudit";
+import QoodoLogs from "@/components/QoodoLogs";
 import QoodoInAction from "@/components/QoodoInAction";
 import QoodoIndustries from "@/components/QoodoIndustries";
 import QoodoStandards from "@/components/QoodoStandards";
@@ -27,14 +27,15 @@ const Page = () => {
         <div className="px-5 sm:px-12">
           <QoodoFeatures />
         </div>
-        <QoodoAudit />
+        <QoodoLogs />
         <QoodoInAction />
         <QoodoIndustries />
-        <QoodoStandards />
+
         <BookDemo />
         <CaseStudies />
         <FAQ />
         <ContactForm />
+        <QoodoStandards />
         <Footer />
       </div>
     </main>
