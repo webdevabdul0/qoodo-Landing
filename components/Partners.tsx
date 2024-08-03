@@ -18,107 +18,83 @@ const Partners = () => {
 
       <div className=" mb-[50px] ">
         <Marquee>
-          <div>
-            <img
+          <div className="relative">
+            <Image
               src="/Featured/partner (1).png"
-              className="w-[170px] ml-[50px]"
+              alt="Partner 1"
+              width={170}
+              height={1}
+              className="filter grayscale transition-transform duration-300 ml-[50px] hover:grayscale-0"
             />
           </div>
 
-          <div>
-            <img
+          <div className="relative">
+            <Image
               src="/Featured/partner (2).png"
-              className="w-[170px] ml-[50px]"
+              alt="Partner 2"
+              width={170}
+              height={1}
+              className="filter grayscale transition-transform duration-300 ml-[50px] hover:grayscale-0"
             />
           </div>
-          <div>
-            <img
+
+          <div className="relative">
+            <Image
               src="/Featured/partner (3).png"
-              className="w-[170px] ml-[50px]"
+              alt="Partner 3"
+              width={170}
+              height={1}
+              className="filter grayscale transition-transform duration-300 ml-[50px] hover:grayscale-0"
             />
           </div>
 
-          <div>
-            <img
+          <div className="relative">
+            <Image
               src="/Featured/partner (4).png"
-              className="w-[170px] ml-[50px]"
+              alt="Partner 4"
+              width={170}
+              height={1}
+              className="filter grayscale transition-transform duration-300 ml-[50px] hover:grayscale-0"
             />
           </div>
 
-          <div>
-            <img
+          <div className="relative">
+            <Image
               src="/Featured/partner (5).png"
-              className="w-[170px] ml-[50px]"
+              alt="Partner 5"
+              width={170}
+              height={1}
+              className="filter grayscale transition-transform duration-300 ml-[50px] hover:grayscale-0"
             />
           </div>
 
-          <div>
-            <img
+          <div className="relative">
+            <Image
               src="/Featured/partner (6).png"
-              className="w-[170px] ml-[50px]"
+              alt="Partner 6"
+              width={170}
+              height={1}
+              className="filter grayscale transition-transform duration-300 ml-[50px] hover:grayscale-0"
             />
           </div>
 
-          <div>
-            <img
+          <div className="relative">
+            <Image
               src="/Featured/partner (7).png"
-              className="w-[170px] ml-[50px]"
+              alt="Partner 7"
+              width={170}
+              height={1}
+              className="filter grayscale transition-transform duration-300 ml-[50px] hover:grayscale-0"
             />
           </div>
 
-          <div>
-            <img
+          <div className="relative">
+            <Image
               src="/Featured/partner (8).png"
-              className="w-[170px] ml-[50px]"
-            />
-          </div>
-
-          <div>
-            <img
-              src="/Featured/partner (9).png"
-              className="w-[170px] ml-[50px]"
-            />
-          </div>
-
-          <div>
-            <img
-              src="/Featured/partner (10).png"
-              className="w-[170px] ml-[50px]"
-            />
-          </div>
-
-          <div>
-            <img
-              src="/Featured/partner (11).png"
-              className="w-[170px] ml-[50px]"
-            />
-          </div>
-
-          <div>
-            <img
-              src="/Featured/partner (12).png"
-              className="w-[170px] ml-[50px]"
-            />
-          </div>
-
-          <div>
-            <img
-              src="/Featured/partner (13).png"
-              className="w-[170px] ml-[50px]"
-            />
-          </div>
-
-          <div>
-            <img
-              src="/Featured/partner (14).png"
-              className="w-[170px] ml-[50px]"
-            />
-          </div>
-
-          <div>
-            <img
-              src="/Featured/partner (15).png"
-              className="w-[170px] ml-[50px]"
+              alt="Partner 8"
+              width={170}
+              height={1}
+              className="filter grayscale transition-transform duration-300 ml-[50px] hover:grayscale-0"
             />
           </div>
         </Marquee>

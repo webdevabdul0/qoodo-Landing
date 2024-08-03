@@ -28,7 +28,7 @@ const Page = () => {
           <QoodoFeatures />
         </div>
         <QoodoLogs />
-        <QoodoInAction />
+        {/*<QoodoInAction />*/}
         <QoodoIndustries />
 
         <BookDemo />
