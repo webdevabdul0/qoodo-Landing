@@ -45,7 +45,7 @@ const QoodoIndustries = () => {
   }, []);
 
   return (
-    <div className="px-[50px] py-[130px] ">
+    <div className=" px-5 sm:px-[50px] py-[130px] ">
       <div className="text-center w-full flex flex-col justify-center items-center mb-[50px]">
         <h3 className="heading2 mb-[20px]">
           Who is Qoodo's Smart QMS Software Perfect For?
@@ -57,7 +57,7 @@ const QoodoIndustries = () => {
         </p>
       </div>
 
-      <div className="w-full md:px-[50px] grid-cols-1 sm:grid-cols-2 md:grid-cols-3 place-items-center xl:grid-cols-6 grid gap-6 xl:gap-5">
+      <div className="w-full md:px-[50px] grid-cols-1 sm:grid-cols-2 xl:grid-cols-3  place-items-center 2xl:grid-cols-6 grid gap-6 xl:gap-5">
         {/* Industry Cards */}
         <div
           ref={feat1}
