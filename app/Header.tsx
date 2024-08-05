@@ -1,14 +1,14 @@
 import React from "react";
-
 import { FaChevronRight } from "react-icons/fa";
 import { FiMenu } from "react-icons/fi";
+import Link from "next/link";
 
 const Header = () => {
   return (
     <div className="w-full  sm:px-[20px]  xl:px-[100px] sm:py-5 ">
       <div className="h-[90px] pl-[30px] pr-5 py-5 bg-[#08081a] rounded-[30px] flex justify-between items-center ">
         <div className="justify-start items-center gap-[50px] xl:gap-[100px] flex ">
-          <div>
+          <Link href="/">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="200"
@@ -97,24 +97,30 @@ const Header = () => {
                 fill="white"
               />
             </svg>
-          </div>
-          <div className="justify-center items-center gap-10   hidden lg:flex">
-            <div className="text-white text-lg font-semibold font-['Gilroy'] leading-snug">
-              Menu Item
-            </div>
-            <div className="text-white text-lg font-semibold font-['Gilroy'] leading-snug">
-              Menu Item
-            </div>
-            <div className="text-white text-lg font-semibold font-['Gilroy'] leading-snug">
-              Menu Item
-            </div>
-            <div className="text-white text-lg font-semibold font-['Gilroy'] leading-snug">
-              Menu Item
-            </div>
-          </div>
+          </Link>
+          <nav>
+            <ul className="flex gap-10 font-semibold font-gilroy">
+              <li>
+                <Link href="#features">Features</Link>
+              </li>
+              <li>
+                <Link href="#logs">Logs</Link>
+              </li>
+              <li>
+                <Link href="#industries">Industries</Link>
+              </li>
+              <li>
+                <Link href="#standards">Standards</Link>
+              </li>
+
+              <li>
+                <Link href="audit">Audit</Link>
+              </li>
+            </ul>
+          </nav>
         </div>
 
-        <a href="#" className=" hidden lg:block">
+        <a href="bookDemo" className=" hidden lg:block">
           <div className="h-[49px] px-[25px] py-[15px] bg-[#4a60ff] rounded-[14px] border border-[#6971a2] justify-center items-center gap-2.5 inline-flex">
             <div className="text-white text-base font-medium font-['Gilroy'] leading-tight">
               Book a Demo

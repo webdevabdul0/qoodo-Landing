@@ -22,9 +22,9 @@ const Partners = () => {
             <Image
               src="/Featured/partner (1).png"
               alt="Partner 1"
-              width={170}
+              width={140}
               height={1}
-              className="filter grayscale transition-transform duration-300 ml-[50px] hover:grayscale-0"
+              className="filter grayscale transition-transform duration-300 ml-[100px] hover:grayscale-0"
             />
           </div>
 
@@ -32,9 +32,9 @@ const Partners = () => {
             <Image
               src="/Featured/partner (2).png"
               alt="Partner 2"
-              width={170}
+              width={140}
               height={1}
-              className="filter grayscale transition-transform duration-300 ml-[50px] hover:grayscale-0"
+              className="filter grayscale transition-transform duration-300 ml-[100px] hover:grayscale-0"
             />
           </div>
 
@@ -42,9 +42,9 @@ const Partners = () => {
             <Image
               src="/Featured/partner (3).png"
               alt="Partner 3"
-              width={170}
+              width={160}
               height={1}
-              className="filter grayscale transition-transform duration-300 ml-[50px] hover:grayscale-0"
+              className="filter grayscale transition-transform duration-300 ml-[100px] hover:grayscale-0"
             />
           </div>
 
@@ -52,9 +52,9 @@ const Partners = () => {
             <Image
               src="/Featured/partner (4).png"
               alt="Partner 4"
-              width={170}
+              width={160}
               height={1}
-              className="filter grayscale transition-transform duration-300 ml-[50px] hover:grayscale-0"
+              className="filter grayscale transition-transform duration-300 ml-[100px] hover:grayscale-0"
             />
           </div>
 
@@ -62,9 +62,9 @@ const Partners = () => {
             <Image
               src="/Featured/partner (5).png"
               alt="Partner 5"
-              width={170}
+              width={116}
               height={1}
-              className="filter grayscale transition-transform duration-300 ml-[50px] hover:grayscale-0"
+              className="filter grayscale transition-transform duration-300 ml-[100px] hover:grayscale-0"
             />
           </div>
 
@@ -72,9 +72,9 @@ const Partners = () => {
             <Image
               src="/Featured/partner (6).png"
               alt="Partner 6"
-              width={170}
+              width={100}
               height={1}
-              className="filter grayscale transition-transform duration-300 ml-[50px] hover:grayscale-0"
+              className="filter grayscale transition-transform duration-300 ml-[100px] hover:grayscale-0"
             />
           </div>
 
@@ -82,19 +82,19 @@ const Partners = () => {
             <Image
               src="/Featured/partner (7).png"
               alt="Partner 7"
-              width={170}
+              width={100}
               height={1}
-              className="filter grayscale transition-transform duration-300 ml-[50px] hover:grayscale-0"
+              className="filter grayscale transition-transform duration-300 ml-[100px] hover:grayscale-0"
             />
           </div>
 
-          <div className="relative">
+          <div>
             <Image
               src="/Featured/partner (8).png"
               alt="Partner 8"
-              width={170}
+              width={100}
               height={1}
-              className="filter grayscale transition-transform duration-300 ml-[50px] hover:grayscale-0"
+              className="filter grayscale transition-transform duration-300 ml-[100px] hover:grayscale-0"
             />
           </div>
         </Marquee>

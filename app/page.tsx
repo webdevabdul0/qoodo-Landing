@@ -10,34 +10,37 @@ import BookDemo from "@/components/BookDemo";
 import CaseStudies from "@/components/CaseStudies";
 import FAQ from "@/components/FAQ";
 import ContactForm from "@/components/ContactForm";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
+import Header from "./Header";
+import Footer from "./Footer";
 
 const Page = () => {
   return (
     <main className="relative bg-black-100 flex justify-center items-center flex-col overflow-hidden mx-auto ">
       <div className="w-full">
         <Header />
-
         <Hero />
         <div className="mt-[-55px]">
           <Partners />
         </div>
 
-        <div className="px-5 sm:px-12">
+        <div id="features" className="px-5 sm:px-12">
           <QoodoFeatures />
         </div>
-        <QoodoLogs />
-        {/*<QoodoInAction />*/}
-        <QoodoIndustries />
-
+        <div id="logs">
+          <QoodoLogs />
+        </div>
+        <div id="industries">
+          <QoodoIndustries />
+        </div>
         <BookDemo />
         <CaseStudies />
         <FAQ />
         <ContactForm />
-        <QoodoStandards />
-        <Footer />
+        <div id="standards">
+          <QoodoStandards />
+        </div>
       </div>
+      <Footer />
     </main>
   );
 };

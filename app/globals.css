@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 @layer utilities {
+  * {
+    scroll-behavior: smooth;
+  }
   .heading2 {
     @apply text-[40px] md:text-[48px]  font-bold;
   }
