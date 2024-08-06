@@ -59,62 +59,29 @@ export const companies = [
     img: "/images/company/qoodo.svg",
     nameImg: "/images/company/qoodoName.svg",
   },
-  {
-    id: 2,
-    name: "Qoodo",
-    img: "/images/company/qoodo.svg",
-    nameImg: "/images/company/qoodoName.svg",
-  },
-  {
-    id: 3,
-    name: "Qoodo",
-    img: "/images/company/qoodo.svg",
-    nameImg: "/images/company/qoodoName.svg",
-  },
-  {
-    id: 4,
-    name: "Qoodo",
-    img: "/images/company/qoodo.svg",
-    nameImg: "/images/company/qoodoName.svg",
-  },
-  {
-    id: 5,
-    name: "Qoodo",
-    img: "/images/company/qoodo.svg",
-    nameImg: "/images/company/qoodoName.svg",
-  },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque velit lacus, sagittis in eros sed, lobortis cursus felis. In eu accumsan enim. Sed luctus, diam non dictum lobortis, augue quam tristique velit, at fermentum enim turpis in urna. Pellentesque ac imperdiet libero. Suspendisse non placerat urna. Praesent sit amet varius ex.",
-    name: "John Doe",
-    title: "Designer of Qoodo ",
+      "The online logging with Qoodo makes it easier for us to close units and check workflows. The assessment of colleagues and their tasks can be traced. Reminding annual/semi-year/quarterly logs to be less frequent greatly reduced our error opportunities.",
+    name: "Patrik Panácz ",
+    title: "(A Grund)",
+    img: "/images/company/part3.png",
   },
   {
     quote:
-      "Sed luctus, diam non dictum lobortis, augue quam tristique velit, at fermentum enim turpis in urna. Pellentesque ac imperdiet libero. Suspendisse non placerat urna. Praesent sit amet varius ex.",
-    name: "John Doe",
-    title: "Designer of Qoodo ",
+      "The online logging with Qoodo makes it easier for us to close units and check workflows. The assessment of colleagues and their tasks can be traced. Reminding annual/semi-year/quarterly logs to be less frequent greatly reduced our error opportunities.",
+    name: "Patrik Panácz ",
+    title: "(A Grund)",
+    img: "/images/company/part3.png",
   },
   {
     quote:
-      "Sed luctus, diam non dictum lobortis, augue quam tristique velit, at fermentum enim turpis in urna. Pellentesque ac imperdiet libero. Suspendisse non placerat urna. Praesent sit amet varius ex.",
-    name: "John Doe",
-    title: "Designer of Qoodo ",
-  },
-  {
-    quote:
-      "Sed luctus, diam non dictum lobortis, augue quam tristique velit, at fermentum enim turpis in urna. Pellentesque ac imperdiet libero. Suspendisse non placerat urna. Praesent sit amet varius ex.",
-    name: "John Doe",
-    title: "Designer of Qoodo ",
-  },
-  {
-    quote:
-      "Sed luctus, diam non dictum lobortis, augue quam tristique velit, at fermentum enim turpis in urna. Pellentesque ac imperdiet libero. Suspendisse non placerat urna. Praesent sit amet varius ex.",
-    name: "John Doe",
-    title: "Designer of Qoodo ",
+      "The online logging with Qoodo makes it easier for us to close units and check workflows. The assessment of colleagues and their tasks can be traced. Reminding annual/semi-year/quarterly logs to be less frequent greatly reduced our error opportunities.",
+    name: "Patrik Panácz ",
+    title: "(A Grund)",
+    img: "/images/company/part3.png",
   },
 ];
 
