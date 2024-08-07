@@ -33,11 +33,13 @@ const FormSchema = z.object({
 });
 
 const interestsOptions = [
-  "Audit",
-  "Logs",
-  "Attendance",
-  "Reports",
-  "Compliance",
+  "Online logging",
+  "Audit and inspection",
+  "Digital Attendance",
+  "Education",
+  "HACCP/IFS/ISO",
+  "Applying the new self-monitoring regulation",
+  "Something else",
 ];
 
 const items = [
@@ -220,7 +222,6 @@ const Page = () => {
                       name="name"
                       render={({ field }) => (
                         <FormItem>
-                          <FormLabel>Name</FormLabel>
                           <FormControl>
                             <input
                               {...field}
@@ -237,7 +238,6 @@ const Page = () => {
                       name="email"
                       render={({ field }) => (
                         <FormItem>
-                          <FormLabel>Email</FormLabel>
                           <FormControl>
                             <input
                               {...field}
@@ -255,7 +255,6 @@ const Page = () => {
                       name="phoneNumber"
                       render={({ field }) => (
                         <FormItem>
-                          <FormLabel>Phone Number</FormLabel>
                           <FormControl>
                             <input
                               {...field}
@@ -273,11 +272,11 @@ const Page = () => {
                       name="interests"
                       render={({ field }) => (
                         <FormItem>
-                          <FormLabel>
+                          <FormLabel className="text-xl font-semibold font-gilroy text-white">
                             I am interested in knowing about
                           </FormLabel>
                           <FormControl>
-                            <div className="flex flex-col gap-2">
+                            <div className="flex flex-col gap-7 py-8">
                               {interestsOptions.map((option) => (
                                 <label
                                   key={option}
@@ -299,8 +298,10 @@ const Page = () => {
                                         );
                                       }
                                     }}
+                                    className="bg-blue-500 text-white"
                                   />
-                                  <span className="ml-2 text-white">
+
+                                  <span className="ml-2 text-xl font-semibold font-gilroy text-white">
                                     {option}
                                   </span>
                                 </label>
