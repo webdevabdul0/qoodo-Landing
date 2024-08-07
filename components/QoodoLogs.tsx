@@ -43,7 +43,7 @@ const QoodoLogs = () => {
 
       {/*Log Feature Style 1*/}
       <div className="px-0 md:px-[100px] py-[50px] flex justify-center ">
-        <div className="flex  flex-col-reverse lg:flex-row md:justify-between items-center  gap-[20px] md:gap-[100px] max-w-7xl">
+        <div className="flex  flex-col lg:flex-row md:justify-between items-center  gap-[20px] md:gap-[100px] max-w-7xl">
           <div className="w-full flex flex-col justify-center items-center lg:items-start gap-5 text-center lg:text-start">
             <div className="rounded-full p-[1px] bg-gradient-to-br from-[#7BCBE8] w-fit via-[#8715E5] to-[#33FDFF]">
               <div className="p-[10px] bg-[#222222]   rounded-full text-white font-semibold text-[14px] md:text-[16px]">
@@ -83,7 +83,7 @@ const QoodoLogs = () => {
 
       {/*Log Feature Style 1*/}
       <div className="px-0 md:px-[100px] py-[50px] flex justify-center ">
-        <div className="flex  flex-col-reverse lg:flex-row md:justify-between items-center  gap-[20px] md:gap-[100px] max-w-7xl">
+        <div className="flex  flex-col lg:flex-row md:justify-between items-center  gap-[20px] md:gap-[100px] max-w-7xl">
           <div className="w-full flex flex-col justify-center items-center lg:items-start gap-5 text-center lg:text-start">
             <div className="rounded-full p-[1px] bg-gradient-to-br from-[#7BCBE8] w-fit via-[#8715E5] to-[#33FDFF]">
               <div className="p-[10px] bg-[#222222]   rounded-full text-white font-semibold text-[14px] md:text-[16px]">
