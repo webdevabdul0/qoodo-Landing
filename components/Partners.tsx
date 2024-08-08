@@ -22,7 +22,7 @@ const Partners = () => {
             <Image
               src="/Featured/partner (1).png"
               alt="Partner 1"
-              width={140}
+              width={120}
               height={1}
               className="filter grayscale transition-transform duration-300 ml-[100px] hover:grayscale-0"
             />
@@ -32,7 +32,7 @@ const Partners = () => {
             <Image
               src="/Featured/partner (2).png"
               alt="Partner 2"
-              width={140}
+              width={120}
               height={1}
               className="filter grayscale transition-transform duration-300 ml-[100px] hover:grayscale-0"
             />
@@ -42,7 +42,7 @@ const Partners = () => {
             <Image
               src="/Featured/partner (3).png"
               alt="Partner 3"
-              width={160}
+              width={140}
               height={1}
               className="filter grayscale transition-transform duration-300 ml-[100px] hover:grayscale-0"
             />
@@ -52,7 +52,7 @@ const Partners = () => {
             <Image
               src="/Featured/partner (4).png"
               alt="Partner 4"
-              width={160}
+              width={140}
               height={1}
               className="filter grayscale transition-transform duration-300 ml-[100px] hover:grayscale-0"
             />
@@ -62,7 +62,7 @@ const Partners = () => {
             <Image
               src="/Featured/partner (5).png"
               alt="Partner 5"
-              width={116}
+              width={110}
               height={1}
               className="filter grayscale transition-transform duration-300 ml-[100px] hover:grayscale-0"
             />
@@ -72,7 +72,7 @@ const Partners = () => {
             <Image
               src="/Featured/partner (6).png"
               alt="Partner 6"
-              width={100}
+              width={90}
               height={1}
               className="filter grayscale transition-transform duration-300 ml-[100px] hover:grayscale-0"
             />
@@ -82,7 +82,7 @@ const Partners = () => {
             <Image
               src="/Featured/partner (7).png"
               alt="Partner 7"
-              width={100}
+              width={90}
               height={1}
               className="filter grayscale transition-transform duration-300 ml-[100px] hover:grayscale-0"
             />
@@ -92,7 +92,7 @@ const Partners = () => {
             <Image
               src="/Featured/partner (8).png"
               alt="Partner 8"
-              width={100}
+              width={80}
               height={1}
               className="filter grayscale transition-transform duration-300 ml-[100px] hover:grayscale-0"
             />

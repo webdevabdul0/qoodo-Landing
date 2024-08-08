@@ -14,7 +14,7 @@ const QoodoLogs = () => {
         <h3 className="text-white heading3 ">
           Digital Logging for control and efficiency
         </h3>
-        <p className="subtitle text-center ">
+        <p className="text-[16px] md:text-xl font-gilroy font-medium text-center ">
           {" "}
           Simplify and Streamline Your Logging Process
         </p>
@@ -22,7 +22,7 @@ const QoodoLogs = () => {
 
       {/*Log Feature Style 2*/}
       <div className=" px-0 md:px-[100px] py-[50px]  bg-opacity-10 bg-gradient-to-b from-neutral-950 via-[#4a60ff]/30 to-neutral-950  flex justify-center">
-        <div className="flex  flex-col-reverse lg:flex-row md:justify-between items-center  gap-[20px] md:gap-[100px] max-w-7xl">
+        <div className="flex  flex-col-reverse lg:flex-row md:justify-between items-center  gap-[20px] md:gap-[100px] max-w-[1440px]">
           <Image src={"/images/Log/2.png"} width={700} height={1} alt="Log" />
 
           <div className="w-full flex flex-col justify-center items-center  lg:items-start gap-5 text-center lg:text-start">
@@ -33,7 +33,7 @@ const QoodoLogs = () => {
               </div>
             </div>
             <h3 className="text-white heading3">Initiating Logs</h3>
-            <div className="subtitle">
+            <div className="text-[16px] md:text-xl font-gilroy font-medium">
               Start your logging process by selecting the appropriate log. Each
               log has a dedicated page for easy data entry and management.
             </div>
@@ -43,7 +43,7 @@ const QoodoLogs = () => {
 
       {/*Log Feature Style 1*/}
       <div className="px-0 md:px-[100px] py-[50px] flex justify-center ">
-        <div className="flex  flex-col lg:flex-row md:justify-between items-center  gap-[20px] md:gap-[100px] max-w-7xl">
+        <div className="flex  flex-col lg:flex-row md:justify-between items-center  gap-[20px] md:gap-[100px] max-w-[1440px]">
           <div className="w-full flex flex-col justify-center items-center lg:items-start gap-5 text-center lg:text-start">
             <div className="rounded-full p-[1px] bg-gradient-to-br from-[#7BCBE8] w-fit via-[#8715E5] to-[#33FDFF]">
               <div className="p-[10px] bg-[#222222]   rounded-full text-white font-semibold text-[14px] md:text-[16px]">
@@ -51,7 +51,7 @@ const QoodoLogs = () => {
               </div>
             </div>
             <h3 className="text-white heading3">Signing and Saving Logs:</h3>
-            <p className="subtitle ">
+            <p className="text-[16px] md:text-xl font-gilroy font-medium ">
               Easily input and save log data for efficient tracking.
             </p>
           </div>
@@ -62,7 +62,7 @@ const QoodoLogs = () => {
 
       {/*Log Feature Style 2*/}
       <div className=" px-0 md:px-[100px] py-[50px]  bg-opacity-10 bg-gradient-to-b from-neutral-950 via-[#4a60ff]/30 to-neutral-950  flex justify-center">
-        <div className="flex  flex-col-reverse lg:flex-row md:justify-between items-center  gap-[20px] md:gap-[100px] max-w-7xl">
+        <div className="flex  flex-col-reverse lg:flex-row md:justify-between items-center  gap-[20px] md:gap-[100px] max-w-[1440px]">
           <Image src={"/images/Log/4.png"} width={700} height={1} alt="Log" />
 
           <div className="w-full flex flex-col justify-center items-center lg:items-start gap-5 text-center lg:text-start">
@@ -73,7 +73,7 @@ const QoodoLogs = () => {
               </div>
             </div>
             <h3 className="text-white heading3">Assign logs</h3>
-            <div className="subtitle">
+            <div className="text-[16px] md:text-xl font-gilroy font-medium">
               Assign logs as tasks to team members, with notifications to keep
               everyone on track.
             </div>
@@ -83,7 +83,7 @@ const QoodoLogs = () => {
 
       {/*Log Feature Style 1*/}
       <div className="px-0 md:px-[100px] py-[50px] flex justify-center ">
-        <div className="flex  flex-col lg:flex-row md:justify-between items-center  gap-[20px] md:gap-[100px] max-w-7xl">
+        <div className="flex  flex-col lg:flex-row md:justify-between items-center  gap-[20px] md:gap-[100px] max-w-[1440px]">
           <div className="w-full flex flex-col justify-center items-center lg:items-start gap-5 text-center lg:text-start">
             <div className="rounded-full p-[1px] bg-gradient-to-br from-[#7BCBE8] w-fit via-[#8715E5] to-[#33FDFF]">
               <div className="p-[10px] bg-[#222222]   rounded-full text-white font-semibold text-[14px] md:text-[16px]">
@@ -91,7 +91,7 @@ const QoodoLogs = () => {
               </div>
             </div>
             <h3 className="text-white heading3">Exporting Logs</h3>
-            <p className="subtitle ">
+            <p className="text-[16px] md:text-xl font-gilroy font-medium ">
               Export logs in PDF format, with options to customize the time
               interval. Get your team ready for the reports.
             </p>
@@ -103,7 +103,7 @@ const QoodoLogs = () => {
 
       {/*Log Feature Style 2*/}
       <div className=" px-0 md:px-[100px] py-[50px]  bg-opacity-10 bg-gradient-to-b from-neutral-950 via-[#4a60ff]/30 to-neutral-950  flex justify-center">
-        <div className="flex  flex-col-reverse lg:flex-row md:justify-between items-center  gap-[20px] md:gap-[100px] max-w-7xl">
+        <div className="flex  flex-col-reverse lg:flex-row md:justify-between items-center  gap-[20px] md:gap-[100px] max-w-[1440px]">
           <Image src={"/images/Log/6.png"} width={700} height={1} alt="Log" />
 
           <div className="w-full flex flex-col justify-center items-center lg:items-start gap-5 text-center lg:text-start">
@@ -114,7 +114,7 @@ const QoodoLogs = () => {
               </div>
             </div>
             <h3 className="text-white heading3">QR Code & Localization </h3>
-            <div className="subtitle">
+            <div className="text-[16px] md:text-xl font-gilroy font-medium">
               Generate QR codes for quick and easy log data input and
               management.Utilize localization to restrict logging based on GPS,
               ensuring logs are made from designated locations only.
