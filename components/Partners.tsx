@@ -90,6 +90,15 @@ const Partners = () => {
 
           <div>
             <Image
+              src="/Featured/partner (9).png"
+              alt="Partner 9"
+              width={80}
+              height={1}
+              className="filter grayscale transition-transform duration-300 ml-[100px] hover:grayscale-0"
+            />
+          </div>
+          <div>
+            <Image
               src="/Featured/partner (8).png"
               alt="Partner 8"
               width={80}

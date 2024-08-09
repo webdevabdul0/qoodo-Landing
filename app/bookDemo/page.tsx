@@ -91,8 +91,6 @@ const Page = () => {
 
   return (
     <div className="w-full bg-black-100">
-      <Header />
-
       <div className="pt-[100px] pb-[100px] mx-auto relative flex flex-col px-[50px]">
         <div className="w-full flex flex-col md:flex-row  gap-12">
           <div className="flex-1 flex-col items-start justify-center md:justify-start">

@@ -4,6 +4,7 @@ import localfont from "next/font/local";
 import "./globals.css";
 import local from "next/font/local";
 import { ThemeProvider } from "@/components/theme-provider";
+import Header from "./Header";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -46,6 +47,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
+          <Header />
           {children}
         </ThemeProvider>
       </body>

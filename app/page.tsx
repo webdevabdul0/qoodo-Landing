@@ -17,7 +17,6 @@ const Page = () => {
   return (
     <main className="relative bg-black-100 flex justify-center items-center flex-col overflow-hidden mx-auto ">
       <div className="w-full">
-        <Header />
         <Hero />
         <div className="mt-[-55px]">
           <Partners />
