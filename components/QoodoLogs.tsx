@@ -3,15 +3,15 @@ import Image from "next/image";
 
 const QoodoLogs = () => {
   return (
-    <div className="bg-neutral-950 flex flex-col py-[50px] px-[10px] md:px-0">
-      <div className="w-full flex flex-col justify-center items-center gap-5 mb-24">
+    <div className="bg-neutral-950 flex flex-col py-[50px]  md:px-0">
+      <div className="w-full flex flex-col justify-center items-center gap-5 mb-24 px-3 sm:px-0">
         {/*Small Gradient badge*/}
         <div className="rounded-full p-[1px] bg-gradient-to-br from-[#7BCBE8] w-fit via-[#8715E5] to-[#33FDFF]">
-          <div className="p-[10px] bg-[#222222]   rounded-full text-white font-semibold text-[14px] md:text-[16px]">
+          <div className="p-[10px] bg-[#222222] text-center  rounded-full text-white font-semibold text-[14px] md:text-[16px]">
             Qoodo Logs
           </div>
         </div>
-        <h3 className="text-white heading3 ">
+        <h3 className="text-white heading3 text-center ">
           Digital Logging for control and efficiency
         </h3>
         <p className="text-[16px] md:text-xl font-gilroy font-medium text-center ">
@@ -21,7 +21,7 @@ const QoodoLogs = () => {
       </div>
 
       {/*Log Feature Style 2*/}
-      <div className=" px-0 md:px-[100px] py-[50px]  bg-opacity-10 bg-gradient-to-b from-neutral-950 via-[#4a60ff]/30 to-neutral-950  flex justify-center">
+      <div className="px-3 sm:px-0 md:px-[100px] py-[50px]  bg-opacity-10 bg-gradient-to-b from-neutral-950 via-[#4a60ff]/30 to-neutral-950  flex justify-center">
         <div className="flex  flex-col-reverse lg:flex-row md:justify-between items-center  gap-[20px] md:gap-[100px] max-w-[1440px]">
           <Image src={"/images/Log/2.png"} width={700} height={1} alt="Log" />
 
@@ -42,7 +42,7 @@ const QoodoLogs = () => {
       </div>
 
       {/*Log Feature Style 1*/}
-      <div className="px-0 md:px-[100px] py-[50px] flex justify-center ">
+      <div className="px-3 sm:px-0 md:px-[100px] py-[50px] flex justify-center ">
         <div className="flex  flex-col lg:flex-row md:justify-between items-center  gap-[20px] md:gap-[100px] max-w-[1440px]">
           <div className="w-full flex flex-col justify-center items-center lg:items-start gap-5 text-center lg:text-start">
             <div className="rounded-full p-[1px] bg-gradient-to-br from-[#7BCBE8] w-fit via-[#8715E5] to-[#33FDFF]">
@@ -61,7 +61,7 @@ const QoodoLogs = () => {
       </div>
 
       {/*Log Feature Style 2*/}
-      <div className=" px-0 md:px-[100px] py-[50px]  bg-opacity-10 bg-gradient-to-b from-neutral-950 via-[#4a60ff]/30 to-neutral-950  flex justify-center">
+      <div className="px-3 sm:px-0 md:px-[100px] py-[50px]  bg-opacity-10 bg-gradient-to-b from-neutral-950 via-[#4a60ff]/30 to-neutral-950  flex justify-center">
         <div className="flex  flex-col-reverse lg:flex-row md:justify-between items-center  gap-[20px] md:gap-[100px] max-w-[1440px]">
           <Image src={"/images/Log/4.png"} width={700} height={1} alt="Log" />
 
@@ -82,7 +82,7 @@ const QoodoLogs = () => {
       </div>
 
       {/*Log Feature Style 1*/}
-      <div className="px-0 md:px-[100px] py-[50px] flex justify-center ">
+      <div className="px-3 sm:px-0 md:px-[100px] py-[50px] flex justify-center ">
         <div className="flex  flex-col lg:flex-row md:justify-between items-center  gap-[20px] md:gap-[100px] max-w-[1440px]">
           <div className="w-full flex flex-col justify-center items-center lg:items-start gap-5 text-center lg:text-start">
             <div className="rounded-full p-[1px] bg-gradient-to-br from-[#7BCBE8] w-fit via-[#8715E5] to-[#33FDFF]">
@@ -102,7 +102,7 @@ const QoodoLogs = () => {
       </div>
 
       {/*Log Feature Style 2*/}
-      <div className=" px-0 md:px-[100px] py-[50px]  bg-opacity-10 bg-gradient-to-b from-neutral-950 via-[#4a60ff]/30 to-neutral-950  flex justify-center">
+      <div className="px-3 sm:px-0 md:px-[100px] py-[50px]  bg-opacity-10 bg-gradient-to-b from-neutral-950 via-[#4a60ff]/30 to-neutral-950  flex justify-center">
         <div className="flex  flex-col-reverse lg:flex-row md:justify-between items-center  gap-[20px] md:gap-[100px] max-w-[1440px]">
           <Image src={"/images/Log/6.png"} width={700} height={1} alt="Log" />
 

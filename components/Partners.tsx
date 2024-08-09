@@ -92,7 +92,7 @@ const Partners = () => {
             <Image
               src="/Featured/partner (9).png"
               alt="Partner 9"
-              width={80}
+              width={140}
               height={1}
               className="filter grayscale transition-transform duration-300 ml-[100px] hover:grayscale-0"
             />
