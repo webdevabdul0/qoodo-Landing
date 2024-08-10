@@ -3,7 +3,7 @@ import Hero from "@/components/Hero";
 import Partners from "@/components/Partners";
 import QoodoFeatures from "@/components/QoodoFeatures";
 import QoodoLogs from "@/components/QoodoLogs";
-import QoodoInAction from "@/components/QoodoInAction";
+
 import QoodoIndustries from "@/components/QoodoIndustries";
 import QoodoStandards from "@/components/QoodoStandards";
 import BookDemo from "@/components/BookDemo";
