@@ -12,6 +12,7 @@ import FAQ from "@/components/FAQ";
 import ContactForm from "@/components/ContactForm";
 import Header from "./Header";
 import Footer from "./Footer";
+import QoodoEfficiency from "@/components/QoodoEfficiency";
 
 const Page = () => {
   return (
@@ -21,6 +22,8 @@ const Page = () => {
         <div className="mt-[-55px]">
           <Partners />
         </div>
+
+        <QoodoEfficiency />
 
         <div id="features" className="px-5 sm:px-12">
           <QoodoFeatures />

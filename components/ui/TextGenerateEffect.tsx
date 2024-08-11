@@ -33,9 +33,11 @@ export const TextGenerateEffect = ({
           return (
             <motion.span
               key={word + idx}
-              // change here if idx is greater than 3, change the text color to #CBACF9
-              className={` ${
-                idx > 3 ? "text-[#4A60FF]" : "dark:text-white text-black"
+              // Apply the color if idx is less than 2 or greater than 3
+              className={`${
+                idx < 2 || idx > 3
+                  ? "text-[#4A60FF]"
+                  : "dark:text-white text-black"
               } opacity-0`}
             >
               {word}{" "}
@@ -51,7 +53,7 @@ export const TextGenerateEffect = ({
       {/* mt-4 to my-4 */}
       <div className="my-4">
         {/* remove  text-2xl from the original */}
-        <div className=" dark:text-white text-black leading-tight md:leading-[80px]  tracking-wide">
+        <div className=" dark:text-white text-black leading-tight  tracking-wide">
           {renderWords()}
         </div>
       </div>
