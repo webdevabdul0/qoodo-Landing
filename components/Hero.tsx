@@ -39,14 +39,14 @@ const Hero = () => {
       <div className="flex justify-center relative  z-10 mx-auto max-w-[100rem]">
         <div className="flex flex-col w-full items-center justify-center px-[10px] sm:px-0  sm:mb-32">
           <div className="w-full flex flex-col md:flex-row items-start justify-center md:justify-between">
-            <div className="w-full flex-1 flex-col  max-w-[750px] pb-[50px] 2xl:pt-[100px]">
+            <div className="w-full flex flex-col px-8 md:px-0 max-w-[750px] pb-[50px] 2xl:pt-[100px] items-center md:items-start">
               <TextGenerateEffect
                 words="Empower Your Quality Management with Qoodo"
                 className="text-center md:text-start text-white text-4xl tracking-[-1px] font-bold md:text-5xl lg:text-6xl 2xl:text-7xl "
               />
 
               <a href="bookDemo">
-                <button className=" animate-shimmer h-16 px-10 py-[22px] bg-gradient-to-r from-[#4a60ff] to-[#2c3999] rounded-[14px] border border-[#6971a2] inline-flex items-center justify-center gap-2.5">
+                <button className="h-16 px-10 py-[22px] bg-gradient-to-r from-[#4a60ff] to-[#2c3999] rounded-[14px] border border-[#6971a2] inline-flex items-center justify-center gap-2.5">
                   <div className="text-white text-base font-medium font-['Gilroy'] leading-tight">
                     Book a Demo
                   </div>
