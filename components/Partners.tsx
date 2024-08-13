@@ -28,7 +28,7 @@ const Partners = () => {
             />
           </div>
 
-          {/* <div className="relative">
+          <div className="relative">
             <Image
               src="/Featured/partner (2).png"
               alt="Partner 2"
@@ -36,7 +36,7 @@ const Partners = () => {
               height={1}
               className="filter grayscale transition-transform duration-300 ml-[100px] hover:grayscale-0"
             />
-          </div>*/}
+          </div>
 
           <div className="relative">
             <Image

@@ -1,16 +1,32 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import { CircularProgress } from "@nextui-org/progress";
-import { Chip } from "@nextui-org/react";
-import { GalleryIcon } from "./ui/GalleryIcon";
 import { Tabs, Tab } from "@nextui-org/tabs";
 
-const QoodoEfficiency = () => {
+// Define types for the progress values
+type ProgressValues = {
+  [key: string]: number[];
+};
+
+const QoodoEfficiency: React.FC = () => {
+  // State for selected tab and progress values
+  const [selectedTab, setSelectedTab] = useState<string>("time");
+  const [progressValues] = useState<ProgressValues>({
+    time: [20, 40, 85],
+    efficiency: [0, 50, 95],
+    compliance: [20, 60, 95],
+  });
+
+  // Handle tab change
+  const handleTabChange = (key: React.Key) => {
+    setSelectedTab(key as string); // Convert React.Key to string
+  };
+
   return (
-    <div className="w-full py-[100px]  bg-black-100">
-      <div className="flex  flex-col mb-20 w-full justify-center items-center">
-        <h3 className="text-white text-3xl md:text-h3 text-center  font-bold mb-[20px]">
+    <div className="w-full py-[100px] bg-black-100">
+      <div className="flex flex-col mb-20 w-full justify-center items-center">
+        <h3 className="text-white text-3xl md:text-h3 text-center font-bold mb-[20px]">
           Qoodo: The Smart Choice
         </h3>
         <p className="subtitle text-[#E4ECFF] text-center mb-[30px]">
@@ -24,16 +40,18 @@ const QoodoEfficiency = () => {
             aria-label="Options"
             color="primary"
             variant="underlined"
+            onSelectionChange={handleTabChange} // Handle tab changes
             classNames={{
               tabList:
-                "gap-20 w-full relative rounded-none p-0 flex justify-center",
-              cursor: "w-full bg-[#4A60FF] h-2 rounded-full",
+                "gap-1 sm:gap-10 xl:gap-32 w-full relative rounded-none p-0 flex justify-center",
+              cursor: " w-full bg-[#4A60FF] h-2 rounded-full ",
               tab: "max-w-fit px-0 h-12 flex items-center justify-center text-[#4A60FF] hover:text-[#000] font-semibold",
-              tabContent: "group-data-[selected=true]:text-[#4A60FF] text-lg",
+              tabContent:
+                "group-data-[selected=true]:text-[#FFFFFF] text-[12px] sm:text-xl",
             }}
           >
             <Tab
-              key="photos"
+              key="time"
               title={
                 <div className="flex items-center space-x-2">
                   <span>Time saving</span>
@@ -41,7 +59,7 @@ const QoodoEfficiency = () => {
               }
             />
             <Tab
-              key="music"
+              key="efficiency"
               title={
                 <div className="flex items-center space-x-2">
                   <span>Efficiency and Productivity</span>
@@ -49,7 +67,7 @@ const QoodoEfficiency = () => {
               }
             />
             <Tab
-              key="videos"
+              key="compliance"
               title={
                 <div className="flex items-center space-x-2">
                   <span>Regulatory compliance</span>
@@ -59,9 +77,8 @@ const QoodoEfficiency = () => {
           </Tabs>
         </div>
 
-        <div className="flex justify-around flex-row items-center">
+        <div className=" flex gap-20 justify-center  md:justify-around flex-col md:flex-row items-center">
           <div className="flex flex-col items-center justify-center">
-            {" "}
             <CircularProgress
               classNames={{
                 svg: "w-52 h-52 drop-shadow-md",
@@ -69,16 +86,15 @@ const QoodoEfficiency = () => {
                 track: "stroke-red-700/20",
                 value: "text-3xl font-semibold text-white",
               }}
-              value={20}
+              value={progressValues[selectedTab][0]} // Use the first value for the selected tab
               strokeWidth={3}
               showValueLabel={true}
             />
             <h3 className="text-2xl font-gilroy font-semibold text-white text-center mt-4">
-              Paper - based documentation
+              Paper - based <br /> documentation
             </h3>
           </div>
           <div className="flex flex-col items-center justify-center">
-            {" "}
             <CircularProgress
               classNames={{
                 svg: "w-52 h-52 drop-shadow-md",
@@ -86,7 +102,7 @@ const QoodoEfficiency = () => {
                 track: "stroke-[#FF9978]/20",
                 value: "text-3xl font-semibold text-white",
               }}
-              value={20}
+              value={progressValues[selectedTab][1]} // Use the second value for the selected tab
               strokeWidth={3}
               showValueLabel={true}
             />
@@ -96,7 +112,6 @@ const QoodoEfficiency = () => {
           </div>
 
           <div className="flex flex-col items-center justify-center">
-            {" "}
             <CircularProgress
               classNames={{
                 svg: "w-52 h-52 drop-shadow-md",
@@ -104,7 +119,7 @@ const QoodoEfficiency = () => {
                 track: "stroke-[#4A60FF]/20",
                 value: "text-3xl font-semibold text-white",
               }}
-              value={20}
+              value={progressValues[selectedTab][2]} // Use the third value for the selected tab
               strokeWidth={3}
               showValueLabel={true}
             />
