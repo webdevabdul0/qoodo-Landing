@@ -68,7 +68,7 @@ const Hero = () => {
                 width={2000}
                 height={0} // Adjust based on aspect ratio
                 alt="Dashboard Preview"
-                className="absolute top-0 right-0 lg:w-[700px] xl:w-[800px] 2xl:w-[1000px] lg:max-w-none translate-x-[5%]"
+                className="absolute top-0 right-0 lg:w-[700px] xl:w-[800px] 2xl:w-[1100px] lg:max-w-none md:translate-x-[5%]"
               />
             </div>
           </div>
