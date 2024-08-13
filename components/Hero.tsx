@@ -39,7 +39,7 @@ const Hero = () => {
       <div className="flex justify-center relative  z-10 mx-auto max-w-[100rem]">
         <div className="flex flex-col w-full items-center justify-center px-[10px] sm:px-0  sm:mb-32">
           <div className="w-full flex flex-col md:flex-row items-start justify-center md:justify-between">
-            <div className="w-full flex flex-col px-8 md:px-0 max-w-[750px] pb-[50px] 2xl:pt-[100px] items-center md:items-start">
+            <div className="w-full flex flex-col px-8 md:px-0 max-w-[750px] pb-[50px] xl:pt-[100px] items-center md:items-start">
               <TextGenerateEffect
                 words="Empower Your Quality Management with Qoodo"
                 className="text-center md:text-start text-white text-4xl tracking-[-1px] font-bold md:text-5xl lg:text-6xl 2xl:text-7xl "
@@ -54,18 +54,26 @@ const Hero = () => {
               </a>
             </div>
 
-            <div className="flex-1 relative w-full justify-center items-center">
+            <div className="flex-1 relative w-full justify-center items-center ">
+              {" "}
               <Image
                 src="/images/hero/hero.png"
-                width={1440}
+                width={0}
                 height={0} // Adjust based on aspect ratio
                 alt="Dashboard Preview"
-                className=" w-full sm:min-w-[500px]"
+                className=" w-full sm:min-w-[500px] opacity-0"
+              />
+              <Image
+                src="/images/hero/hero.png"
+                width={2000}
+                height={0} // Adjust based on aspect ratio
+                alt="Dashboard Preview"
+                className="absolute top-0 right-0 lg:w-[700px] xl:w-[800px] 2xl:w-[1000px] lg:max-w-none translate-x-[5%]"
               />
             </div>
           </div>
 
-          <p className="subtitle text-[#E4ECFF] text-center mb-- sm:mb-8 -mt-8">
+          <p className="subtitle text-[#E4ECFF] text-center sm:mb-8 sm:-mt-8 xl:-mt-0">
             Streamline compliance, enhance safety, and drive efficiency with our
             smart QMS software
           </p>
