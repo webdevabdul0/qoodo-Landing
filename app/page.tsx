@@ -37,10 +37,11 @@ const Page = () => {
         <BookDemo />
         <CaseStudies />
         <FAQ />
-        <ContactForm />
+
         <div id="standards">
           <QoodoStandards />
         </div>
+        <ContactForm />
       </div>
       <Footer />
     </main>

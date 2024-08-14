@@ -24,9 +24,14 @@ const Hero = () => {
         />
       </div>
 
+      {/**
+       *  UI: grid
+       *  change bg color to bg-black-100 and reduce grid color from
+       *  0.2 to 0.03
+       */}
       <div
         className="h-screen w-full dark:bg-black-100 bg-white dark:bg-grid-white/[0.03] bg-grid-black-100/[0.2]
-       absolute top-0 left-0 flex items-center justify-center "
+       absolute top-0 left-0 flex items-center justify-center"
       >
         {/* Radial gradient for the container to give a faded look */}
         <div
@@ -36,7 +41,7 @@ const Hero = () => {
         />
       </div>
 
-      <div className="flex justify-center relative  z-10 mx-auto max-w-[100rem]">
+      <div className="flex justify-center relative  mx-auto max-w-[100rem] z-10">
         <div className="flex flex-col w-full items-center justify-center px-[10px] sm:px-0  sm:mb-32">
           <div className="w-full flex flex-col md:flex-row items-start justify-center md:justify-between">
             <div className="w-full flex flex-col px-8 md:px-0 max-w-[750px] pb-[50px] xl:pt-[100px] items-center md:items-start">
@@ -68,7 +73,7 @@ const Hero = () => {
                 width={2000}
                 height={0} // Adjust based on aspect ratio
                 alt="Dashboard Preview"
-                className="absolute top-0 right-0 lg:w-[700px] xl:w-[800px] 2xl:w-[1100px] lg:max-w-none md:translate-x-[5%]"
+                className="absolute top-0 right-0 lg:w-[700px] xl:w-[800px] 2xl:w-[1000px] lg:max-w-none md:translate-x-[5%]"
               />
             </div>
           </div>
@@ -79,7 +84,7 @@ const Hero = () => {
           </p>
         </div>
 
-        <div className=" w-[1152px] h-[664px] opacity-20 bg-gradient-to-br from-[#7bcbe8] via-[#8615e5] to-[#33fdff] rounded-full blur-[200px] absolute -z-10 bottom-0" />
+        <div className="-z-10 w-[1152px] h-[664px] opacity-20 bg-gradient-to-br from-[#7bcbe8] via-[#8615e5] to-[#33fdff] rounded-full blur-[200px] absolute  bottom-0" />
       </div>
     </div>
   );
