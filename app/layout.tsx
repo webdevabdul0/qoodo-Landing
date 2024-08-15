@@ -5,6 +5,7 @@ import "./globals.css";
 import local from "next/font/local";
 import { ThemeProvider } from "@/components/theme-provider";
 import Header from "./Header";
+import Footer from "./Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -50,6 +51,7 @@ export default function RootLayout({
           <Header />
           {children}
         </ThemeProvider>
+        <Footer />
       </body>
     </html>
   );

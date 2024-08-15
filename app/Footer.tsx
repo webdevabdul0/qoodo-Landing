@@ -2,15 +2,16 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="w-full bg-black mt-[100px] py-[100px] px-[150px]">
-      <div className=" mx-auto">
-        <div>
-          <div className="justify-start items-center ">
+    <div className="w-full bg-black mt-[100px] py-[100px] px-[150px] text-white overflow-hidden ">
+      <div className="container mx-auto">
+        <div className="flex flex-col md:flex-row justify-between items-start">
+          {/* Logo */}
+          <div className="mb-6 md:mb-0">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="200"
+              width="250"
               height="40"
-              viewBox="0 0 200 40"
+              viewBox="0 0 250 40"
               fill="none"
             >
               <path
@@ -94,20 +95,76 @@ const Footer = () => {
                 fill="white"
               />
             </svg>
-
-            <div className="w-[202.67px] text-white text-xl font-semibold font-['Gilroy'] leading-loose mt-8">
-              +1 (7635) 547-12-97
+          </div>
+          {/* Menu */}
+          <div className="flex flex-col md:flex-row gap-10 md:gap-20">
+            <div>
+              <h3 className="text-lg font-semibold mb-4">Company</h3>
+              <ul className="space-y-2">
+                <li>
+                  <a href="#" className="hover:underline">
+                    About Us
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:underline">
+                    Careers
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:underline">
+                    Blog
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h3 className="text-lg font-semibold mb-4">Support</h3>
+              <ul className="space-y-2">
+                <li>
+                  <a href="#" className="hover:underline">
+                    Contact Us
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:underline">
+                    Help Center
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:underline">
+                    Privacy Policy
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h3 className="text-lg font-semibold mb-4">Follow Us</h3>
+              <ul className="space-y-2">
+                <li>
+                  <a href="#" className="hover:underline">
+                    Twitter
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:underline">
+                    Facebook
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:underline">
+                    Instagram
+                  </a>
+                </li>
+              </ul>
             </div>
           </div>
-          <div className="w-[168px] text-white text-base font-semibold font-['Gilroy'] leading-loose mt-8">
-            support@lift.agency
-          </div>
         </div>
-
-        <div className="mt-[70px] pt-8 border-t-[1px] border-white">
-          <div className="w-[309.33px] text-white text-base font-normal font-['Gilroy']">
-            © 2024 Qoodo. All rights reserved
-          </div>
+        {/* Footer Bottom */}
+        <div className="mt-10 border-t border-gray-700 pt-6 text-center">
+          <p className="text-sm">
+            &copy; 2024 Your Company. All rights reserved.
+          </p>
         </div>
       </div>
     </div>

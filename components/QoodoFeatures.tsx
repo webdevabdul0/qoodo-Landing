@@ -177,10 +177,10 @@ const QoodoFeatures: React.FC = () => {
                   tab === "food" ? "border-[#544683]" : "border-transparent"
                 } px-5 w-full min-w-0 xl:min-w-[400px] mid:min-w-[460px] h-[72px]  justify-start items-center gap-5`}
               >
-                <span className="text-lightPink font-bold text-lg xl:text-[24px]">
+                <span className="text-[#4A60FF] font-bold text-lg xl:text-[24px]">
                   01
                 </span>
-                <span className="text-lightPink font-bold text-lg xl:text-[24px]">
+                <span className="text-[#4A60FF] font-bold text-lg xl:text-[24px]">
                   -
                 </span>
                 <span className="text-white font-bold text-lg xl:text-[24px]">
@@ -195,10 +195,10 @@ const QoodoFeatures: React.FC = () => {
                   tab === "work" ? "border-[#544683]" : "border-transparent"
                 } px-5 w-full min-w-0 xl:min-w-[400px] mid:min-w-[460px] h-[72px]  justify-start items-center gap-5`}
               >
-                <span className="text-lightPink font-bold text-lg xl:text-[24px]">
+                <span className="text-[#4A60FF] font-bold text-lg xl:text-[24px]">
                   02
                 </span>
-                <span className="text-lightPink font-bold text-lg xl:text-[24px]">
+                <span className="text-[#4A60FF] font-bold text-lg xl:text-[24px]">
                   -
                 </span>
                 <span className="text-white font-bold text-lg xl:text-[24px]">
@@ -213,10 +213,10 @@ const QoodoFeatures: React.FC = () => {
                   tab === "fire" ? "border-[#544683]" : "border-transparent"
                 } px-5 w-full min-w-0 xl:min-w-[400px] mid:min-w-[460px] h-[72px]  justify-start items-center gap-5`}
               >
-                <span className="text-lightPink font-bold text-lg xl:text-[24px]">
+                <span className="text-[#4A60FF] font-bold text-lg xl:text-[24px]">
                   03
                 </span>
-                <span className="text-lightPink font-bold text-lg xl:text-[24px]">
+                <span className="text-[#4A60FF] font-bold text-lg xl:text-[24px]">
                   -
                 </span>
                 <span className="text-white font-bold text-lg xl:text-[24px]">
@@ -231,10 +231,10 @@ const QoodoFeatures: React.FC = () => {
                   tab === "monitor" ? "border-[#544683]" : "border-transparent"
                 } px-5 w-full min-w-0 xl:min-w-[400px] mid:min-w-[460px] h-[72px]  justify-start items-center gap-5`}
               >
-                <span className="text-lightPink font-bold text-lg xl:text-[24px]">
+                <span className="text-[#4A60FF] font-bold text-lg xl:text-[24px]">
                   04
                 </span>
-                <span className="text-lightPink font-bold text-lg xl:text-[24px]">
+                <span className="text-[#4A60FF] font-bold text-lg xl:text-[24px]">
                   -
                 </span>
                 <span className="text-white font-bold text-lg xl:text-[24px]">
@@ -251,10 +251,10 @@ const QoodoFeatures: React.FC = () => {
                     : "border-transparent"
                 } px-5 w-full min-w-0 xl:min-w-[400px] mid:min-w-[460px] h-[72px]  justify-start items-center gap-5`}
               >
-                <span className="text-lightPink font-bold text-lg xl:text-[24px]">
+                <span className="text-[#4A60FF] font-bold text-lg xl:text-[24px]">
                   05
                 </span>
-                <span className="text-lightPink font-bold text-lg xl:text-[24px]">
+                <span className="text-[#4A60FF] font-bold text-lg xl:text-[24px]">
                   -
                 </span>
                 <span className="text-white font-bold text-lg xl:text-[24px]">
@@ -271,10 +271,10 @@ const QoodoFeatures: React.FC = () => {
                     : "border-transparent"
                 } px-5 w-full min-w-0 xl:min-w-[400px] mid:min-w-[460px] h-[72px]  justify-start items-center gap-5`}
               >
-                <span className="text-lightPink font-bold text-lg xl:text-[24px]">
+                <span className="text-[#4A60FF] font-bold text-lg xl:text-[24px]">
                   06
                 </span>
-                <span className="text-lightPink font-bold text-lg xl:text-[24px]">
+                <span className="text-[#4A60FF] font-bold text-lg xl:text-[24px]">
                   -
                 </span>
                 <span className="text-white font-bold text-lg xl:text-[24px]">
@@ -290,7 +290,7 @@ const QoodoFeatures: React.FC = () => {
 
             <h2
               ref={heading}
-              className="text-3xl md:text-[50px]  font-bold text-white"
+              className="text-3xl md:text-[50px]  font-bold text-[#4A60FF]"
             >
               {DATA[tab].title}
             </h2>
@@ -309,7 +309,7 @@ const QoodoFeatures: React.FC = () => {
               {/* Map through points */}
               {DATA[tab].points.map((point, idx) => (
                 <li
-                  className="text-[18px] md:text-[24px] font-semibold text-[#B3B3B3] flex items-start gap-4"
+                  className="text-[18px] md:text-[24px] font-semibold text-[#A4A7C2] flex items-start gap-4"
                   key={idx}
                 >
                   <Image
@@ -320,7 +320,7 @@ const QoodoFeatures: React.FC = () => {
                   />
                   <div>
                     {point.title && (
-                      <h3 className="text-white font-semibold">
+                      <h3 className="text-[#4A60FF] font-semibold">
                         {point.title}
                       </h3>
                     )}

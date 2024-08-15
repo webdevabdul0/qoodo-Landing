@@ -10,10 +10,11 @@ const Partners = () => {
           Trusted by Leading Organizations{" "}
         </h1>
 
+        {/*
         <p className="subtitle text-[#E4ECFF] text-center mb-[30px]">
           Experience the excellence trusted by Fortune 500 companies and leading
           enterprises worldwide.
-        </p>
+        </p>*/}
       </div>
 
       <div className=" mb-[50px] ">

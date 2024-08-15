@@ -3,16 +3,14 @@ import Hero from "@/components/Hero";
 import Partners from "@/components/Partners";
 import QoodoFeatures from "@/components/QoodoFeatures";
 import QoodoLogs from "@/components/QoodoLogs";
-
 import QoodoIndustries from "@/components/QoodoIndustries";
 import QoodoStandards from "@/components/QoodoStandards";
+import QoodoEfficiency from "@/components/QoodoEfficiency";
 import BookDemo from "@/components/BookDemo";
 import CaseStudies from "@/components/CaseStudies";
 import FAQ from "@/components/FAQ";
 import ContactForm from "@/components/ContactForm";
-import Header from "./Header";
 import Footer from "./Footer";
-import QoodoEfficiency from "@/components/QoodoEfficiency";
 
 const Page = () => {
   return (
@@ -43,7 +41,6 @@ const Page = () => {
         </div>
         <ContactForm />
       </div>
-      <Footer />
     </main>
   );
 };
