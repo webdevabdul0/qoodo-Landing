@@ -30,13 +30,13 @@ const Hero = () => {
        *  0.2 to 0.03
        */}
       <div
-        className="h-screen w-full dark:bg-black-100 bg-white dark:bg-grid-white/[0.03] bg-grid-black-100/[0.2]
+        className="h-screen w-full   dark:bg-grid-white/[0.03] bg-grid-black-100/[0.2]
        absolute top-0 left-0 flex items-center justify-center"
       >
         {/* Radial gradient for the container to give a faded look */}
         <div
           // chnage the bg to bg-black-100, so it matches the bg color and will blend in
-          className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100
+          className=" pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100
          bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"
         />
       </div>
@@ -77,11 +77,6 @@ const Hero = () => {
               />
             </div>
           </div>
-
-          <p className="subtitle text-[#E4ECFF] text-center sm:mb-8 sm:-mt-8 xl:-mt-0">
-            Streamline compliance, enhance safety, and drive efficiency with our
-            smart QMS software
-          </p>
         </div>
 
         <div className="-z-10 w-[1152px] h-[664px] opacity-20 bg-gradient-to-br from-[#7bcbe8] via-[#8615e5] to-[#33fdff] rounded-full blur-[200px] absolute  bottom-0" />

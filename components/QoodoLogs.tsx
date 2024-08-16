@@ -6,7 +6,7 @@ const QoodoLogs = () => {
     <div className="bg-neutral-950 flex flex-col py-[50px]  md:px-0">
       <div className="w-full flex flex-col justify-center items-center gap-5 mb-24 px-3 sm:px-0">
         {/*Small Gradient badge*/}
-        <div className="rounded-full p-[1px] bg-gradient-to-br from-[#7BCBE8] w-fit via-[#8715E5] to-[#33FDFF]">
+        <div className="rounded-full p-[1px] bg-[#4A60FF]">
           <div className="p-[10px] bg-[#222222] text-center  rounded-full text-white font-semibold text-[14px] md:text-[16px]">
             Qoodo Logs
           </div>
@@ -52,7 +52,7 @@ const QoodoLogs = () => {
       <div className="px-3 sm:px-0 md:px-[100px] py-[50px] flex justify-center ">
         <div className="flex  flex-col lg:flex-row md:justify-between items-center  gap-[20px] md:gap-[100px] max-w-[1440px]">
           <div className="w-full flex flex-col justify-center items-center lg:items-start gap-5 text-center lg:text-start">
-            <div className="rounded-full p-[1px] bg-gradient-to-br from-[#7BCBE8] w-fit via-[#8715E5] to-[#33FDFF]">
+            <div className="rounded-full p-[1px] bg-[#4A60FF]">
               <div className="p-[10px] bg-[#222222]   rounded-full text-white font-semibold text-[14px] md:text-[16px]">
                 Log Entry Review
               </div>
@@ -106,7 +106,7 @@ const QoodoLogs = () => {
       <div className="px-3 sm:px-0 md:px-[100px] py-[50px] flex justify-center ">
         <div className="flex  flex-col lg:flex-row md:justify-between items-center  gap-[20px] md:gap-[100px] max-w-[1440px]">
           <div className="w-full flex flex-col justify-center items-center lg:items-start gap-5 text-center lg:text-start">
-            <div className="rounded-full p-[1px] bg-gradient-to-br from-[#7BCBE8] w-fit via-[#8715E5] to-[#33FDFF]">
+            <div className="rounded-full p-[1px] bg-[#4A60FF]">
               <div className="p-[10px] bg-[#222222]   rounded-full text-white font-semibold text-[14px] md:text-[16px]">
                 Log Export{" "}
               </div>

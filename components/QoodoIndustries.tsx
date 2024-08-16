@@ -75,7 +75,7 @@ const QoodoIndustries = () => {
               Streamline production processes and ensure product quality.{" "}
             </p>
           </div>
-          <div className="absolute rounded-[30px] -inset-[1px]  bg-gradient-to-br from-[#7BCBE8] via-[#8715E5] to-[#33FDFF] -z-20 "></div>
+          <div className="absolute rounded-[30px] -inset-[1px]  bg-[#4A60FF] -z-20 "></div>
         </div>
 
         <div
@@ -94,7 +94,7 @@ const QoodoIndustries = () => {
               Maintain high standards of food safety and service quality.{" "}
             </p>
           </div>
-          <div className="absolute rounded-[30px] -inset-[1px]  bg-gradient-to-br from-[#7BCBE8] via-[#8715E5] to-[#33FDFF] -z-20 "></div>
+          <div className="absolute rounded-[30px] -inset-[1px]  bg-[#4A60FF] -z-20 "></div>
         </div>
 
         <div
@@ -111,7 +111,7 @@ const QoodoIndustries = () => {
               Enhance workplace safety and compliance with regulations.{" "}
             </p>
           </div>
-          <div className="absolute rounded-[30px] -inset-[1px]  bg-gradient-to-br from-[#7BCBE8] via-[#8715E5] to-[#33FDFF] -z-20 "></div>
+          <div className="absolute rounded-[30px] -inset-[1px]  bg-[#4A60FF] -z-20 "></div>
         </div>
 
         <div
@@ -130,7 +130,7 @@ const QoodoIndustries = () => {
               Ensure adherence to industry standards and regulations.{" "}
             </p>
           </div>
-          <div className="absolute rounded-[30px] -inset-[1px]  bg-gradient-to-br from-[#7BCBE8] via-[#8715E5] to-[#33FDFF] -z-20 "></div>
+          <div className="absolute rounded-[30px] -inset-[1px]  bg-[#4A60FF] -z-20 "></div>
         </div>
 
         <div
@@ -149,7 +149,7 @@ const QoodoIndustries = () => {
               Implement robust quality control measures and procedures.{" "}
             </p>
           </div>
-          <div className="absolute rounded-[30px] -inset-[1px]  bg-gradient-to-br from-[#7BCBE8] via-[#8715E5] to-[#33FDFF] -z-20 "></div>
+          <div className="absolute rounded-[30px] -inset-[1px]  bg-[#4A60FF] -z-20 "></div>
         </div>
 
         <div
@@ -168,7 +168,7 @@ const QoodoIndustries = () => {
               Conduct thorough audits and maintain transparency.{" "}
             </p>
           </div>
-          <div className="absolute rounded-[30px] -inset-[1px]  bg-gradient-to-br from-[#7BCBE8] via-[#8715E5] to-[#33FDFF] -z-20 "></div>
+          <div className="absolute rounded-[30px] -inset-[1px]  bg-[#4A60FF] -z-20 "></div>
         </div>
       </div>
     </div>

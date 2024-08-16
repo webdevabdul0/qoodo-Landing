@@ -174,7 +174,7 @@ const QoodoFeatures: React.FC = () => {
                 ref={tab1}
                 onClick={() => handleTabChange("food")}
                 className={`flex rounded-full border-2 border-solid cursor-pointer transition-all duration-500 ${
-                  tab === "food" ? "border-[#544683]" : "border-transparent"
+                  tab === "food" ? "border-[#4A60FF]" : "border-transparent"
                 } px-5 w-full min-w-0 xl:min-w-[400px] mid:min-w-[460px] h-[72px]  justify-start items-center gap-5`}
               >
                 <span className="text-[#4A60FF] font-bold text-lg xl:text-[24px]">
@@ -192,7 +192,7 @@ const QoodoFeatures: React.FC = () => {
                 ref={tab2}
                 onClick={() => handleTabChange("work")}
                 className={`flex rounded-full border-2 border-solid cursor-pointer transition-all duration-500 ${
-                  tab === "work" ? "border-[#544683]" : "border-transparent"
+                  tab === "work" ? "border-[#4A60FF]" : "border-transparent"
                 } px-5 w-full min-w-0 xl:min-w-[400px] mid:min-w-[460px] h-[72px]  justify-start items-center gap-5`}
               >
                 <span className="text-[#4A60FF] font-bold text-lg xl:text-[24px]">
@@ -210,7 +210,7 @@ const QoodoFeatures: React.FC = () => {
                 ref={tab3}
                 onClick={() => handleTabChange("fire")}
                 className={`flex rounded-full border-2 border-solid cursor-pointer transition-all duration-500 ${
-                  tab === "fire" ? "border-[#544683]" : "border-transparent"
+                  tab === "fire" ? "border-[#4A60FF]" : "border-transparent"
                 } px-5 w-full min-w-0 xl:min-w-[400px] mid:min-w-[460px] h-[72px]  justify-start items-center gap-5`}
               >
                 <span className="text-[#4A60FF] font-bold text-lg xl:text-[24px]">
@@ -228,7 +228,7 @@ const QoodoFeatures: React.FC = () => {
                 ref={tab2}
                 onClick={() => handleTabChange("monitor")}
                 className={`flex rounded-full border-2 border-solid cursor-pointer transition-all duration-500 ${
-                  tab === "monitor" ? "border-[#544683]" : "border-transparent"
+                  tab === "monitor" ? "border-[#4A60FF]" : "border-transparent"
                 } px-5 w-full min-w-0 xl:min-w-[400px] mid:min-w-[460px] h-[72px]  justify-start items-center gap-5`}
               >
                 <span className="text-[#4A60FF] font-bold text-lg xl:text-[24px]">
@@ -247,7 +247,7 @@ const QoodoFeatures: React.FC = () => {
                 onClick={() => handleTabChange("customize")}
                 className={`flex rounded-full border-2 border-solid cursor-pointer transition-all duration-500 ${
                   tab === "customize"
-                    ? "border-[#544683]"
+                    ? "border-[#4A60FF]"
                     : "border-transparent"
                 } px-5 w-full min-w-0 xl:min-w-[400px] mid:min-w-[460px] h-[72px]  justify-start items-center gap-5`}
               >
@@ -267,7 +267,7 @@ const QoodoFeatures: React.FC = () => {
                 onClick={() => handleTabChange("attendance")}
                 className={`flex rounded-full border-2 border-solid cursor-pointer transition-all duration-500 ${
                   tab === "attendance"
-                    ? "border-[#544683]"
+                    ? "border-[#4A60FF]"
                     : "border-transparent"
                 } px-5 w-full min-w-0 xl:min-w-[400px] mid:min-w-[460px] h-[72px]  justify-start items-center gap-5`}
               >
