@@ -1,10 +1,15 @@
 import React from "react";
+import Link from "next/link";
+import { FaFacebook, FaLinkedinIn } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+
+import Image from "next/image";
 
 const Footer = () => {
   return (
-    <div className="w-full bg-black mt-[100px] py-[100px] px-[150px] text-white overflow-hidden ">
+    <div className="w-full bg-black py-24 px-5 md:px-12 xl:px-24 text-white overflow-hidden ">
       <div className="container mx-auto">
-        <div className="flex flex-col md:flex-row justify-between items-start">
+        <div className="md:flex md:justify-between pb-20">
           {/* Logo */}
           <div className="mb-6 md:mb-0">
             <svg
@@ -97,74 +102,118 @@ const Footer = () => {
             </svg>
           </div>
           {/* Menu */}
-          <div className="flex flex-col md:flex-row gap-10 md:gap-20">
+          <div className="lg:px-24 grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3 w-full">
             <div>
-              <h3 className="text-lg font-semibold mb-4">Company</h3>
+              <h3 className="text-xl font-semibold mb-4">Navigation</h3>
               <ul className="space-y-2">
                 <li>
-                  <a href="#" className="hover:underline">
-                    About Us
-                  </a>
+                  <Link
+                    href="/#features"
+                    scroll={true}
+                    className="hover:text-[#4A60FF]  text-[#A6A6A6] text-base font-semibold"
+                  >
+                    Features
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline">
-                    Careers
-                  </a>
+                  <Link
+                    href="/#logs"
+                    scroll={true}
+                    className="hover:text-[#4A60FF]  text-[#A6A6A6] text-base font-semibold"
+                  >
+                    Logs
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline">
-                    Blog
-                  </a>
+                  <Link
+                    href="/#industries"
+                    scroll={true}
+                    className="hover:text-[#4A60FF]  text-[#A6A6A6] text-base font-semibold"
+                  >
+                    Industries
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/#standards"
+                    scroll={true}
+                    className="hover:text-[#4A60FF]  text-[#A6A6A6] text-base font-semibold"
+                  >
+                    Standards
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/#audit"
+                    scroll={true}
+                    className="hover:text-[#4A60FF]  text-[#A6A6A6] text-base font-semibold"
+                  >
+                    Audit
+                  </Link>
                 </li>
               </ul>
             </div>
+
             <div>
               <h3 className="text-lg font-semibold mb-4">Support</h3>
               <ul className="space-y-2">
                 <li>
-                  <a href="#" className="hover:underline">
+                  <Link
+                    href="/#contact"
+                    scroll={true}
+                    className="hover:text-[#4A60FF]  text-[#A6A6A6] text-base font-semibold"
+                  >
                     Contact Us
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline">
-                    Help Center
-                  </a>
+                  <Link
+                    href="/terms"
+                    scroll={true}
+                    className="hover:text-[#4A60FF]  text-[#A6A6A6] text-base font-semibold"
+                  >
+                    Terms of Use
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline">
-                    Privacy Policy
-                  </a>
+                  <Link
+                    href="/cookies"
+                    scroll={true}
+                    className="hover:text-[#4A60FF]  text-[#A6A6A6] text-base font-semibold"
+                  >
+                    Cookies
+                  </Link>
                 </li>
               </ul>
             </div>
+
             <div>
-              <h3 className="text-lg font-semibold mb-4">Follow Us</h3>
-              <ul className="space-y-2">
-                <li>
-                  <a href="#" className="hover:underline">
-                    Twitter
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:underline">
-                    Facebook
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:underline">
-                    Instagram
-                  </a>
-                </li>
-              </ul>
+              <h3 className="text-lg font-semibold mb-4">Our Social</h3>
+              <div className="flex flex-row gap-5">
+                <div className="p-3 border-2 border-gray-500 rounded-full">
+                  <Link href="https://facebook.com">
+                    <FaFacebook className="w-4 h-4 md:w-6 md:h-6" />
+                  </Link>
+                </div>
+
+                <div className="p-3 border-2 border-gray-500 rounded-full">
+                  <Link href="https://X.com">
+                    <FaXTwitter className="w-4 h-4 md:w-6 md:h-6" />
+                  </Link>
+                </div>
+
+                <div className="p-3 border-2 border-gray-500 rounded-full">
+                  <Link href="https://linkedin.com">
+                    <FaLinkedinIn className="w-4 h-4 md:w-6 md:h-6" />
+                  </Link>
+                </div>
+              </div>
             </div>
           </div>
         </div>
         {/* Footer Bottom */}
         <div className="mt-10 border-t border-gray-700 pt-6 text-center">
-          <p className="text-sm">
-            &copy; 2024 Your Company. All rights reserved.
-          </p>
+          <p className="text-sm">&copy; 2024 Qoodo. All rights reserved.</p>
         </div>
       </div>
     </div>

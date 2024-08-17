@@ -6,11 +6,11 @@ const QoodoLogs = () => {
     <div className="bg-neutral-950 flex flex-col py-[50px]  md:px-0">
       <div className="w-full flex flex-col justify-center items-center gap-5 mb-24 px-3 sm:px-0">
         {/*Small Gradient badge*/}
-        <div className="rounded-full p-[1px] bg-[#4A60FF]">
-          <div className="p-[10px] bg-[#222222] text-center  rounded-full text-white font-semibold text-[14px] md:text-[16px]">
-            Qoodo Logs
-          </div>
+
+        <div className="p-[10px] bg-[#222222] text-center border border-[#4A60FF] rounded-full text-white font-semibold text-[14px] md:text-[16px]">
+          Qoodo Logs
         </div>
+
         <h3 className="text-white heading3 text-center ">
           Digital Logging for control and efficiency
         </h3>
@@ -34,7 +34,7 @@ const QoodoLogs = () => {
 
           <div className="w-full flex flex-col justify-center items-center  lg:items-start gap-5 text-center lg:text-start">
             {/*Small Gradient badge*/}
-            <div className="h-9 p-2.5 bg-white/10 rounded-[99px] border border-[#7bcbe8] justify-center items-center gap-2.5 inline-flex">
+            <div className="h-9 p-2.5 bg-white/10 rounded-[99px] border border-[#4A60FF] justify-center items-center gap-2.5 inline-flex">
               <div className="text-white text-[14px] md:text-[16px] font-semibold font-['Gilroy'] leading-none">
                 Starting Your logs
               </div>
@@ -52,11 +52,10 @@ const QoodoLogs = () => {
       <div className="px-3 sm:px-0 md:px-[100px] py-[50px] flex justify-center ">
         <div className="flex  flex-col lg:flex-row md:justify-between items-center  gap-[20px] md:gap-[100px] max-w-[1440px]">
           <div className="w-full flex flex-col justify-center items-center lg:items-start gap-5 text-center lg:text-start">
-            <div className="rounded-full p-[1px] bg-[#4A60FF]">
-              <div className="p-[10px] bg-[#222222]   rounded-full text-white font-semibold text-[14px] md:text-[16px]">
-                Log Entry Review
-              </div>
+            <div className="p-[10px] bg-[#222222] border border-[#4A60FF]  rounded-full text-white font-semibold text-[14px] md:text-[16px]">
+              Log Entry Review
             </div>
+
             <h3 className="text-white heading3">Signing and Saving Logs:</h3>
             <p className="text-[16px] md:text-xl font-gilroy font-medium ">
               Easily input and save log data for efficient tracking.
@@ -88,7 +87,7 @@ const QoodoLogs = () => {
 
           <div className="w-full flex flex-col justify-center items-center lg:items-start gap-5 text-center lg:text-start">
             {/*Small Gradient badge*/}
-            <div className="h-9 p-2.5 bg-white/10 rounded-[99px] border border-[#7bcbe8] justify-center items-center gap-2.5 inline-flex">
+            <div className="h-9 p-2.5 bg-white/10 rounded-[99px] border border-[#4A60FF] justify-center items-center gap-2.5 inline-flex">
               <div className="text-white text-[14px] md:text-[16px] font-semibold font-['Gilroy'] leading-none">
                 Log Assignment{" "}
               </div>
@@ -106,11 +105,10 @@ const QoodoLogs = () => {
       <div className="px-3 sm:px-0 md:px-[100px] py-[50px] flex justify-center ">
         <div className="flex  flex-col lg:flex-row md:justify-between items-center  gap-[20px] md:gap-[100px] max-w-[1440px]">
           <div className="w-full flex flex-col justify-center items-center lg:items-start gap-5 text-center lg:text-start">
-            <div className="rounded-full p-[1px] bg-[#4A60FF]">
-              <div className="p-[10px] bg-[#222222]   rounded-full text-white font-semibold text-[14px] md:text-[16px]">
-                Log Export{" "}
-              </div>
+            <div className="p-[10px] bg-[#222222] border border-[#4A60FF]  rounded-full text-white font-semibold text-[14px] md:text-[16px]">
+              Log Export{" "}
             </div>
+
             <h3 className="text-white heading3">Exporting Logs</h3>
             <p className="text-[16px] md:text-xl font-gilroy font-medium ">
               Export logs in PDF format, with options to customize the time
@@ -143,7 +141,7 @@ const QoodoLogs = () => {
 
           <div className="w-full flex flex-col justify-center items-center lg:items-start gap-5 text-center lg:text-start">
             {/*Small Gradient badge*/}
-            <div className="h-9 p-2.5 bg-white/10 rounded-[99px] border border-[#7bcbe8] justify-center items-center gap-2.5 inline-flex">
+            <div className="h-9 p-2.5 bg-white/10 rounded-[99px] border border-[#4A60FF] justify-center items-center gap-2.5 inline-flex">
               <div className="text-white text-[14px] md:text-[16px] font-semibold font-['Gilroy'] leading-none">
                 Location-Based Logging
               </div>
