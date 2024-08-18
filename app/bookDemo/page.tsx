@@ -92,9 +92,9 @@ const Page = () => {
   return (
     <div className="w-full bg-black-100 pt-8 md:pt-36">
       <div className="pt-[100px] pb-[100px] mx-auto relative flex flex-col px-[50px]">
-        <div className="w-full flex flex-col md:flex-row  gap-12">
+        <div className="w-full flex flex-col lg:flex-row  gap-12">
           <div className="flex-1 flex-col items-start justify-center md:justify-start">
-            <h3 className="text-white text-3xl md:text-h2 text-start font-bold mb-12">
+            <h3 className="text-white text-3xl md:text-5xl text-start font-bold mb-12">
               Experience Qoodo in Action
             </h3>
 
@@ -119,7 +119,7 @@ const Page = () => {
                 />
               </svg>
 
-              <p className="text-white text-[16px] md:text-xl font-gilroy font-semibold">
+              <p className="text-white text-base md:text-xl font-gilroy font-semibold">
                 How Qoodo QMS optimizes workflows and enhances productivity.
               </p>
             </div>
@@ -140,7 +140,7 @@ const Page = () => {
                 />
               </svg>
 
-              <p className="text-white text-[16px] md:text-xl font-gilroy font-semibold">
+              <p className="text-white text-base md:text-xl font-gilroy font-semibold">
                 How are our features designed to meet temporary and permanent
                 business objectives?
               </p>
@@ -162,7 +162,7 @@ const Page = () => {
                 />
               </svg>
 
-              <p className="text-white text-[16px] md:text-xl font-gilroy font-semibold">
+              <p className="text-white text-base md:text-xl font-gilroy font-semibold">
                 How Qoodo QMS assists in maintaining regulatory compliance
                 effortlessly.
               </p>
@@ -177,7 +177,7 @@ const Page = () => {
                 {items.map((item) => (
                   <div
                     key={item.id}
-                    className="w-full h-auto px-2.5 py-[15px] bg-gradient-to-r from-[#04071d] to-[#0c0e23] rounded-[15px] border border-[#363749] flex flex-col justify-start items-center gap-5"
+                    className="w-full h-auto px-2.5 py-[15px] bg-gradient-to-r from-[#04071d] to-[#0c0e23] rounded-[15px] border border-[#363749] flex flex-col justify-center items-center gap-5"
                   >
                     <div className="w-10 h-10 relative">
                       <Image
@@ -188,7 +188,7 @@ const Page = () => {
                         className="absolute left-0 top-0"
                       />
                     </div>
-                    <div className="self-stretch text-center text-white text-lg font-semibold font-['Gilroy'] capitalize">
+                    <div className="self-stretch text-center text-white text-base sm:text-lg font-semibold font-['Gilroy'] capitalize">
                       {item.title}
                     </div>
                   </div>
@@ -270,7 +270,7 @@ const Page = () => {
                       name="interests"
                       render={({ field }) => (
                         <FormItem>
-                          <FormLabel className="text-xl font-semibold font-gilroy text-white">
+                          <FormLabel className="text-base sm:text-xl font-semibold font-gilroy text-white">
                             I am interested in knowing about
                           </FormLabel>
                           <FormControl>
@@ -299,7 +299,7 @@ const Page = () => {
                                     className="bg-blue-500 text-white"
                                   />
 
-                                  <span className="ml-2 text-xl font-semibold font-gilroy text-white">
+                                  <span className="ml-2 text-base sm:text-xl font-semibold font-gilroy text-white">
                                     {option}
                                   </span>
                                 </label>

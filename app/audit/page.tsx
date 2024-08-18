@@ -1,12 +1,11 @@
-import React from "react";
-import Header from "../Header";
-import Footer from "../Footer";
+import Hero from "./components/Hero";
+import Audit from "./components/Audit";
+
 const page = () => {
   return (
-    <div>
-      <Header />
-      This is the Audit Page
-      <Footer />
+    <div className="bg-black-100">
+      <Hero />
+      <Audit />
     </div>
   );
 };
