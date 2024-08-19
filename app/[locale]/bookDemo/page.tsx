@@ -17,11 +17,11 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "@/components/ui/form";
-import { Button } from "@/components/ui/button";
-import { Checkbox } from "@/components/ui/checkbox";
-import { toast } from "@/components/ui/use-toast";
-import ContactModal from "@/components/ui/ContactModal";
+} from "@/app/[locale]/components/ui/form";
+import { Button } from "@/app/[locale]/components/ui/button";
+import { Checkbox } from "@/app/[locale]/components/ui/checkbox";
+import { toast } from "@/app/[locale]/components/ui/use-toast";
+import ContactModal from "@/app/[locale]/components/ui/ContactModal";
 
 const FormSchema = z.object({
   name: z.string().min(1, "Name is required"),

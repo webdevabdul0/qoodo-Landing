@@ -1,5 +1,5 @@
 import React from "react";
-import { qoodoStandards } from "@/data";
+import { qoodoStandards } from "@/app/[locale]/data";
 import { Button } from "./ui/MovingBorders";
 
 const QoodoStandards = () => {

@@ -4,8 +4,8 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@/components/ui/accordion";
-import { QnA } from "@/data";
+} from "@/app/[locale]/components/ui/accordion";
+import { QnA } from "@/app/[locale]/data";
 
 const FAQ = () => {
   return (

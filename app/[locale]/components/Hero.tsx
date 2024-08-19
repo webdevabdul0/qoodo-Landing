@@ -3,8 +3,13 @@ import MagicButton from "./MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import Image from "next/image";
+import { TFunction } from "i18next";
 
-const Hero = () => {
+interface HeroProps {
+  t: TFunction<["translation", ...string[]], undefined>;
+}
+
+const Hero: React.FC<HeroProps> = ({ t }) => {
   return (
     <div className="pb-[50px] pt-36 mx-auto relative md:px-[50px]">
       <div>
@@ -53,7 +58,7 @@ const Hero = () => {
               <a href="bookDemo">
                 <button className="h-16 px-10 py-[22px] bg-gradient-to-r from-[#4a60ff] to-[#2c3999] rounded-[14px] border border-[#6971a2] inline-flex items-center justify-center gap-2.5">
                   <div className="text-white text-base font-medium font-['Gilroy'] leading-tight">
-                    Book a Demo
+                    {t("Book a demo")}
                   </div>
                 </button>
               </a>

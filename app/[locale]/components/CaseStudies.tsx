@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { companies, testimonials } from "@/data";
+import { companies, testimonials } from "@/app/[locale]/data";
 import { ScrollableCards } from "./ui/InfiniteCards";
 
 const CaseStudies = () => {
