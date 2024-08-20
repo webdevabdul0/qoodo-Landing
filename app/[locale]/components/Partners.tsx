@@ -1,18 +1,24 @@
 import React from "react";
 import Marquee from "react-fast-marquee";
 import Image from "next/image";
+import { TFunction } from "i18next";
 
-const Partners = () => {
+interface PartnerProps {
+  t: TFunction<["translation", ...string[]], undefined>;
+}
+
+const Partners: React.FC<PartnerProps> = ({ t }) => {
   return (
     <div className="w-full py-[70px] ">
       <div className="w-full flex flex-col items-center justify-center  md:mb-[50px] px-[10px] sm:px-[50px]">
         <h1 className="text-white text-3xl md:text-h3 text-center  font-bold mb-[20px]">
-          Trusted by Leading Organizations{" "}
+          {t("Trusted by Leading Organizations")}{" "}
         </h1>
 
         <p className="subtitle text-[#E4ECFF] text-center ">
-          Streamline compliance, enhance safety, and drive efficiency with our
-          smart QMS software
+          {t(
+            "Streamline compliance, enhance safety, and drive efficiency with our smart QMS software"
+          )}
         </p>
 
         {/*

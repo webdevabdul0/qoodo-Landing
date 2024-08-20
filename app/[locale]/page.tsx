@@ -26,7 +26,7 @@ const Page = async ({ params: { locale } }: { params: { locale: string } }) => {
         <div className="w-full">
           <Hero t={t} />
           <div className="mt-[-55px]">
-            <Partners />
+            <Partners t={t} />
           </div>
 
           <QoodoEfficiency />
@@ -35,17 +35,17 @@ const Page = async ({ params: { locale } }: { params: { locale: string } }) => {
             <QoodoFeatures />
           </div>
           <div id="logs">
-            <QoodoLogs />
+            <QoodoLogs t={t} />
           </div>
           <div id="industries">
             <QoodoIndustries />
           </div>
-          <BookDemo />
+          <BookDemo t={t} />
           <CaseStudies />
-          <FAQ />
+          <FAQ t={t} />
 
           <div id="standards">
-            <QoodoStandards />
+            <QoodoStandards t={t} />
           </div>
           <ContactForm />
         </div>

@@ -1,11 +1,17 @@
 import React from "react";
 import { qoodoStandards } from "@/app/[locale]/data";
 import { Button } from "./ui/MovingBorders";
+import { TFunction } from "i18next";
 
-const QoodoStandards = () => {
+interface QoodoStandardsProps {
+  t: TFunction<["translation", ...string[]], undefined>;
+}
+const QoodoStandards: React.FC<QoodoStandardsProps> = ({ t }) => {
   return (
     <div className="py-[70px] w-full px-[20px] md:px-[100px] flex flex-col justify-center items-center">
-      <h3 className="heading3 text-center mb-[50px]">Standards We Support</h3>
+      <h3 className="heading3 text-center mb-[50px]">
+        {t("Standards We Support")}
+      </h3>
 
       <div className="w-full grid grid-cols-1 lg:grid-cols-4 gap-10">
         {qoodoStandards.map((card) => (

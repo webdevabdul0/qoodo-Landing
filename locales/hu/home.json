@@ -1,1 +1,29 @@
-{ "Book a demo": "Foglaljon bemutatót" }
+{
+  "Book a demo": "Demót kérek",
+  "Digital inspection like never before": "Digitális önellenőrzés, ahogy még soha!",
+  "Trusted by Leading Organizations": "Akik már minket választottak",
+  "Streamline compliance, enhance safety, and drive efficiency with our smart QMS software": "Tedd hatékonyabbá a megfelelést, növeld a biztonságot, és fokozd a hatékonyságot az új generációs szoftverünkkel.",
+
+  "Qoodo Logs": "Qoodo Logs",
+  "Digital Logging for control and efficiency": "Digital Logging for control and efficiency",
+  "Simplify and Streamline Your Logging Process": "Simplify and Streamline Your Logging Process",
+  "Starting Your logs": "Starting Your logs",
+  "Initiating Logs": "Initiating Logs",
+  "Start your logging process by selecting the appropriate log. Each log has a dedicated page for easy data entry and management.": "Start your logging process by selecting the appropriate log. Each log has a dedicated page for easy data entry and management.",
+  "Log Entry Review": "Log Entry Review",
+  "Signing and Saving Logs:": "Signing and Saving Logs:",
+  "Easily input and save log data for efficient tracking.": "Easily input and save log data for efficient tracking.",
+  "Log Assignment": "Log Assignment",
+  "Assign logs": "Assign logs",
+  "Assign logs as tasks to team members, with notifications to keep everyone on track.": "Assign logs as tasks to team members, with notifications to keep everyone on track.",
+  "Log Export": "Log Export",
+  "Export logs in PDF format, with options to customize the time interval. Get your team ready for the reports.": "Export logs in PDF format, with options to customize the time interval. Get your team ready for the reports.",
+  "Location-Based Logging": "Location-Based Logging",
+  "QR Code & Localization": "QR Code & Localization",
+  "Generate QR codes for quick and easy log data input and management.Utilize localization to restrict logging based on GPS, ensuring logs are made from designated locations only.": "Generate QR codes for quick and easy log data input and management.Utilize localization to restrict logging based on GPS, ensuring logs are made from designated locations only.",
+  "Get Started Today": "Get Started Today",
+  "Book a Demo from Qoodo.": "Book a Demo from Qoodo.",
+  "See how Qoodo can transform your quality management processes.": "See how Qoodo can transform your quality management processes.",
+  "Book a Demo": "Demót kérek",
+  "Standards We Support": "Standards We Support"
+}

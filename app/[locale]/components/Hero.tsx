@@ -10,6 +10,8 @@ interface HeroProps {
 }
 
 const Hero: React.FC<HeroProps> = ({ t }) => {
+  const title = t("Digital inspection like never before");
+
   return (
     <div className="pb-[50px] pt-36 mx-auto relative md:px-[50px]">
       <div>
@@ -51,7 +53,7 @@ const Hero: React.FC<HeroProps> = ({ t }) => {
           <div className="w-full flex flex-col md:flex-row items-start justify-center md:justify-between">
             <div className="w-full flex flex-col px-8 md:px-0 max-w-[750px] pb-[50px] xl:pt-[100px] items-center md:items-start">
               <TextGenerateEffect
-                words="Empower Your Quality Management with Qoodo"
+                words={title}
                 className="text-center md:text-start text-white text-4xl tracking-[-1px] font-bold md:text-5xl lg:text-6xl 2xl:text-7xl "
               />
 

@@ -6,12 +6,19 @@ import {
   AccordionTrigger,
 } from "@/app/[locale]/components/ui/accordion";
 import { QnA } from "@/app/[locale]/data";
+import { TFunction } from "i18next";
 
-const FAQ = () => {
+interface FAQProps {
+  t: TFunction<["translation", ...string[]], undefined>;
+}
+
+const FAQ: React.FC<FAQProps> = ({ t }) => {
   return (
     <div className="px-[20px] sm:px-[50px] md:px-[100px] py-[130px]">
       <div>
-        <h3 className="heading2 mb-[20px]">Frequently Asked Questions</h3>
+        <h3 className="heading2 mb-[20px]">
+          {t("Frequently Asked Questions")}
+        </h3>
       </div>
       <div>
         {QnA.map((qna, index) => (
