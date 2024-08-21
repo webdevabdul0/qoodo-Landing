@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import { CircularProgress } from "@nextui-org/progress";
 import { Tabs, Tab } from "@nextui-org/tabs";
+import { useTranslation } from "react-i18next";
 
 // Define types for the progress values and corresponding texts
 type ProgressValues = {
@@ -34,14 +35,16 @@ const QoodoEfficiency: React.FC = () => {
     setSelectedTab(key as string); // Convert React.Key to string
   };
 
+  const { t } = useTranslation();
+
   return (
     <div className="w-full py-[100px] bg-black-100">
       <div className="flex flex-col w-full justify-center items-center">
         <h3 className="text-white text-3xl md:text-h3 text-center font-bold mb-[20px]">
-          Qoodo: The Smart Choice
+          {t("Qoodo: The Smart Choice")}
         </h3>
         <p className="subtitle text-[#E4ECFF] text-center mb-[30px]">
-          Experience the Advantages of Our System
+          {t("Experience the Advantages of Our System")}
         </p>
       </div>
 
@@ -65,7 +68,7 @@ const QoodoEfficiency: React.FC = () => {
               key="time"
               title={
                 <div className="flex items-center space-x-2">
-                  <span className=" text-wrap pb-2">Time saving</span>
+                  <span className=" text-wrap pb-2">{t("Time saving")}</span>
                 </div>
               }
             />
@@ -74,7 +77,7 @@ const QoodoEfficiency: React.FC = () => {
               title={
                 <div className="flex items-center space-x-2">
                   <span className=" text-wrap pb-2">
-                    Efficiency and Productivity
+                    {t("Efficiency and Productivity")}
                   </span>
                 </div>
               }
@@ -83,7 +86,9 @@ const QoodoEfficiency: React.FC = () => {
               key="compliance"
               title={
                 <div className="flex items-center space-x-2">
-                  <span className=" text-wrap pb-2">Regulatory compliance</span>
+                  <span className=" text-wrap pb-2">
+                    {t("Regulatory compliance")}
+                  </span>
                 </div>
               }
             />
@@ -105,7 +110,7 @@ const QoodoEfficiency: React.FC = () => {
               showValueLabel={true}
             />
             <h3 className=" text-base sm:text-lg md:text-2xl font-gilroy font-semibold text-white text-center mt-4">
-              Paper - based
+              {t("Paper - based")}
             </h3>
           </div>
           <div className="flex flex-col items-center justify-center">
@@ -122,7 +127,7 @@ const QoodoEfficiency: React.FC = () => {
               showValueLabel={true}
             />
             <h3 className="text-base sm:text-lg md:text-2xl font-gilroy font-semibold text-white text-center mt-4">
-              Other platforms
+              {t("Other platforms")}
             </h3>
           </div>
 
@@ -140,7 +145,7 @@ const QoodoEfficiency: React.FC = () => {
               showValueLabel={true}
             />
             <h3 className="text-base sm:text-lg md:text-2xl font-gilroy font-semibold text-white text-center mt-4">
-              Qoodo
+              {t("Qoodo")}
             </h3>
           </div>
         </div>

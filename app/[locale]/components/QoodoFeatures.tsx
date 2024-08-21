@@ -1,6 +1,7 @@
 "use client";
 import React, { useRef, useState } from "react";
 import Image from "next/image";
+import { useTranslation } from "react-i18next";
 
 interface Point {
   title?: string;
@@ -18,116 +19,137 @@ interface DataItem {
   points: Point[];
 }
 const QoodoFeatures: React.FC = () => {
+  const { t } = useTranslation();
   // State to track current tab
   const [tab, setTab] = useState<Tab>("food");
 
   // Data object containing feature information
   const DATA: Record<Tab, DataItem> = {
     food: {
-      title: "Food Safety Tracking",
-      desc: `Ensure full compliance with food safety regulations using Qoodo's comprehensive digital logs for critical control points, corrective actions, and sanitation procedures. Our solution supports HACCP, IFS, ISO 9001, and any other standards or internal and external policies.     Logs to be Filled Regularly:`,
+      title: t("Food Safety Tracking"),
+      desc: t(
+        `Ensure full compliance with food safety regulations using Qoodo's comprehensive digital logs for critical control points, corrective actions, and sanitation procedures. Our solution supports HACCP, IFS, ISO 9001, and any other standards or internal and external policies.     Logs to be Filled Regularly:`
+      ),
       icon: "/images/features/1.png",
 
       points: [
-        { text: "Temperature Logs" },
-        { text: "Sanitation Logs" },
-        { text: "Employee Training Logs" },
-        { text: "Equipment Calibration Logs" },
-        { text: "Pest Control Logs" },
-        { text: "Allergen Control Logs" },
-        { text: "Critical Control Point (CCP) Logs" },
-        { text: "Water Quality and Testing Logs" },
-        { text: "Incident and Corrective Action Logs" },
-        { text: "Traceability Logs" },
-        { text: "Consumer Complaint Logs" },
+        { text: t("Temperature Logs") },
+        { text: t("Sanitation Logs") },
+        { text: t("Employee Training Logs") },
+        { text: t("Equipment Calibration Logs") },
+        { text: t("Pest Control Logs") },
+        { text: t("Allergen Control Logs") },
+        { text: t("Critical Control Point (CCP) Logs") },
+        { text: t("Water Quality and Testing Logs") },
+        { text: t("Incident and Corrective Action Logs") },
+        { text: t("Traceability Logs") },
+        { text: t("Consumer Complaint Logs") },
       ],
     },
     work: {
-      title: "Work Safety Tracking",
+      title: t("Work Safety Tracking"),
       desc: "",
       icon: "/images/features/2.png",
 
       points: [
         {
-          title: "Digital Safety Records:",
-          text: "Track incidents, near misses, safety observations, and compliance with safety training requirements digitally through Qoodo`s robust work safety tracking",
+          title: t("Digital Safety Records:"),
+          text: t(
+            "Track incidents, near misses, safety observations, and compliance with safety training requirements digitally through Qoodo`s robust work safety tracking"
+          ),
         },
 
         {
-          title: "Customizable Logs:",
-          text: "Create and customize safety logs or checklists tailored to your organization`s specific safety protocols with ease.",
+          title: t("Customizable Logs:"),
+          text: t(
+            "Create and customize safety logs or checklists tailored to your organization`s specific safety protocols with ease."
+          ),
         },
       ],
     },
 
     fire: {
-      title: "Work Safety Tracking",
+      title: t("Work Safety Tracking"),
       desc: "",
       icon: "/images/features/3.png",
 
       points: [
         {
-          title: "Fire Safety Compliance:",
-          text: "Ensure compliance with fire safety regulations using Qoodo`s fire safety tracking module. Log inspections, drills, incidents, and corrective actions digitally.",
+          title: t("Fire Safety Compliance:"),
+          text: t(
+            "Ensure compliance with fire safety regulations using Qoodo`s fire safety tracking module. Log inspections, drills, incidents, and corrective actions digitally."
+          ),
         },
 
         {
-          title: "Flexible Logging:",
-          text: "Adapt fire safety protocols seamlessly with customizable logs and checklists within Qoodo.",
+          title: t("Flexible Logging:"),
+          text: t(
+            "Adapt fire safety protocols seamlessly with customizable logs and checklists within Qoodo."
+          ),
         },
       ],
     },
 
     monitor: {
-      title: "Self-monitoring Plan Compliance",
+      title: t("Self-monitoring Plan Compliance"),
       desc: "",
       icon: "/images/features/4.png",
 
       points: [
         {
-          title: "Regulatory Compliance:",
-          text: "Support compliance with Önellenőrzési Terv regulations through Qoodo`s digital recordkeeping and reporting capabilities. Manage regulatory documentation efficiently for audit readiness.",
+          title: t("Regulatory Compliance:"),
+          text: t(
+            "Support compliance with Önellenőrzési Terv regulations through Qoodo`s digital recordkeeping and reporting capabilities. Manage regulatory documentation efficiently for audit readiness."
+          ),
         },
 
         {
-          title: "Customizable Logs:",
-          text: "Tailor protocols or checklists within Qoodo to meet Önellenőrzési Terv requirements effectively, ensuring compliance with local regulatory standards.",
+          title: t("Customizable Logs:"),
+          text: t("Work Safety Tracking"),
         },
       ],
     },
 
     customize: {
-      title: "Ease of Customization",
+      title: t("Ease of Customization"),
       desc: "",
       icon: "/images/features/5.png",
 
       points: [
         {
-          title: "Create Custom Logs and Checklists:",
-          text: "Easily create and customize logs, checklists, tasks, and protocols within Qoodo. Adapt templates quickly to meet evolving compliance needs and operational requirements.",
+          title: t("Create Custom Logs and Checklists:"),
+          text: t(
+            "Easily create and customize logs, checklists, tasks, and protocols within Qoodo. Adapt templates quickly to meet evolving compliance needs and operational requirements."
+          ),
         },
 
         {
-          title: "Flexible Audit Protocols:",
-          text: "Empower your team with Qoodo`s flexible audit protocols and inspection systems. Customize audit templates to align with specific regulatory standards and organizational processes.",
+          title: t("Flexible Audit Protocols:"),
+          text: t(
+            "Empower your team with Qoodo`s flexible audit protocols and inspection systems. Customize audit templates to align with specific regulatory standards and organizational processes."
+          ),
         },
       ],
     },
 
     attendance: {
-      title: "Attendance Tracking",
+      title: t("Attendance Tracking"),
       desc: "",
       icon: "/images/features/6.png",
 
       points: [
         {
-          title: "Employee Attendance Management",
-          text: "Simplify attendance tracking with Qoodo’s digital solution. Monitor employee attendance, manage timesheets, and ensure compliance with labor regulations efficiently.",
+          title: t("Employee Attendance Management"),
+          text: t(
+            "Simplify attendance tracking with Qoodo’s digital solution. Monitor employee attendance, manage timesheets, and ensure compliance with labor regulations efficiently."
+          ),
         },
 
         {
-          title: "Detailed Logs",
-          text: "Maintain accurate and detailed attendance logs for better workforce management and audit readiness.",
+          title: t("Detailed Logs"),
+          text: t(
+            "Maintain accurate and detailed attendance logs for better workforce management and audit readiness."
+          ),
         },
       ],
     },
@@ -153,7 +175,7 @@ const QoodoFeatures: React.FC = () => {
   return (
     <div className="py-[70px] gap-[70px] w-full md:px-[30px]">
       <h3 className="text-white text-3xl md:text-h3 text-start font-bold">
-        Efficient Tools for Quality Management and Compliance
+        {t("Efficient Tools for Quality Management and Compliance")}
       </h3>
 
       <div
@@ -166,7 +188,7 @@ const QoodoFeatures: React.FC = () => {
               ref={heading}
               className="text-3xl md:text-[42px] font-bold text-white leading-snug "
             >
-              Key Features and How They Benefit You
+              {t("Key Features and How They Benefit You")}
             </h2>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:flex justify-start  flex-row items-start xl:flex-col gap-5 w-full">
@@ -184,7 +206,7 @@ const QoodoFeatures: React.FC = () => {
                   -
                 </span>
                 <span className="text-white font-bold text-lg xl:text-[24px]">
-                  Food Safety Tracking
+                  {t("Food Safety Tracking")}
                 </span>
               </div>
 
@@ -202,7 +224,7 @@ const QoodoFeatures: React.FC = () => {
                   -
                 </span>
                 <span className="text-white font-bold text-lg xl:text-[24px]">
-                  Work Safety Tracking
+                  {t("Work Safety Tracking")}
                 </span>
               </div>
 
@@ -220,7 +242,7 @@ const QoodoFeatures: React.FC = () => {
                   -
                 </span>
                 <span className="text-white font-bold text-lg xl:text-[24px]">
-                  Fire Safety Tracking
+                  {t("Fire Safety Tracking")}
                 </span>
               </div>
 
@@ -238,7 +260,7 @@ const QoodoFeatures: React.FC = () => {
                   -
                 </span>
                 <span className="text-white font-bold text-lg xl:text-[24px]">
-                  Self-monitoring Plan Compliance
+                  {t("Self-monitoring Plan Compliance")}
                 </span>
               </div>
 
@@ -258,7 +280,7 @@ const QoodoFeatures: React.FC = () => {
                   -
                 </span>
                 <span className="text-white font-bold text-lg xl:text-[24px]">
-                  Ease of Customization
+                  {t("Ease of Customization")}
                 </span>
               </div>
 
@@ -278,7 +300,7 @@ const QoodoFeatures: React.FC = () => {
                   -
                 </span>
                 <span className="text-white font-bold text-lg xl:text-[24px]">
-                  Attendance Tracking
+                  {t("Attendance Tracking")}
                 </span>
               </div>
             </div>

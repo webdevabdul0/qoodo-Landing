@@ -1,22 +1,22 @@
 import React from "react";
 
-import { GoArrowUpRight } from "react-icons/go";
 import Image from "next/image";
+
+import Mock from "@/public/images/audit/hero.png";
 
 const Hero = () => {
   return (
-    <div className="pb-[50px] pt-36 mx-auto relative md:px-[50px]">
-      <div
+    <div className=" pt-36 mx-auto relative md:px-[50px]">
+      {/*<div
         className="h-screen w-full   dark:bg-grid-white/[0.03] bg-grid-black-100/[0.2]
    absolute top-0 left-0 flex items-center justify-center"
       >
-        {/* Radial gradient for the container to give a faded look */}
+
         <div
-          // chnage the bg to bg-black-100, so it matches the bg color and will blend in
-          className=" pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100
+           className=" pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100
      bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"
         />
-      </div>
+      </div> */}
 
       <div className="flex justify-center relative  mx-auto max-w-[100rem] z-10">
         <div className="flex flex-col w-full items-center justify-center px-[10px] sm:px-0  sm:mb-32">
@@ -43,24 +43,17 @@ const Hero = () => {
             <div className="flex-1 relative w-full justify-center items-center ">
               {" "}
               <Image
-                src="/images/hero/hero.png"
-                width={0}
-                height={0} // Adjust based on aspect ratio
-                alt="Dashboard Preview"
-                className=" w-full sm:min-w-[500px] opacity-0"
-              />
-              <Image
-                src="/images/hero/hero.png"
+                src={Mock}
                 width={2000}
-                height={0} // Adjust based on aspect ratio
+                height={2000} // Adjust based on aspect ratio
                 alt="Dashboard Preview"
-                className="absolute top-0 right-0 lg:w-[700px] xl:w-[800px] 2xl:w-[1000px] lg:max-w-none md:translate-x-[5%]"
+                className=" w-full sm:min-w-[500px] opacity-100"
               />
             </div>
           </div>
         </div>
 
-        <div className="-z-10 w-[1152px] h-[664px] opacity-20 bg-gradient-to-br from-[#7bcbe8] via-[#8615e5] to-[#33fdff] rounded-full blur-[200px] absolute  bottom-0" />
+        <div className="-z-10 w-[1152px] h-[664px] opacity-20 bg-[#4A60FF] rounded-full blur-[200px] absolute  bottom-0" />
       </div>
     </div>
   );

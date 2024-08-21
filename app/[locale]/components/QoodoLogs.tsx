@@ -15,7 +15,7 @@ const QoodoLogs: React.FC<QoodoLogsProps> = ({ t }) => {
           {t("Qoodo Logs")}
         </div>
 
-        <h3 className="text-white heading3 text-center ">
+        <h3 className="bg-gradient-to-r from-[#495EFA]  to-[#313EA5] inline-block text-transparent bg-clip-text leading-[3rem] text-[30px] md:text-[42px] font-bold text-center ">
           {t("Digital Logging for control and efficiency")}
         </h3>
         <p className="text-[16px] md:text-xl font-gilroy font-medium text-center ">
