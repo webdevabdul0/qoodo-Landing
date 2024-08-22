@@ -15,6 +15,7 @@ type TabTexts = {
 };
 
 const QoodoEfficiency: React.FC = () => {
+  const { t } = useTranslation();
   // State for selected tab and progress values
   const [selectedTab, setSelectedTab] = useState<string>("time");
   const [progressValues] = useState<ProgressValues>({
@@ -24,18 +25,19 @@ const QoodoEfficiency: React.FC = () => {
   });
 
   const tabTexts: TabTexts = {
-    time: "85% Time Savings in quality management with Qoodo.",
-    efficiency:
-      "95% Efficiency and Productivity in quality management with Qoodo.",
-    compliance: "95% Regulatory compliance in quality management with Qoodo.",
+    time: t("85% Time Savings in quality management with Qoodo."),
+    efficiency: t(
+      "95% Efficiency and Productivity in quality management with Qoodo."
+    ),
+    compliance: t(
+      "99% Regulatory compliance in quality management with Qoodo."
+    ),
   };
 
   // Handle tab change
   const handleTabChange = (key: React.Key) => {
     setSelectedTab(key as string); // Convert React.Key to string
   };
-
-  const { t } = useTranslation();
 
   return (
     <div className="w-full py-[100px] bg-black-100">
