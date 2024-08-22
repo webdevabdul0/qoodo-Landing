@@ -13,7 +13,7 @@
   "Initiating Logs": "Initiating Logs",
   "Start your logging process by selecting the appropriate log. Each log has a dedicated page for easy data entry and management.": "Start your logging process by selecting the appropriate log. Each log has a dedicated page for easy data entry and management.",
   "Log Entry Review": "Log Entry Review",
-  "Signing and Saving Logs:": "Signing and Saving Logs:",
+  "Signing and Saving Logs:": "Signing and Saving Logs",
   "Easily input and save log data for efficient tracking.": "Easily input and save log data for efficient tracking.",
   "Log Assignment": "Log Assignment",
   "Assign logs": "Assign logs",
@@ -30,7 +30,6 @@
   "Book a Demo from Qoodo.": "Book a Demo from Qoodo.",
   "See how Qoodo can transform your quality management processes.": "See how Qoodo can transform your quality management processes.",
   "Book a Demo": "Book a Demo",
-  "Standards We Support": "Standards We Support",
 
   "---------------------------------------------------------------------------------------------------------------------------------------------------------QOODO EFFICIENCY--------------------------------------------------------------------------------------------------------------------------------------------": ",",
   "Qoodo: The Smart Choice": "Qoodo: The Smart Choice",
@@ -84,5 +83,69 @@
   "Detailed Logs": "Detailed Logs",
   "Maintain accurate and detailed attendance logs for better workforce management and audit readiness.": "Maintain accurate and detailed attendance logs for better workforce management and audit readiness.",
   "Efficient Tools for Quality Management and Compliance": "Efficient Tools for Quality Management and Compliance",
-  "Key Features and How They Benefit You": "Key Features and How They Benefit You"
+  "Key Features and How They Benefit You": "Key Features and How They Benefit You",
+
+  "---------------------------------------------------------------------------------------------------------------------------------------------------------QOODO industries--------------------------------------------------------------------------------------------------------------------------------------------": ",",
+  "Who is Qoodo's Smart QMS Software Perfect For?": "Who is Qoodo's Smart QMS Software Perfect For?",
+  "Our solution is ideal for a variety of industries  including:": "Our solution is ideal for a variety of industries  including:",
+
+  "Food Manufacturers": "Food Manufacturers",
+  "Streamline production processes and ensure product quality.": "Streamline production processes and ensure product quality.",
+
+  "Hospitality Providers": "Hospitality Providers",
+  "Maintain high standards of food safety and service quality.": "Maintain high standards of food safety and service quality.",
+
+  "Accommodation Service Providers": "Accommodation Service Providers",
+  "Enhance guest satisfaction by ensuring consistent service and facility standards.": "Enhance guest satisfaction by ensuring consistent service and facility standards.",
+
+  "Occupational Safety and Fire Protection Professionals and Companies": "Occupational Safety and Fire Protection Professionals and Companies",
+  "Ensure workplace safety by implementing and monitoring compliance with safety regulations.": "Ensure workplace safety by implementing and monitoring compliance with safety regulations.",
+
+  "HACCP, ISO, and IFS Experts and Companies": "HACCP, ISO, and IFS Experts and Companies",
+  "Streamline compliance with international standards and maintain certification requirements.": "Streamline compliance with international standards and maintain certification requirements.",
+
+  "Quality Assurance Officers and Teams": "Quality Assurance Officers and Teams",
+  "Implement robust quality control measures and procedures.": "Implement robust quality control measures and procedures.",
+
+  "Internal and External Auditors": "Internal and External Auditors",
+  "Conduct thorough audits and maintain transparency.": "Conduct thorough audits and maintain transparency.",
+
+  "Other companies where various standards are applied": "Other companies where various standards are applied",
+  "Optimize processes to meet diverse industry standards and improve operational efficiency.": "Optimize processes to meet diverse industry standards and improve operational efficiency.",
+
+  "---------------------------------------------------------------------------------------------------------------------------------------------------------QOODO Standards--------------------------------------------------------------------------------------------------------------------------------------------": ",",
+  "Standards We Support": "Standards We Support",
+  "HACCP": "HACCP",
+  "Hazard Analysis and Critical Control Points for food safety.": "Hazard Analysis and Critical Control Points for food safety.",
+  "IFS": "IFS",
+  "International Featured Standards for ensuring product safety and quality.": "International Featured Standards for ensuring product safety and quality.",
+  "ISO 9001": "ISO 9001",
+  "Quality management system standards.": "Quality management system standards.",
+  "ISO 22000": "ISO 22000",
+  "Food safety management system standards.": "Food safety management system standards.",
+  "BRC": "BRC",
+  "British Retail Consortium standards for food safety and quality.": "British Retail Consortium standards for food safety and quality.",
+  "Local Regulatory Standards": "Local Regulatory Standards",
+  "Compliance with local food safety and quality regulations.": "Compliance with local food safety and quality regulations.",
+  "Internal Policies": "Internal Policies",
+  "Adherence to your organization's internal quality and safety policies.": "Adherence to your organization's internal quality and safety policies.",
+
+  "---------------------------------------------------------------------------------------------------------------------------------------------------------QOODO FAQ--------------------------------------------------------------------------------------------------------------------------------------------": ",",
+  "Frequently Asked Questions": "Frequently Asked Questions",
+  "What benefits does Qoodo's quality management software provide?": "What benefits does Qoodo's quality management software provide?",
+  "Qoodo's quality management software enhances operational efficiency, improves safety and compliance, streamlines tracking and reporting processes, and integrates seamlessly with other tools, leading to increased productivity and profitability.": "Qoodo's quality management software enhances operational efficiency, improves safety and compliance, streamlines tracking and reporting processes, and integrates seamlessly with other tools, leading to increased productivity and profitability.",
+
+  "What key features does Qoodo offer for quality management?": "What key features does Qoodo offer for quality management?",
+  "Qoodo includes essential features such as customizable checklist creation, detailed inspection and audit capabilities, real-time analytics and reporting, mobile accessibility for on-the-go inspections, task assignment and notifications, and centralized data storage.": "Qoodo includes essential features such as customizable checklist creation, detailed inspection and audit capabilities, real-time analytics and reporting, mobile accessibility for on-the-go inspections, task assignment and notifications, and centralized data storage.",
+
+  "How does Qoodo improve safety and compliance?": "How does Qoodo improve safety and compliance?",
+  "Qoodo enhances safety and compliance through regular inspections and audits, real-time tracking of compliance metrics, incident reporting and follow-up alerts, and in-app safety and compliance training, ensuring a secure environment for all stakeholders.": "Qoodo enhances safety and compliance through regular inspections and audits, real-time tracking of compliance metrics, incident reporting and follow-up alerts, and in-app safety and compliance training, ensuring a secure environment for all stakeholders.",
+
+  "Is Qoodo suitable for various industries and businesses?": "Is Qoodo suitable for various industries and businesses?",
+  "Yes, Qoodo is versatile and ideal for a wide range of industries and businesses, including:\n- Food Manufacturers\n- Food Service Providers\n- Safety Managers\n- Compliance Officers\n- Quality Assurance Teams\n- Internal and External Auditors\n- Hospitality Industry\n- Healthcare Facilities\n- Manufacturing Plants\n- Retail Chains": "Yes, Qoodo is versatile and ideal for a wide range of industries and businesses, including:\n- Food Manufacturers\n- Food Service Providers\n- Safety Managers\n- Compliance Officers\n- Quality Assurance Teams\n- Internal and External Auditors\n- Hospitality Industry\n- Healthcare Facilities\n- Manufacturing Plants\n- Retail Chains",
+
+  "---------------------------------------------------------------------------------------------------------------------------------------------------------QOODO Case Studies--------------------------------------------------------------------------------------------------------------------------------------------": ",",
+
+  "Case Studies": "Case Studies",
+  "Learn how Qoodo has helped businesses achieve their quality management goals.": "Learn how Qoodo has helped businesses achieve their quality management goals."
 }

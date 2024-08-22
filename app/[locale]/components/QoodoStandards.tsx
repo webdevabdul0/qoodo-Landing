@@ -1,5 +1,5 @@
 import React from "react";
-import { qoodoStandards } from "@/app/[locale]/data";
+
 import { Button } from "./ui/MovingBorders";
 import { TFunction } from "i18next";
 
@@ -7,6 +7,65 @@ interface QoodoStandardsProps {
   t: TFunction<["translation", ...string[]], undefined>;
 }
 const QoodoStandards: React.FC<QoodoStandardsProps> = ({ t }) => {
+  const qoodoStandards = [
+    {
+      id: 1,
+      title: t("HACCP"),
+      desc: t("Hazard Analysis and Critical Control Points for food safety."),
+      className: "md:col-span-2",
+      thumbnail: "/images/standards/haccp.png",
+    },
+    {
+      id: 2,
+      title: t("IFS"),
+      desc: t(
+        "International Featured Standards for ensuring product safety and quality."
+      ),
+      className: "md:col-span-2", // change to md:col-span-2
+      thumbnail: "/images/standards/ifs.png",
+    },
+    {
+      id: 3,
+      title: t("ISO 9001"),
+      desc: t("Quality management system standards."),
+      className: "md:col-span-2", // change to md:col-span-2
+      thumbnail: "/images/standards/iso9001.png",
+    },
+    {
+      id: 4,
+      title: t("ISO 22000"),
+      desc: t("Food safety management system standards."),
+      className: "md:col-span-2",
+      thumbnail: "/images/standards/iso22000.png",
+    },
+
+    {
+      id: 5,
+      title: t("BRC"),
+      desc: t(
+        "British Retail Consortium standards for food safety and quality."
+      ),
+      className: "md:col-span-2",
+      thumbnail: "/images/standards/brc.png",
+    },
+    {
+      id: 6,
+      title: t("Local Regulatory Standards"),
+      desc: t("Compliance with local food safety and quality regulations."),
+      className: "md:col-span-2",
+      thumbnail: "/images/standards/local.png",
+    },
+
+    {
+      id: 7,
+      title: t("Internal Policies"),
+      desc: t(
+        "Adherence to your organization's internal quality and safety policies."
+      ),
+      className: "md:col-span-2",
+      thumbnail: "/images/standards/policy.png",
+    },
+  ];
   return (
     <div className="py-[70px] w-full px-[20px] md:px-[100px] flex flex-col justify-center items-center">
       <h3 className="heading3 text-center mb-[50px]">

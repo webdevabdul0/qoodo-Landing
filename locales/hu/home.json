@@ -14,7 +14,7 @@
   "Initiating Logs": "Napló kitöltésének indítása",
   "Start your logging process by selecting the appropriate log. Each log has a dedicated page for easy data entry and management.": "Válaszd ki a megfelelő naplót a naplózási folyamat elindításához. Minden naplónak van egy külön adatrögzítő oldala az adatok egyszerű beviteléhez és kezeléséhez.",
   "Log Entry Review": "Naplóbejegyzések áttekintése",
-  "Signing and Saving Logs:": "Napló aláírása és mentése:",
+  "Signing and Saving Logs:": "Napló aláírása és mentése",
   "Easily input and save log data for efficient tracking.": "Egyszerűen vidd be és mentsd a naplóadatokat a hatékony nyomon követés érdekében.",
   "Log Assignment": "Naplófeladatok kiosztása",
   "Assign logs": "Naplók kiosztása",
@@ -27,11 +27,11 @@
 
   "---------------------------------------------------------------------------------------------------------------------------------------------------------Book Demo--------------------------------------------------------------------------------------------------------------------------------------------": ",",
 
-  "Get Started Today": "Get Started Today",
-  "Book a Demo from Qoodo.": "Book a Demo from Qoodo.",
-  "See how Qoodo can transform your quality management processes.": "See how Qoodo can transform your quality management processes.",
+  "Get Started Today": "Foglalj egy Demót",
+  "Book a Demo from Qoodo.": "Foglalj egy Demót a Qoodo-tól.",
+  "See how Qoodo can transform your quality management processes.": "Nézd meg, hogyan alakíthatja át a Qoodo a minőségirányítási folyamataidat.",
   "Book a Demo": "Demót kérek",
-  "Standards We Support": "Standards We Support",
+
   "---------------------------------------------------------------------------------------------------------------------------------------------------------QOODO EFFICIENCY--------------------------------------------------------------------------------------------------------------------------------------------": ",",
   "Qoodo: The Smart Choice": "Qoodo: Az okos választás",
   "Experience the Advantages of Our System": "Tapasztald meg rendszerünk előnyeit",
@@ -83,5 +83,70 @@
   "Detailed Logs": "Részletes naplók",
   "Maintain accurate and detailed attendance logs for better workforce management and audit readiness.": "Tarts fenn pontos és részletes jelenléti naplókat a jobb munkaerő-kezelés és auditálási felkészültség érdekében.",
   "Efficient Tools for Quality Management and Compliance": "Hatékony eszközök a minőségirányítás és a megfelelés támogatásához",
-  "Key Features and How They Benefit You": "Főbb jellemzők és hogyan előnyösek számodra"
+  "Key Features and How They Benefit You": "Főbb jellemzők és hogyan előnyösek számodra",
+  "---------------------------------------------------------------------------------------------------------------------------------------------------------QOODO industries--------------------------------------------------------------------------------------------------------------------------------------------": ",",
+
+  "Who is Qoodo's Smart QMS Software Perfect For?": "Kinek tökéletes a Qoodo Smart QMS szoftvere?",
+  "Our solution is ideal for a variety of industries including:": "Megoldásunk ideális különféle iparágak számára, beleértve:",
+
+  "Food Manufacturers": "Élelmiszergyártók",
+  "Streamline production processes and ensure product quality.": "Egyszerűsítsd a gyártási folyamatokat és biztosítsd a termék minőségét.",
+
+  "Hospitality Providers": "Vendéglátók",
+  "Maintain high standards of food safety and service quality.": "Tartsd fenn a magas élelmiszerbiztonsági és szolgáltatási minőségi színvonalat.",
+
+  "Accommodation Service Providers": "Szálláshely szolgáltatók",
+  "Enhance guest satisfaction by ensuring consistent service and facility standards.": "Növeld a vendégek elégedettségét azáltal, hogy biztosítod az állandó szolgáltatási és létesítmény színvonalat.",
+
+  "Occupational Safety and Fire Protection": "Munka és Tűzvédelmi szakemberek és cégek",
+  "Ensure workplace safety by implementing and monitoring compliance with safety regulations.": "Biztosítsd a munkahelyi biztonságot a biztonsági előírások betartásának végrehajtásával és nyomon követésével.",
+
+  "HACCP, ISO, and IFS Experts and Companies": "HACCP, ISO és IFS szakértők és cégek",
+  "Streamline compliance with international standards and maintain certification requirements.": "Egyszerűsítsd a nemzetközi szabványoknak való megfelelést, és tartsd fenn a tanúsítványi követelményeket.",
+
+  "Quality Assurance Officers and Teams": "Minőségbiztosítási felelősök és csapatok",
+  "Implement robust quality control measures and procedures.": "Valósíts meg hatékony minőségellenőrzési intézkedéseket és eljárásokat.",
+
+  "Internal and External Auditors": "Belső és Külső Auditorok",
+  "Conduct thorough audits and maintain transparency.": "Végezz alapos auditokat és biztosítsd az átláthatóságot.",
+
+  "Other companies where various standards are applied": "Egyéb vállalatok, ahol különféle szabványokat alkalmaznak",
+  "Optimize processes to meet diverse industry standards and improve operational efficiency.": "Optimalizáld a folyamatokat, hogy megfelelj a különböző ipari szabványoknak, és növeld a működési hatékonyságot.",
+
+  "---------------------------------------------------------------------------------------------------------------------------------------------------------QOODO Standards--------------------------------------------------------------------------------------------------------------------------------------------": ",",
+
+  "Standards We Support": "Szabványok, amelyeket támogatunk",
+  "HACCP": "HACCP",
+  "Hazard Analysis and Critical Control Points for food safety.": "Veszélyelemzés és kritikus ellenőrzési pontok az élelmiszerbiztonság érdekében.",
+  "IFS": "IFS",
+  "International Featured Standards for ensuring product safety and quality.": "Nemzetközi Szabványok a termékbiztonság és minőség biztosítására.",
+  "ISO 9001": "ISO 9001",
+  "Quality management system standards.": "Minőségirányítási rendszer szabványok.",
+  "ISO 22000": "ISO 22000",
+  "Food safety management system standards.": "Élelmiszerbiztonsági irányítási rendszer szabványok.",
+  "BRC": "BRC",
+  "British Retail Consortium standards for food safety and quality.": "Brit Kiskereskedelmi Konzorcium szabványok az élelmiszerbiztonság és minőség érdekében.",
+  "Local Regulatory Standards": "Helyi Szabályozási Előírások",
+  "Compliance with local food safety and quality regulations.": "A helyi élelmiszerbiztonsági és minőségi előírások betartása.",
+  "Internal Policies": "Belső Szabályzatok",
+  "Adherence to your organization's internal quality and safety policies.": "A szervezet belső minőségi és biztonsági szabályzatainak betartása.",
+
+  "---------------------------------------------------------------------------------------------------------------------------------------------------------QOODO FAQ--------------------------------------------------------------------------------------------------------------------------------------------": ",",
+  "Frequently Asked Questions": "Gyakran Ismételt Kérdések",
+  "What benefits does Qoodo's quality management software provide?": "Milyen előnyöket nyújt a Qoodo minőségirányítási szoftvere?",
+  "Qoodo's quality management software enhances operational efficiency, improves safety and compliance, streamlines tracking and reporting processes, and integrates seamlessly with other tools, leading to increased productivity and profitability.": "A Qoodo minőségirányítási szoftvere növeli a működési hatékonyságot, javítja a biztonságot és a megfelelőséget, egyszerűsíti a nyomon követési és jelentési folyamatokat, valamint zökkenőmentesen integrálódik más eszközökkel, így növeli a termelékenységet és a nyereségességet.",
+
+  "What key features does Qoodo offer for quality management?": "Milyen kulcsfontosságú funkciókat kínál a Qoodo a minőségirányításhoz?",
+  "Qoodo includes essential features such as customizable checklist creation, detailed inspection and audit capabilities, real-time analytics and reporting, mobile accessibility for on-the-go inspections, task assignment and notifications, and centralized data storage.": "A Qoodo testreszabható ellenőrzőlisták készítését, részletes ellenőrzési és auditálási képességeket, valós idejű elemzéseket és jelentéseket, mobil hozzáférést a helyszíni ellenőrzésekhez, feladatkiosztást és értesítéseket, valamint központosított adattárolást kínál.",
+
+  "How does Qoodo improve safety and compliance?": "Hogyan javítja a Qoodo a biztonságot és a megfelelőséget?",
+  "Qoodo enhances safety and compliance through regular inspections and audits, real-time tracking of compliance metrics, incident reporting and follow-up alerts, and in-app safety and compliance training, ensuring a secure environment for all stakeholders.": "A Qoodo rendszeres ellenőrzésekkel és auditokkal, a megfelelőségi mutatók valós idejű nyomon követésével, eseményjelentésekkel és nyomon követési értesítésekkel, valamint a biztonsági és megfelelőségi képzéssel biztosítja a biztonságos környezetet minden érintett számára.",
+
+  "Is Qoodo suitable for various industries and businesses?": "A Qoodo alkalmas különböző iparágak és vállalkozások számára?",
+  "Yes, Qoodo is versatile and ideal for a wide range of industries and businesses, including:\n- Food Manufacturers\n- Food Service Providers\n- Safety Managers\n- Compliance Officers\n- Quality Assurance Teams\n- Internal and External Auditors\n- Hospitality Industry\n- Healthcare Facilities\n- Manufacturing Plants\n- Retail Chains": "Igen, a Qoodo sokoldalú és ideális számos iparág és vállalkozás számára, beleértve:\n- Élelmiszergyártók\n- Élelmiszer-szolgáltatók\n- Biztonsági vezetők\n- Megfelelőségi tisztek\n- Minőségbiztosítási csapatok\n- Belső és külső auditorok\n- Vendéglátóipar\n- Egészségügyi intézmények\n- Gyártó üzemek\n- Kiskereskedelmi láncok",
+
+  "---------------------------------------------------------------------------------------------------------------------------------------------------------QOODO Case Studies--------------------------------------------------------------------------------------------------------------------------------------------": ",",
+
+  "Case Studies": "Tapasztalatok",
+  "Learn how Qoodo has helped businesses achieve their quality management goals.": "Tudd meg, hogyan segített a Qoodo a vállalkozásoknak elérni céljaikat."
 }

@@ -2,16 +2,19 @@
 import React from "react";
 import { companies, testimonials } from "@/app/[locale]/data";
 import { ScrollableCards } from "./ui/InfiniteCards";
+import { useTranslation } from "react-i18next";
 
 const CaseStudies = () => {
+  const { t } = useTranslation();
   return (
     <div className="px-[50px] py-[50px] md:py-[130px] relative z-10">
       <div className="text-center w-full flex flex-col justify-center items-center relative">
-        <h3 className="heading2 mb-[20px]">Case Studies</h3>
+        <h3 className="heading2 mb-[20px]">{t("Case Studies")}</h3>
 
         <p className="subtitle text-[#E4ECFF] ">
-          Learn how Qoodo has helped businesses achieve their quality management
-          goals.
+          {t(
+            "Learn how Qoodo has helped businesses achieve their quality management goals."
+          )}
         </p>
       </div>
 
