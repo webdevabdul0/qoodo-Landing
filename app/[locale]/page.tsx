@@ -12,6 +12,8 @@ import FAQ from "@/app/[locale]/components/FAQ";
 import ContactForm from "@/app/[locale]/components/ContactForm";
 import initTranslations from "../i18n";
 import TranslationsProvider from "./TranslationsProvider";
+import Header from "./Layout/Header";
+import Footer from "./Layout/Footer";
 const i18nNamespaces = ["home"];
 const Page = async ({ params: { locale } }: { params: { locale: string } }) => {
   const { t, resources } = await initTranslations(locale, i18nNamespaces);
@@ -22,6 +24,7 @@ const Page = async ({ params: { locale } }: { params: { locale: string } }) => {
       locale={locale}
       resources={resources}
     >
+      <Header />
       <main className="relative bg-black-100 flex justify-center items-center flex-col overflow-hidden mx-auto">
         <div className="w-full">
           <Hero t={t} />
@@ -50,6 +53,7 @@ const Page = async ({ params: { locale } }: { params: { locale: string } }) => {
           <ContactForm />
         </div>
       </main>
+      <Footer t={t} />
     </TranslationsProvider>
   );
 };

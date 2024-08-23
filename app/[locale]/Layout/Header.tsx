@@ -4,8 +4,10 @@ import React, { useState, useEffect } from "react";
 import { FaChevronRight } from "react-icons/fa";
 import { FiMenu, FiX } from "react-icons/fi";
 import Link from "next/link";
+import { useTranslation } from "react-i18next";
 
 const Header = () => {
+  const { t } = useTranslation();
   const [headerToggle, setHeaderToggle] = useState(false);
   const [bg, setBg] = useState(false);
   const [scrollDirection, setScrollDirection] = useState("up");
@@ -136,27 +138,27 @@ const Header = () => {
               <ul className="flex flex-col lg:flex-row gap-5 lg:gap-10">
                 <li>
                   <Link href="/#features" scroll={true}>
-                    Features
+                    {t("Features")}
                   </Link>
                 </li>
                 <li>
                   <Link href="/#logs" scroll={true}>
-                    Logs
+                    {t("Logs")}
                   </Link>
                 </li>
                 <li>
                   <Link href="/#industries" scroll={true}>
-                    Industries
+                    {t("Industries")}
                   </Link>
                 </li>
                 <li>
                   <Link href="/#standards" scroll={true}>
-                    Standards
+                    {t("Standards")}
                   </Link>
                 </li>
                 <li>
                   <Link href="/audit" scroll={true}>
-                    Audit
+                    {t("Audit")}
                   </Link>
                 </li>
               </ul>
@@ -166,7 +168,7 @@ const Header = () => {
           <a href="bookDemo" className="hidden lg:block">
             <div className="h-[49px] px-[25px] py-[15px] bg-[#4a60ff] rounded-[14px] border border-[#6971a2] justify-center items-center gap-2.5 inline-flex">
               <div className="text-white text-base font-medium leading-tight">
-                Book a Demo
+                {t("Book a Demo")}
               </div>
               <FaChevronRight />
             </div>
@@ -214,7 +216,7 @@ const Header = () => {
                 onClick={() => setHeaderToggle(false)}
                 className="font-semibold text-white "
               >
-                Logs
+                {t("Logs")}
               </Link>
             </li>
             <li>
@@ -224,7 +226,7 @@ const Header = () => {
                 onClick={() => setHeaderToggle(false)}
                 className="font-semibold text-white "
               >
-                Industries
+                {t("Industries")}
               </Link>
             </li>
             <li>
@@ -234,7 +236,7 @@ const Header = () => {
                 onClick={() => setHeaderToggle(false)}
                 className="font-semibold text-white "
               >
-                Standards
+                {t("Standards")}
               </Link>
             </li>
             <li>
@@ -244,7 +246,7 @@ const Header = () => {
                 onClick={() => setHeaderToggle(false)}
                 className="font-semibold text-white "
               >
-                Audit
+                {t("Audit")}
               </Link>
             </li>
             <li>
@@ -253,7 +255,7 @@ const Header = () => {
                 onClick={() => setHeaderToggle(false)}
                 className="font-semibold text-[#4A60FF] "
               >
-                Book a Demo
+                {t("Book a Demo")}
               </a>
             </li>
           </ul>

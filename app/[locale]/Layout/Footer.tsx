@@ -2,10 +2,12 @@ import React from "react";
 import Link from "next/link";
 import { FaFacebook, FaLinkedinIn } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import { TFunction } from "i18next";
 
-import Image from "next/image";
-
-const Footer = () => {
+interface FooterProps {
+  t: TFunction<["translation", ...string[]], undefined>;
+}
+const Footer: React.FC<FooterProps> = ({ t }) => {
   return (
     <div className="w-full bg-black py-24 px-5 md:px-12 xl:px-24 text-white overflow-hidden ">
       <div className="container mx-auto">
@@ -104,7 +106,7 @@ const Footer = () => {
           {/* Menu */}
           <div className="lg:px-24 grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3 w-full">
             <div>
-              <h3 className="text-xl font-semibold mb-4">Navigation</h3>
+              <h3 className="text-xl font-semibold mb-4">{t("Navigation")}</h3>
               <ul className="space-y-2">
                 <li>
                   <Link
@@ -112,7 +114,7 @@ const Footer = () => {
                     scroll={true}
                     className="hover:text-[#4A60FF]  text-[#A6A6A6] text-base font-semibold"
                   >
-                    Features
+                    {t("Features")}
                   </Link>
                 </li>
                 <li>
@@ -121,7 +123,7 @@ const Footer = () => {
                     scroll={true}
                     className="hover:text-[#4A60FF]  text-[#A6A6A6] text-base font-semibold"
                   >
-                    Logs
+                    {t("Logs")}
                   </Link>
                 </li>
                 <li>
@@ -130,7 +132,7 @@ const Footer = () => {
                     scroll={true}
                     className="hover:text-[#4A60FF]  text-[#A6A6A6] text-base font-semibold"
                   >
-                    Industries
+                    {t("Industries")}
                   </Link>
                 </li>
                 <li>
@@ -139,7 +141,7 @@ const Footer = () => {
                     scroll={true}
                     className="hover:text-[#4A60FF]  text-[#A6A6A6] text-base font-semibold"
                   >
-                    Standards
+                    {t("Standards")}
                   </Link>
                 </li>
                 <li>
@@ -148,14 +150,14 @@ const Footer = () => {
                     scroll={true}
                     className="hover:text-[#4A60FF]  text-[#A6A6A6] text-base font-semibold"
                   >
-                    Audit
+                    {t("Audit")}
                   </Link>
                 </li>
               </ul>
             </div>
 
             <div>
-              <h3 className="text-lg font-semibold mb-4">Support</h3>
+              <h3 className="text-lg font-semibold mb-4">{t("Support")}</h3>
               <ul className="space-y-2">
                 <li>
                   <Link
@@ -163,7 +165,7 @@ const Footer = () => {
                     scroll={true}
                     className="hover:text-[#4A60FF]  text-[#A6A6A6] text-base font-semibold"
                   >
-                    Contact Us
+                    {t("Contact Us")}
                   </Link>
                 </li>
                 <li>
@@ -172,7 +174,7 @@ const Footer = () => {
                     scroll={true}
                     className="hover:text-[#4A60FF]  text-[#A6A6A6] text-base font-semibold"
                   >
-                    Terms of Use
+                    {t("Terms of Use")}
                   </Link>
                 </li>
                 <li>
@@ -181,14 +183,14 @@ const Footer = () => {
                     scroll={true}
                     className="hover:text-[#4A60FF]  text-[#A6A6A6] text-base font-semibold"
                   >
-                    Cookies
+                    {t("Cookies")}
                   </Link>
                 </li>
               </ul>
             </div>
 
             <div>
-              <h3 className="text-lg font-semibold mb-4">Our Social</h3>
+              <h3 className="text-lg font-semibold mb-4">{t("Our Social")}</h3>
               <div className="flex flex-row gap-5">
                 <div className="p-3 border-2 border-gray-500 rounded-full">
                   <Link href="https://facebook.com">
@@ -213,7 +215,9 @@ const Footer = () => {
         </div>
         {/* Footer Bottom */}
         <div className="mt-10 border-t border-gray-700 pt-6 text-center">
-          <p className="text-sm">&copy; 2024 Qoodo. All rights reserved.</p>
+          <p className="text-sm">
+            &copy;{t("2024 Qoodo. All rights reserved")} .
+          </p>
         </div>
       </div>
     </div>

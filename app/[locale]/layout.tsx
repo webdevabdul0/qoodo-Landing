@@ -4,8 +4,6 @@ import localfont from "next/font/local";
 import "./globals.css";
 import local from "next/font/local";
 import { ThemeProvider } from "@/app/[locale]/components/theme-provider";
-import Header from "./Header";
-import Footer from "./Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -51,10 +49,8 @@ export default function RootLayout({ children, params }: RootLayoutProps) {
           enableSystem
           disableTransitionOnChange
         >
-          <Header />
           {children}
         </ThemeProvider>
-        <Footer />
       </body>
     </html>
   );

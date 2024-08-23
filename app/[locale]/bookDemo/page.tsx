@@ -2,8 +2,10 @@ import React from "react";
 import initTranslations from "../../i18n";
 import TranslationsProvider from "../TranslationsProvider";
 import Demo from "./Demo";
+import Header from "../Layout/Header";
+import Footer from "../Layout/Footer";
 
-const i18nNamespaces = ["bookDemo"];
+const i18nNamespaces = ["home"];
 
 const Page = async ({ params: { locale } }: { params: { locale: string } }) => {
   const { t, resources } = await initTranslations(locale, i18nNamespaces);
@@ -14,7 +16,9 @@ const Page = async ({ params: { locale } }: { params: { locale: string } }) => {
       locale={locale}
       resources={resources}
     >
+      <Header />
       <Demo />
+      <Footer t={t} />
     </TranslationsProvider>
   );
 };
