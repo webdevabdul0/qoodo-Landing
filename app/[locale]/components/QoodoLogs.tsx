@@ -166,6 +166,33 @@ const QoodoLogs: React.FC<QoodoLogsProps> = ({ t }) => {
           </div>
         </div>
       </div>
+
+      {/*Log Feature Style 1*/}
+      <div className="px-3 sm:px-0 md:px-[100px] py-[50px] flex justify-center ">
+        <div className="flex  flex-col lg:flex-row md:justify-between items-center  gap-[20px] md:gap-[100px] max-w-[1440px]">
+          <div className="w-full flex flex-col justify-center items-center lg:items-start gap-5 text-center lg:text-start">
+            <div className="p-[10px] bg-[#222222] border border-[#4A60FF]  rounded-full text-white font-semibold text-[14px] md:text-[16px]">
+              {t("Custom labelling")}{" "}
+            </div>
+
+            <h3 className="text-white heading3">{t("New Label modul ")}</h3>
+            <p className="text-[16px] md:text-xl font-gilroy font-medium ">
+              {t(
+                "Create any type of label for your tracking needs with our custom labeling module."
+              )}
+            </p>
+          </div>
+
+          <Image
+            src={"/images/Log/7.png"}
+            width={700}
+            height={1}
+            alt="Log"
+            className=" lg:max-w-lg xl:max-w-xl 2xl:max-w-2xl"
+            layout="responsive"
+          />
+        </div>
+      </div>
     </div>
   );
 };

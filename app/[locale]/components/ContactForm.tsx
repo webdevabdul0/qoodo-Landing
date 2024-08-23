@@ -4,6 +4,7 @@ import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import axios from "axios";
 import ContactModal from "./ui/ContactModal";
 import { FaChevronRight } from "react-icons/fa";
+import { useTranslation } from "react-i18next";
 
 interface InputState {
   firstName: string;
@@ -14,6 +15,7 @@ interface InputState {
 }
 
 const Contact: React.FC = () => {
+  const { t } = useTranslation();
   const [popUp, setPopUp] = useState(false);
   const [input, setInput] = useState<InputState>({
     firstName: "",
@@ -79,7 +81,7 @@ const Contact: React.FC = () => {
         )}
         <div className="wrapper mt-[130px]">
           <div className="contain flex-col justify-center items-center gap-2">
-            <h3 className="heading2 mb-[20px]">Contact Us</h3>
+            <h3 className="heading2 mb-[20px]">{t("Contact Us")}</h3>
             <form
               onSubmit={handleSubmit}
               className="flex max-w-[1000px]p-5 sm:p-8 rounded-2xl justify-start flex-col gap-5 w-full"
@@ -91,7 +93,7 @@ const Contact: React.FC = () => {
                     onChange={changeHandler}
                     name="firstName"
                     type="text"
-                    placeholder="First Name"
+                    placeholder={t("First Name")}
                     className="w-full h-[60px] text-base text-white text-[rgba(163, 163, 163, 0.6)] bg-[rgba(13,13,13,0.5)] rounded-[20px] pl-5"
                   />
                   <input
@@ -99,7 +101,7 @@ const Contact: React.FC = () => {
                     onChange={changeHandler}
                     name="lastName"
                     type="text"
-                    placeholder="Last Name"
+                    placeholder={t("Last Name")}
                     className="w-full h-[60px] text-base text-white text-[rgba(163, 163, 163, 0.6)] bg-[rgba(13,13,13,0.5)] rounded-[20px] pl-5"
                   />
                 </div>
@@ -108,14 +110,14 @@ const Contact: React.FC = () => {
                   onChange={changeHandler}
                   name="email"
                   type="email"
-                  placeholder="Email"
+                  placeholder={t("Email")}
                   className="w-full h-[60px] text-base text-white text-[rgba(163, 163, 163, 0.6)] bg-[rgba(13,13,13,0.5)] rounded-[20px] pl-5 mb-4"
                 />
                 <textarea
                   value={input.description}
                   onChange={changeHandler}
                   name="description"
-                  placeholder="Enter your message here"
+                  placeholder={t("Enter your message here")}
                   className="w-full h-[100px] text-white pt-5 resize-none text-base text-[rgba(163, 163, 163, 0.6)] bg-[rgba(13,13,13,0.5)] rounded-[20px] pl-5"
                 />
               </div>
@@ -124,7 +126,7 @@ const Contact: React.FC = () => {
               <a href="#" onClick={handleClick}>
                 <div className="h-[60px] px-[25px] py-[15px] bg-[#4a60ff] rounded-[14px] border border-[#6971a2] justify-center items-center gap-2.5 inline-flex">
                   <div className="text-white text-base font-medium font-['Gilroy'] leading-tight">
-                    Submit
+                    {t("Submit")}
                   </div>
 
                   <FaChevronRight />
