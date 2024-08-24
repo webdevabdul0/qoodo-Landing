@@ -4,11 +4,38 @@ import Image from "next/image";
 const QoodoLogs = () => {
   return (
     <div className="flex flex-col py-[50px]  md:px-0">
+      {/*Log Feature Style 1*/}
+      <div className="px-3 sm:px-0 md:px-[100px] py-[50px] flex justify-center ">
+        <div className="flex  flex-col lg:flex-row md:justify-between items-center  gap-[20px] md:gap-[100px] max-w-[1440px]">
+          <div className="w-full flex flex-col justify-center items-center lg:items-start gap-5 text-center lg:text-start">
+            <div className="p-[10px] bg-[#222222] border border-[#4A60FF]  rounded-full text-white font-semibold text-[14px] md:text-[16px]">
+              Build Custom Checklists
+            </div>
+
+            <h3 className="text-white heading3">Create Tailored Checklists</h3>
+            <p className="text-[16px] md:text-xl font-gilroy font-medium ">
+              Transform your current paper or digital checklists into dynamic
+              digital forms with our intuitive builder. Add custom fields and
+              criteria to suit your unique inspection needs.
+            </p>
+          </div>
+
+          <Image
+            src={"/images/audit/1.png"}
+            width={700}
+            height={1}
+            alt="Log"
+            className=" lg:max-w-lg xl:max-w-xl 2xl:max-w-2xl"
+            layout="responsive"
+          />
+        </div>
+      </div>
+
       {/*Log Feature Style 2*/}
       <div className="px-3 sm:px-0 md:px-[100px] py-[50px]  bg-opacity-10 bg-gradient-to-b from-black-100 via-[#4a60ff]/30 to-black-100  flex justify-center">
         <div className="flex  flex-col-reverse lg:flex-row md:justify-between items-center  gap-[20px] md:gap-[100px] max-w-[1440px]">
           <Image
-            src={"/images/Log/2.png"}
+            src={"/images/audit/2.png"}
             width={700}
             height={1}
             alt="Log"
@@ -20,13 +47,16 @@ const QoodoLogs = () => {
             {/*Small Gradient badge*/}
             <div className="h-9 p-2.5 bg-white/10 rounded-[99px] border border-[#4A60FF] justify-center items-center gap-2.5 inline-flex">
               <div className="text-white text-[14px] md:text-[16px] font-semibold font-['Gilroy'] leading-none">
-                Starting Your logs
+                Conduct Comprehensive Inspections
               </div>
             </div>
-            <h3 className="text-white heading3">Initiating Logs</h3>
+            <h3 className="text-white heading3">
+              Perform Detailed Inspections
+            </h3>
             <div className="text-[16px] md:text-xl font-gilroy font-medium">
-              Start your logging process by selecting the appropriate log. Each
-              log has a dedicated page for easy data entry and management.
+              Utilize mobile or desktop devices to perform thorough inspections.
+              Ensure compliance with various standards like HACCP, ISO 9001, and
+              local regulations.
             </div>
           </div>
         </div>
@@ -37,17 +67,19 @@ const QoodoLogs = () => {
         <div className="flex  flex-col lg:flex-row md:justify-between items-center  gap-[20px] md:gap-[100px] max-w-[1440px]">
           <div className="w-full flex flex-col justify-center items-center lg:items-start gap-5 text-center lg:text-start">
             <div className="p-[10px] bg-[#222222] border border-[#4A60FF]  rounded-full text-white font-semibold text-[14px] md:text-[16px]">
-              Log Entry Review
+              Track Incidents Effectively
             </div>
 
-            <h3 className="text-white heading3">Signing and Saving Logs:</h3>
+            <h3 className="text-white heading3">Manage Incident Tracking</h3>
             <p className="text-[16px] md:text-xl font-gilroy font-medium ">
-              Easily input and save log data for efficient tracking.
+              Record and track incidents directly from inspection findings.
+              Prioritize and address issues promptly to maintain safety and
+              compliance.
             </p>
           </div>
 
           <Image
-            src={"/images/Log/3.png"}
+            src={"/images/audit/3.png"}
             width={700}
             height={1}
             alt="Log"
@@ -61,7 +93,7 @@ const QoodoLogs = () => {
       <div className="px-3 sm:px-0 md:px-[100px] py-[50px]  bg-opacity-10 bg-gradient-to-b from-black-100 via-[#4a60ff]/30 to-black-100  flex justify-center">
         <div className="flex  flex-col-reverse lg:flex-row md:justify-between items-center  gap-[20px] md:gap-[100px] max-w-[1440px]">
           <Image
-            src={"/images/Log/4.png"}
+            src={"/images/audit/4.png"}
             width={700}
             height={1}
             alt="Log"
@@ -73,13 +105,14 @@ const QoodoLogs = () => {
             {/*Small Gradient badge*/}
             <div className="h-9 p-2.5 bg-white/10 rounded-[99px] border border-[#4A60FF] justify-center items-center gap-2.5 inline-flex">
               <div className="text-white text-[14px] md:text-[16px] font-semibold font-['Gilroy'] leading-none">
-                Log Assignment{" "}
+                Generate Professional Reports{" "}
               </div>
             </div>
-            <h3 className="text-white heading3">Assign logs</h3>
+            <h3 className="text-white heading3">Produce Detailed Reports</h3>
             <div className="text-[16px] md:text-xl font-gilroy font-medium">
-              Assign logs as tasks to team members, with notifications to keep
-              everyone on track.
+              Automatically generate comprehensive reports after inspections.
+              Customize the layout to include branding and essential
+              information, and share them easily with stakeholders.
             </div>
           </div>
         </div>
@@ -90,18 +123,21 @@ const QoodoLogs = () => {
         <div className="flex  flex-col lg:flex-row md:justify-between items-center  gap-[20px] md:gap-[100px] max-w-[1440px]">
           <div className="w-full flex flex-col justify-center items-center lg:items-start gap-5 text-center lg:text-start">
             <div className="p-[10px] bg-[#222222] border border-[#4A60FF]  rounded-full text-white font-semibold text-[14px] md:text-[16px]">
-              Log Export{" "}
+              Assign Team Members{" "}
             </div>
 
-            <h3 className="text-white heading3">Exporting Logs</h3>
+            <h3 className="text-white heading3">
+              Efficiently Assign Tasks to Team Members
+            </h3>
             <p className="text-[16px] md:text-xl font-gilroy font-medium ">
-              Export logs in PDF format, with options to customize the time
-              interval. Get your team ready for the reports.
+              Allocate specific tasks and inspections to team members based on
+              their roles and responsibilities. Ensure everyone knows their
+              duties and deadlines.
             </p>
           </div>
 
           <Image
-            src={"/images/Log/5.png"}
+            src={"/images/audit/5.png"}
             width={700}
             height={1}
             alt="Log"
@@ -115,7 +151,7 @@ const QoodoLogs = () => {
       <div className="px-3 sm:px-0 md:px-[100px] py-[50px]  bg-opacity-10 bg-gradient-to-b from-black-100 via-[#4a60ff]/30 to-black-100  flex justify-center">
         <div className="flex  flex-col-reverse lg:flex-row md:justify-between items-center  gap-[20px] md:gap-[100px] max-w-[1440px]">
           <Image
-            src={"/images/Log/6.png"}
+            src={"/images/audit/6.png"}
             width={700}
             height={1}
             alt="Log"
@@ -127,14 +163,14 @@ const QoodoLogs = () => {
             {/*Small Gradient badge*/}
             <div className="h-9 p-2.5 bg-white/10 rounded-[99px] border border-[#4A60FF] justify-center items-center gap-2.5 inline-flex">
               <div className="text-white text-[14px] md:text-[16px] font-semibold font-['Gilroy'] leading-none">
-                Location-Based Logging
+                Monitor and Analyze Performance
               </div>
             </div>
-            <h3 className="text-white heading3">QR Code & Localization </h3>
+            <h3 className="text-white heading3">Gain Insight with Analytics</h3>
             <div className="text-[16px] md:text-xl font-gilroy font-medium">
-              Generate QR codes for quick and easy log data input and
-              management.Utilize localization to restrict logging based on GPS,
-              ensuring logs are made from designated locations only.
+              Access real-time dashboards to monitor performance, identify
+              trends, and ensure compliance. Utilize data to make informed
+              decisions and improve processes.
             </div>
           </div>
         </div>

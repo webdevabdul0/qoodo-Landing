@@ -1,6 +1,6 @@
 {
   "---------------------------------------------------------------------------------------------------------------------------------------------------------QOODO Hero--------------------------------------------------------------------------------------------------------------------------------------------": ",",
-  "Book a demo": "Book a Demo",
+
   "Digital inspection like never before": "Digital inspection like never before!",
   "Trusted by Leading Organizations": "Trusted by Leading Organizations",
   "Streamline compliance, enhance safety, and drive efficiency with our smart QMS software": "Streamline compliance, enhance safety, and drive efficiency with our smart QMS software",
@@ -20,10 +20,14 @@
   "Assign logs as tasks to team members, with notifications to keep everyone on track.": "Assign logs as tasks to team members, with notifications to keep everyone on track.",
   "Log Export": "Log Export",
   "Exporting Logs": "Naplók exportálása",
-  "Export logs in PDF format, with options to customize the time interval. Get your team ready for the reports.": "Export logs in PDF format, with options to customize the time interval. Get your team ready for the reports.",
+  "Export logs in PDF or Excel format if needed, with options to customize the time interval. Get your team ready for the reports just by one-click sending them.": "Export logs in PDF or Excel format if needed, with options to customize the time interval. Get your team ready for the reports just by one-click sending them.",
   "Location-Based Logging": "Location-Based Logging",
   "QR Code & Localization": "QR Code & Localization",
   "Generate QR codes for quick and easy log data input and management.Utilize localization to restrict logging based on GPS, ensuring logs are made from designated locations only.": "Generate QR codes for quick and easy log data input and management.Utilize localization to restrict logging based on GPS, ensuring logs are made from designated locations only.",
+
+  "Custom labelling": "Custom labelling",
+  "New Label modul": "Label modul",
+  "Create any type of label for your tracking needs with our custom labeling module.": "Create any type of label for your tracking needs with our custom labeling module.",
 
   "---------------------------------------------------------------------------------------------------------------------------------------------------------Book Demo--------------------------------------------------------------------------------------------------------------------------------------------": ",",
   "Get Started Today": "Get Started Today",
@@ -164,6 +168,7 @@
   "Industries": "Industries",
   "Standards": "Standards",
   "Audit": "Audit",
+  "Book Demo": "Book Demo",
   "---------------------------------------------------------------------------------------------------------------------------------------------------------Footer--------------------------------------------------------------------------------------------------------------------------------------------": ",",
   "Navigation": "Navigation",
   "Support": "Support",

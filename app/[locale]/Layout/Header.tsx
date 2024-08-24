@@ -255,7 +255,7 @@ const Header = () => {
                 onClick={() => setHeaderToggle(false)}
                 className="font-semibold text-[#4A60FF] "
               >
-                {t("Book a Demo")}
+                {t("Book Demo")}
               </a>
             </li>
           </ul>

@@ -327,11 +327,11 @@ const QoodoFeatures: React.FC = () => {
                 </p>
               </>
             )}
-            <ul className="flex md:flex-col flex-wrap list-none justify-start items-center md:items-start gap-5">
+            <ul className="flex md:flex-col flex-wrap list-none justify-start items-center md:items-start gap-4">
               {/* Map through points */}
               {DATA[tab].points.map((point, idx) => (
                 <li
-                  className="text-[18px] md:text-[24px] font-semibold text-[#A4A7C2] flex items-start gap-4"
+                  className=" font-semibold text-[#A4A7C2] flex items-start gap-4"
                   key={idx}
                 >
                   <Image
@@ -342,11 +342,12 @@ const QoodoFeatures: React.FC = () => {
                   />
                   <div>
                     {point.title && (
-                      <h3 className="text-[#4A60FF] font-semibold">
+                      <h3 className="text-[#4A60FF] font-semibold text-2xl">
                         {point.title}
                       </h3>
                     )}
-                    {point.text}
+
+                    <p className="text-base md:text-xl">{point.text}</p>
                   </div>
                 </li>
               ))}

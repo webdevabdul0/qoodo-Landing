@@ -1,6 +1,6 @@
 {
   "---------------------------------------------------------------------------------------------------------------------------------------------------------QOODO Hero--------------------------------------------------------------------------------------------------------------------------------------------": ",",
-  "Book a demo": "Demót kérek",
+
   "Digital inspection like never before": "Digitális önellenőrzés, ahogy még soha!",
   "Trusted by Leading Organizations": "Akik már minket választottak",
   "Streamline compliance, enhance safety, and drive efficiency with our smart QMS software": "Tedd hatékonyabbá a megfelelést, növeld a biztonságot, és fokozd a hatékonyságot az új generációs szoftverünkkel.",
@@ -20,17 +20,20 @@
   "Assign logs": "Naplók kiosztása",
   "Assign logs as tasks to team members, with notifications to keep everyone on track.": "Oszd ki a naplókat feladatként a csapattagoknak, értesítésekkel, hogy mindenki nyomon követhesse.",
   "Log Export": "Napló exportálása",
-  "Export logs in PDF format, with options to customize the time interval. Get your team ready for the reports.": "Exportáld a naplókat PDF vagy Excel formátumban, időintervallum testreszabási lehetőséggel. Készítsd fel a csapatodat a jelentésekre.",
+  "Export logs in PDF or Excel format if needed, with options to customize the time interval. Get your team ready for the reports just by one-click sending them.": "Ha szükséges exportáld a naplókat PDF vagy Excel formátumban, vagy egy kattintásra küld át a munkatársaknak, ellenőröknek.",
   "Location-Based Logging": "Helyalapú naplózás",
   "QR Code & Localization": "QR kód és lokalizáció",
   "Generate QR codes for quick and easy log data input and management.Utilize localization to restrict logging based on GPS, ensuring logs are made from designated locations only.": "Generálj QR-kódokat a naplóadatok gyors és egyszerű beviteléhez és kezeléséhez. Használd a lokalizációt a naplózás korlátozására GPS alapján, biztosítva, hogy a naplózás csak kijelölt helyszíneken történjen.",
+  "Custom labelling": "Egyedi címkézés",
+  "New Label modul": "Címkéző modul",
+  "Create any type of label for your tracking needs with our custom labeling module.": "Készíts bármilyen típusú címkét nyomon követési igényeidnek megfelelően egyéni címkéző modulunkkal.",
 
   "---------------------------------------------------------------------------------------------------------------------------------------------------------Book Demo--------------------------------------------------------------------------------------------------------------------------------------------": ",",
 
   "Get Started Today": "Foglalj egy Demót",
   "Book a Demo from Qoodo.": "Foglalj egy Demót a Qoodo-tól.",
   "See how Qoodo can transform your quality management processes.": "Nézd meg, hogyan alakíthatja át a Qoodo a minőségirányítási folyamataidat.",
-  "Book a Demo": "Demót kérek",
+  "Book a Demo": "Bemutatót kérek",
 
   "---------------------------------------------------------------------------------------------------------------------------------------------------------QOODO EFFICIENCY--------------------------------------------------------------------------------------------------------------------------------------------": ",",
   "Qoodo: The Smart Choice": "Qoodo: Az okos választás",
@@ -165,6 +168,7 @@
   "Industries": "Iparágak",
   "Standards": "Szabványok",
   "Audit": "Audit",
+  "Book Demo": "Bemutató",
   "---------------------------------------------------------------------------------------------------------------------------------------------------------Footer--------------------------------------------------------------------------------------------------------------------------------------------": ",",
 
   "Navigation": "Navigáció",

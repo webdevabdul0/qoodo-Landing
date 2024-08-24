@@ -120,7 +120,7 @@ const QoodoLogs: React.FC<QoodoLogsProps> = ({ t }) => {
             <h3 className="text-white heading3">{t("Exporting Logs")}</h3>
             <p className="text-[16px] md:text-xl font-gilroy font-medium ">
               {t(
-                "Export logs in PDF format, with options to customize the time interval. Get your team ready for the reports."
+                "Export logs in PDF or Excel format if needed, with options to customize the time interval. Get your team ready for the reports just by one-click sending them."
               )}
             </p>
           </div>
@@ -175,7 +175,7 @@ const QoodoLogs: React.FC<QoodoLogsProps> = ({ t }) => {
               {t("Custom labelling")}{" "}
             </div>
 
-            <h3 className="text-white heading3">{t("New Label modul ")}</h3>
+            <h3 className="text-white heading3">{t("New Label modul")}</h3>
             <p className="text-[16px] md:text-xl font-gilroy font-medium ">
               {t(
                 "Create any type of label for your tracking needs with our custom labeling module."
