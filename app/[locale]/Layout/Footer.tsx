@@ -199,13 +199,13 @@ const Footer: React.FC<FooterProps> = ({ t }) => {
                 </div>
 
                 <div className="p-3 border-2 border-gray-500 rounded-full">
-                  <Link href="https://X.com">
+                  <Link href="https://x.com/qoodo_io">
                     <FaXTwitter className="w-4 h-4 md:w-6 md:h-6" />
                   </Link>
                 </div>
 
                 <div className="p-3 border-2 border-gray-500 rounded-full">
-                  <Link href="https://linkedin.com">
+                  <Link href="https://www.linkedin.com/company/qoodo-io">
                     <FaLinkedinIn className="w-4 h-4 md:w-6 md:h-6" />
                   </Link>
                 </div>
