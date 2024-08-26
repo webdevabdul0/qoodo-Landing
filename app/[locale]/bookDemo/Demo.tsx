@@ -234,7 +234,7 @@ const Demo = () => {
                           <FormControl>
                             <input
                               {...field}
-                              placeholder="Name"
+                              placeholder={t("Name")}
                               className="w-full h-[60px] text-base text-white text-[rgba(163, 163, 163, 0.6)] bg-[rgba(13,13,13,0.5)] rounded-[20px] pl-5 mb-4"
                             />
                           </FormControl>
@@ -251,7 +251,7 @@ const Demo = () => {
                             <input
                               {...field}
                               type="email"
-                              placeholder="Email"
+                              placeholder={t("Email")}
                               className="w-full h-[60px] text-base text-white text-[rgba(163, 163, 163, 0.6)] bg-[rgba(13,13,13,0.5)] rounded-[20px] pl-5 mb-4"
                             />
                           </FormControl>
@@ -268,7 +268,7 @@ const Demo = () => {
                             <input
                               {...field}
                               type="tel"
-                              placeholder="Phone Number"
+                              placeholder={t("Phone Number")}
                               className="w-full h-[60px] text-base text-white text-[rgba(163, 163, 163, 0.6)] bg-[rgba(13,13,13,0.5)] rounded-[20px] pl-5 mb-4"
                             />
                           </FormControl>

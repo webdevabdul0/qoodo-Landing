@@ -8,7 +8,7 @@
   "---------------------------------------------------------------------------------------------------------------------------------------------------------QOODO Logs--------------------------------------------------------------------------------------------------------------------------------------------": ",",
 
   "Qoodo Logs": "Qoodo Naplók",
-  "Digital Logging for control and efficiency": "Digitális naplózás a hatékonyság és irányítás érdekében",
+  "Digital Logging for control and efficiency": "Digitális naplózás a hatékony ellenőrzés érdekében",
   "Simplify and Streamline Your Logging Process": "Egyszerűsítsd és gyorsítsd fel a naplózási folyamatokat",
   "Starting Your logs": "Naplózás elindítása",
   "Initiating Logs": "Napló kitöltésének indítása",
@@ -208,5 +208,37 @@
   "Our Solutions": "Megoldásaink",
 
   "Fill out the form below to book a demo and see how our": "Töltsd ki az alábbi űrlapot, hogy bemutatót foglalhass, és megnézhesd, hogyan optimalizálják a megoldásaink a munkafolyamatokat.",
-  "I am interested in knowing about": "Érdekel, hogy"
+  "I am interested in knowing about": "Érdekel, hogy",
+
+  "Name": "Név",
+  "Phone Number": "Telefonszám",
+
+  "---------------------------------------------------------------------------------------------------------------------------------------------------------Qoodo Audit--------------------------------------------------------------------------------------------------------------------------------------------": ",",
+
+  "One-Click Auditing with Qoodo Audit": "Egykattintásos auditálás a Qoodo Audittal",
+  "Easily and efficiently conduct audits with our automated, intelligent tool.": "Végezz auditokat egyszerűen és hatékonyan az automatizált, intelligens eszközünkkel.",
+
+  "Build Custom Checklists": "Egyedi ellenőrzőlisták készítése",
+  "Create Tailored Checklists": "Készíts személyre szabott ellenőrzőlistákat",
+  "Transform your current paper or digital checklists into dynamic digital forms with our intuitive builder. Add custom fields and criteria to suit your unique inspection needs.": "Alakítsd át a meglévő papír- vagy digitális ellenőrzőlistáidat dinamikus, digitális űrlapokká az intuitív szerkesztőnkkel. Adj hozzá egyedi mezőket és kritériumokat, hogy pontosan illeszkedjenek az ellenőrzési igényeidhez.",
+
+  "Conduct Comprehensive Inspections": "Végezz alapos ellenőrzéseket",
+  "Perform Detailed Inspections": "Végezz alapos ellenőrzéseket",
+  "Utilize mobile or desktop devices to perform thorough inspections. Ensure compliance with various standards like HACCP, ISO 9001, and local regulations.": "Használj mobil- vagy asztali eszközöket a részletes ellenőrzésekhez. Biztosítsd a megfelelést olyan szabványoknak, mint a HACCP, ISO 9001, és a helyi előírások.",
+
+  "Track Incidents Effectively": "Kövesd nyomon az eseményeket",
+  "Manage Incident Tracking": "Kövesd nyomon az eseményeket",
+  "Record and track incidents directly from inspection findings. Prioritize and address issues promptly to maintain safety and compliance.": "Rögzítsd és kövesd nyomon az ellenőrzések során talált eseményeket. Priorizáld és oldd meg a problémákat gyorsan, hogy fenntartsd a biztonságot és a megfelelést.",
+
+  "Generate Professional Reports": "Készíts profi jelentéseket",
+  "Produce Detailed Reports": "Készíts profi jelentéseket",
+  "Automatically generate comprehensive reports after inspections. Customize the layout to include branding and essential information, and share them easily with stakeholders.": "Automatikusan generálj részletes jelentéseket az ellenőrzések után. Testreszabhatod az elrendezést, hogy tartalmazza a márkád elemeit és a fontos információkat, majd egyszerűen megoszthatod az érintettekkel.",
+
+  "Assign Team Members": "Oszd ki hatékonyan a feladatokat a csapattagoknak",
+  "Efficiently Assign Tasks to Team Members": "Oszd ki hatékonyan a feladatokat a csapattagoknak",
+  "Allocate specific tasks and inspections to team members based on their roles and responsibilities. Ensure everyone knows their duties and deadlines.": "Oszd ki a feladatokat és az ellenőrzéseket a csapattagok között a szerepük és felelősségük alapján. Gondoskodj róla, hogy mindenki tudja, mi a dolga, és mikorra kell végeznie.",
+
+  "Monitor and Analyze Performance": "Monitorozd és elemezd a teljesítményt",
+  "Gain Insight with Analytics": "Monitorozd és elemezd a teljesítményt",
+  "Access real-time dashboards to monitor performance, identify trends, and ensure compliance. Utilize data to make informed decisions and improve processes.": "Férj hozzá valós idejű irányítópultokhoz, hogy figyelemmel kísérhesd a teljesítményt, azonosíthasd a trendeket, és biztosítsd a megfelelést. Használd az adatokat a tájékozott döntésekhez és a folyamatok fejlesztéséhez."
 }

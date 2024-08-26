@@ -18,8 +18,8 @@ const page = async ({ params: { locale } }: { params: { locale: string } }) => {
         resources={resources}
       >
         <Header />
-        <Hero />
-        <Audit />
+        <Hero t={t} />
+        <Audit t={t} />
         <Footer t={t} />
       </TranslationsProvider>
     </div>
