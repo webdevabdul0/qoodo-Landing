@@ -47,7 +47,7 @@ const Hero = () => {
                 width={2000}
                 height={2000} // Adjust based on aspect ratio
                 alt="Dashboard Preview"
-                className=" w-full sm:min-w-[500px] opacity-100"
+                className=" w-full sm:min-w-[500px] opacity-100 select-none"
               />
             </div>
           </div>

@@ -170,7 +170,7 @@ const Footer: React.FC<FooterProps> = ({ t }) => {
                 </li>
                 <li>
                   <Link
-                    href="/terms"
+                    href="/terms-and-conditions"
                     scroll={true}
                     className="hover:text-[#4A60FF]  text-[#A6A6A6] text-base font-semibold"
                   >

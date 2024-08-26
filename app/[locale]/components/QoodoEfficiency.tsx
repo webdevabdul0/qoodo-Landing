@@ -21,7 +21,7 @@ const QoodoEfficiency: React.FC = () => {
   const [progressValues] = useState<ProgressValues>({
     time: [20, 40, 85],
     efficiency: [0, 50, 95],
-    compliance: [20, 60, 95],
+    compliance: [20, 60, 99],
   });
 
   const tabTexts: TabTexts = {

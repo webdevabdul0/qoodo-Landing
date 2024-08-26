@@ -2,9 +2,8 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import localfont from "next/font/local";
 import "./globals.css";
-import local from "next/font/local";
 import { ThemeProvider } from "@/app/[locale]/components/theme-provider";
-
+import CookieConsent from "./components/CookieConsent";
 const inter = Inter({ subsets: ["latin"] });
 
 const gilroy = localfont({
@@ -50,6 +49,7 @@ export default function RootLayout({ children, params }: RootLayoutProps) {
           disableTransitionOnChange
         >
           {children}
+          <CookieConsent />
         </ThemeProvider>
       </body>
     </html>
