@@ -18,7 +18,7 @@ const Hero: React.FC<HeroProps> = ({ t }) => {
                 {t("One-Click Auditing with Qoodo Audit")}
               </h1>
 
-              <p className="mb-5 subtitle text-white-100">
+              <p className="mb-5 subtitle text-white-100 text-center md:text-start">
                 {t(
                   "Easily and efficiently conduct audits with our automated, intelligent tool."
                 )}

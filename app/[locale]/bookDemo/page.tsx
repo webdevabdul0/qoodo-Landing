@@ -4,7 +4,7 @@ import TranslationsProvider from "../TranslationsProvider";
 import Demo from "./Demo";
 import Header from "../Layout/Header";
 import Footer from "../Layout/Footer";
-
+import CookieConsent from "../components/CookieConsent";
 const i18nNamespaces = ["home"];
 
 const Page = async ({ params: { locale } }: { params: { locale: string } }) => {
@@ -19,6 +19,7 @@ const Page = async ({ params: { locale } }: { params: { locale: string } }) => {
       <Header />
       <Demo />
       <Footer t={t} />
+      <CookieConsent />
     </TranslationsProvider>
   );
 };

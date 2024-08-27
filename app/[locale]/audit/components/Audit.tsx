@@ -7,7 +7,7 @@ interface AuditProps {
 }
 const QoodoAudit: React.FC<AuditProps> = ({ t }) => {
   return (
-    <div className="flex flex-col py-[50px]  md:px-0">
+    <div className="flex flex-col py-[50px]  w-full">
       {/*Log Feature Style 1*/}
       <div className="px-3 sm:px-0 md:px-[100px] py-[50px] flex justify-center ">
         <div className="flex  flex-col lg:flex-row md:justify-between items-center  gap-[20px] md:gap-[100px] max-w-[1440px]">

@@ -4,6 +4,7 @@ import { CookieIcon } from "lucide-react";
 import { Button } from "./ui/button";
 import { useEffect, useState } from "react";
 import { cn } from "@/lib/utils";
+import { useTranslation } from "react-i18next";
 
 interface CookieConsentProps {
   demo?: boolean;
@@ -52,7 +53,7 @@ export default function CookieConsent({
       // Handle error if necessary
     }
   }, [demo]);
-
+  const { t } = useTranslation();
   return (
     <div
       className={cn(
@@ -75,7 +76,7 @@ export default function CookieConsent({
             className="text-lg font-medium"
             style={{ color: "hsl(var(--foreground) / 1)" }}
           >
-            We use cookies
+            {t("We use cookies")}
           </h1>
           <CookieIcon
             className="h-[1.2rem] w-[1.2rem]"
@@ -87,13 +88,14 @@ export default function CookieConsent({
             className="text-sm text-left"
             style={{ color: "hsl(var(--muted-foreground) / 1)" }}
           >
-            We use cookies to ensure you get the best experience on our website.
-            For more information on how we use cookies, please see our{" "}
+            {t(
+              "We use cookies to ensure you get the best experience on our website. For more information on how we use cookies, please see our"
+            )}{" "}
             <a
               href="/cookies"
               style={{ color: "inherit", textDecoration: "underline" }}
             >
-              cookie policy
+              {t("cookie policy")}
             </a>
             .
           </p>
@@ -105,14 +107,14 @@ export default function CookieConsent({
           }}
         >
           <Button onClick={accept} className="w-full h-9 rounded-full">
-            Accept
+            {t("Accept")}
           </Button>
           <Button
             onClick={decline}
             className="w-full h-9 rounded-full"
             variant="outline"
           >
-            Decline
+            {t("Decline")}
           </Button>
         </div>
       </div>

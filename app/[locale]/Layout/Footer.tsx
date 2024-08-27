@@ -193,7 +193,7 @@ const Footer: React.FC<FooterProps> = ({ t }) => {
               <h3 className="text-lg font-semibold mb-4">{t("Our Social")}</h3>
               <div className="flex flex-row gap-5">
                 <div className="p-3 border-2 border-gray-500 rounded-full">
-                  <Link href="https://facebook.com">
+                  <Link href="https://facebook.com/qoodoio">
                     <FaFacebook className="w-4 h-4 md:w-6 md:h-6" />
                   </Link>
                 </div>

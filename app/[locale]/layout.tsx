@@ -49,7 +49,6 @@ export default function RootLayout({ children, params }: RootLayoutProps) {
           disableTransitionOnChange
         >
           {children}
-          <CookieConsent />
         </ThemeProvider>
       </body>
     </html>

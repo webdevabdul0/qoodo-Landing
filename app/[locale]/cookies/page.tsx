@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../Layout/Header";
 import Footer from "../Layout/Footer";
 import CookieEn from "./components/Cookies";
+import CookieConsent from "../components/CookieConsent";
 
 import initTranslations from "../../i18n";
 import TranslationsProvider from "../TranslationsProvider";
@@ -16,6 +17,7 @@ const page = async ({ params: { locale } }: { params: { locale: string } }) => {
       <Header />
       <CookieEn />
       <Footer t={t} />
+      <CookieConsent />
     </div>
   );
 };

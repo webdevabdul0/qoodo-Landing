@@ -14,6 +14,7 @@ import initTranslations from "../i18n";
 import TranslationsProvider from "./TranslationsProvider";
 import Header from "./Layout/Header";
 import Footer from "./Layout/Footer";
+import CookieConsent from "./components/CookieConsent";
 const i18nNamespaces = ["home"];
 const Page = async ({ params: { locale } }: { params: { locale: string } }) => {
   const { t, resources } = await initTranslations(locale, i18nNamespaces);
@@ -54,6 +55,8 @@ const Page = async ({ params: { locale } }: { params: { locale: string } }) => {
         </div>
       </main>
       <Footer t={t} />
+
+      <CookieConsent />
     </TranslationsProvider>
   );
 };

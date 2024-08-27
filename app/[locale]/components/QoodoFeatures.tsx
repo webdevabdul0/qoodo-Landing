@@ -184,12 +184,12 @@ const QoodoFeatures: React.FC = () => {
       >
         <div className="contain flex flex-col xl:flex-row  justify-between gap-10 xl:gap-[100px] items-center xl:items-start">
           <div className="flex justify-start sm:w-auto w-full items-center xl:items-start flex-col gap-10 xl:gap-20">
-            <h2
+            {/*<h2
               ref={heading}
               className="text-3xl md:text-[42px] font-bold text-white leading-snug "
             >
               {t("Key Features and How They Benefit You")}
-            </h2>
+            </h2>*/}
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:flex justify-start  flex-row items-start xl:flex-col gap-5 w-full">
               <div

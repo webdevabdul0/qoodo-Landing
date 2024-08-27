@@ -8,54 +8,58 @@ const Infoeng = () => {
   const containerStyle = `flex justify-start items-center  sm:items-start flex-col gap-3`;
 
   return (
-    <div className="wrapper  mt-[160px]  mx-3 sm:mx-10 md:mx-[100px]">
+    <div className="wrapper  mt-[160px] mt-[160px]  mx-3 sm:mx-10 md:mx-[100px]">
       <div className="contain xl:flex-row flex-col-reverse flex justify-between items-start gap-[60px]">
         <div className="flex flex-col gap-[20px] justify-start items-start w-full">
           <h2 className="gr-text font-bold text-center sm:text-left text-[35px] sm:text-[48px]">
-            Terms of Service
+            Felhasználási feltételek{" "}
           </h2>
-          <h4 className="text-[#4A60FF] font-bold text-lg sm:text-2xl">
-            Last update date: 29.08.2023
+          <h4 className="text-[#FF866D] font-bold text-lg sm:text-2xl">
+            Utolsó frissítés dátuma: 29.08.2023
           </h4>
 
           <div id="Introduction" className={containerStyle}>
-            <h3 className={headStyle}>Introduction</h3>
+            <h3 className={headStyle}>Bevezetés</h3>
             <p className={paraStyle}>
-              The Terms and Conditions (hereinafter referred to as the "Terms")
-              set forth herein regulate your use of the website
-              https://Qoodo.io/ (the "Website"), which is owned and operated by
-              Qoodo (the "Company", "we", "us", or "our"). These Terms provide
-              important information to you, including your legal rights,
-              remedies, and obligations. We encourage you to read these Terms
-              carefully before using the Website. <br />
+              Az itt meghatározott Általános Szerződési Feltételek (a
+              továbbiakban: "Feltételek") szabályozzák a Qoodo (a "Vállalat",
+              "mi", "minket" vagy "miénk") tulajdonában lévő és üzemeltetett
+              https://Qoodo.io/ weboldal (a "Weboldal") használatát. A jelen
+              Feltételek fontos információkat nyújtanak Önnek, beleértve
+              törvényes jogait, jogorvoslati lehetőségeit és kötelezettségeit.
+              Javasoljuk, hogy a Weboldal használata előtt figyelmesen olvassa
+              el ezeket a Feltételeket.
               <br />
-              ⦁ We reserve the right, at our sole discretion, to make changes or
-              modifications to these Terms at any time and for any reason. We
-              will alert you about any changes by updating the "Last updated"
-              date of these Terms, and you waive any right to receive specific
-              notice of each such change. It is your responsibility to
-              periodically review these Terms to stay informed of updates. You
-              will be subject to, and will be deemed to have been made aware of
-              and to have accepted, the changes in any revised Terms by your
-              continued use of the Website after the date such revised Terms are
-              posted.
               <br />
-              ⦁ The User, herein referred to as "you" and "your", means any
-              individual or entity accessing or using the Website, for their own
-              purposes or for and on behalf of a legal entity.
+              ⦁ Fenntartjuk a jogot, hogy saját belátásunk szerint bármikor és
+              bármilyen okból módosítsuk a jelen Feltételeket. A jelen
+              Feltételek "Utolsó frissítés" dátumának frissítésével
+              figyelmeztetjük Önt minden változásról, és Ön lemond minden olyan
+              jogáról, hogy minden ilyen változásról külön értesítést kapjon. Az
+              Ön felelőssége, hogy rendszeresen felülvizsgálja ezeket a
+              Feltételeket, hogy értesüljön a frissítésekről. Ön a módosított
+              Feltételek változásainak hatálya alá tartozik, és úgy tekintendő,
+              hogy tudomást szerzett és elfogadta azokat azáltal, hogy a
+              módosított Feltételek közzétételének dátumát követően továbbra is
+              használja a Weboldalt.
               <br />
-              ⦁ If you are using the Website on behalf of a legal entity, you
-              hereby warrant and represent that you have the authority to bind
-              that entity to these Terms. In such a case, "you" and "your" in
-              these Terms will also refer to that entity. If you do not have
-              such authority or if you do not agree with these Terms, you must
-              not accept these Terms and may not use the Website.
+              ⦁ A Felhasználó, a továbbiakban "Ön" és "Öné", bármely természetes
+              vagy jogi személyt jelent, aki vagy amely saját céljaira vagy jogi
+              személy nevében hozzáfér a Weboldalhoz vagy használja azt.
               <br />
-              ⦁ By using the Website, you affirm that you are at least 18 years
-              of age and are fully able and competent to enter into the terms,
-              conditions, obligations, affirmations, representations, and
-              warranties set forth in these Terms, and to abide by and comply
-              with these Terms.
+              ⦁ Ha a Weboldalt jogi személy nevében használja, ezennel
+              garantálja és kijelenti, hogy jogosult az adott jogi személyt a
+              jelen Feltételek betartására kötelezni. Ilyen esetben az "Ön" és
+              az "Öné" a jelen Feltételekben szintén erre a jogi személyre
+              vonatkozik. Ha nem rendelkezik ilyen felhatalmazással, vagy ha nem
+              ért egyet ezekkel a feltételekkel, akkor nem fogadhatja el ezeket
+              a feltételeket, és nem használhatja a weboldalt.
+              <br />
+              ⦁ A Weboldal használatával Ön megerősíti, hogy legalább 18 éves,
+              és teljes mértékben képes és kompetens a jelen Feltételekben
+              meghatározott feltételek, kötelezettségek, megerősítések,
+              nyilatkozatok és garanciák elfogadására, valamint a jelen
+              Feltételek betartására és betartására.
               <br />
             </p>
           </div>
@@ -65,68 +69,74 @@ const Infoeng = () => {
 "
             className={containerStyle}
           >
-            <h3 className={headStyle}>Privacy Policy</h3>
+            <h3 className={headStyle}>Adatvédelem</h3>
             <p className={paraStyle}>
-              Our Privacy Policy is available on a separate page. Our Privacy
-              Policy explains to you how we process information about you. You
-              shall understand that through your use of the website you
-              acknowledge that the processing of this information shall be
-              undertaken in accordance with the Privacy Policy.
+              Adatvédelmi irányelveink külön oldalon érhetők el. Adatvédelmi
+              szabályzatunk elmagyarázza Önnek, hogyan dolgozzuk fel az Önnel
+              kapcsolatos információkat. Tudomásul kell vennie, hogy a weboldal
+              használatával tudomásul veszi, hogy ezen információk feldolgozása
+              az Adatvédelmi Szabályzatnak megfelelően történik.
             </p>
           </div>
 
           <div id="Your Account" className={containerStyle}>
-            <h3 className={headStyle}>Your Account</h3>
+            <h3 className={headStyle}>Az Ön fiókja</h3>
             <p className={paraStyle}>
-              When using the website, you shall be responsible for ensuring the
-              confidentiality of your account, password and other credentials
-              and for secure access to your device. You shall not assign your
-              account to anyone. The Company is not responsible for unauthorized
-              access to youraccount that results from misappropriation or theft
-              of your account. The Company may refuse or cancel service,
-              terminate your account, and remove or edit content. <br />
-              <br />⦁ The Company does not knowingly collect personal data from
-              persons under the age of 16 (sixteen). If you are under 16
-              (sixteen) years old, you may not use the website and may not enter
-              into the Terms under any circumstances.
+              A weboldal használata során Ön felelős a fiókja, jelszava és egyéb
+              hitelesítő adatai titkosságának biztosításáért, valamint az
+              eszközéhez való biztonságos hozzáférésért. Fiókját nem ruházhatja
+              át senkire. A Vállalat nem vállal felelősséget az Ön fiókjához
+              való jogosulatlan hozzáférésért, amely a fiók hűtlen kezeléséből
+              vagy ellopásából ered. A Társaság megtagadhatja vagy törölheti a
+              szolgáltatást, megszüntetheti fiókját, és eltávolíthatja vagy
+              szerkesztheti a tartalmat.
+              <br />
+              <br />⦁ A Társaság tudatosan nem gyűjt személyes adatokat 16
+              (tizenhat) év alatti személyektől. Ha Ön 16 (tizenhat) évesnél
+              fiatalabb, akkor semmilyen körülmények között nem használhatja a
+              weboldalt, és semmilyen körülmények között nem kötheti meg a
+              Feltételeket.
             </p>
           </div>
 
           <div id="Services" className={containerStyle}>
-            <h3 className={headStyle}>Services</h3>
+            <h3 className={headStyle}>Szolgáltatás</h3>
             <p className={paraStyle}>
               <br />
-              <br /> ⦁ The website allows you to use Services available on the
-              website. You shall not use the services for any illegal aims.
+              <br /> ⦁ A weboldal lehetővé teszi a weboldalon elérhető
+              Szolgáltatások használatát. A szolgáltatásokat nem használhatja
+              illegális célokra
               <br />
               <br />
-              ⦁ We may, at our sole discretion, set fees for using the website
-              for you. All prices are published separately on relevant pages on
-              the website. We may, at our sole discretion, at any time change
-              any fees.
+              ⦁ Saját belátásunk szerint díjakat állapíthatunk meg a weboldal
+              használatáért az Ön számára. Minden árat külön teszünk közzé a
+              weboldal megfelelő oldalain. Saját belátásunk szerint bármikor
+              megváltoztathatjuk a díjakat
               <br />
               <br />
-              ⦁ We may use certified payment systems, which also may have their
-              commissions. Such commissions may be implied on you when you
-              choose a particular payment system. Detailed information about
-              commissions of such payment systems may be found on their
-              websites. <br />
+              ⦁ Használhatunk hitelesített fizetési rendszereket, amelyeknek
+              szintén lehetnek jutalékaik. Az ilyen jutalékok felmerülhetnek
+              Önben, amikor egy adott fizetési rendszert választ. Az ilyen
+              fizetési rendszerek jutalékaira vonatkozó részletes információk
+              megtalálhatók a weboldalukon. <br />
               <br />
             </p>
           </div>
 
           <div id="Third Party Services" className={containerStyle}>
-            <h3 className={headStyle}>Third Party Services</h3>
+            <h3 className={headStyle}>Harmadik fél szolgáltatásai</h3>
             <p className={paraStyle}>
               <br />
-              <br /> ⦁ The website may include links to other websites,
-              applications, and platforms (hereinafter the "Linked Sites").
+              <br /> ⦁ A weboldal tartalmazhat más webhelyekre, alkalmazásokra
+              és platformokra mutató hivatkozásokat (a továbbiakban:
+              "Hivatkozott webhelyek").
               <br />
               <br />
-              ⦁ The Company does not control the Linked Sites, and shall not be
-              responsible for the content and other materials of the Linked
-              Sites. The Company makes these links available to you for
-              providing the functionality or services on the website.
+              ⦁ A Társaság nem ellenőrzi a hivatkozott oldalakat, és nem vállal
+              felelősséget a hivatkozott oldalak tartalmáért és egyéb
+              anyagaiért. A Társaság ezeket a linkeket elérhetővé teszi az Ön
+              számára a weboldalon található funkciók vagy szolgáltatások
+              nyújtásához.
               <br />
               <br />
             </p>
@@ -137,58 +147,63 @@ const Infoeng = () => {
             className={containerStyle}
           >
             <h3 className={headStyle}>
-              Prohibited Uses and Intellectual Property
+              Tiltott felhasználások és szellemi tulajdon
             </h3>
             <p className={paraStyle}>
               <br />
-              <br /> ⦁ The Company grants you a non-transferable, non-exclusive,
-              revocable license to access and use the website from one device in
-              accordance with the Terms. You shall not use the website for
-              unlawful or prohibited purposes. You may not use the website in a
-              way that may disable, damage, or interfere in the website.
+              <br /> ⦁ A Társaság nem átruházható, nem kizárólagos,
+              visszavonható licencet ad Önnek a weboldal elérésére és
+              használatára egy eszközről a Feltételeknek megfelelően. Nem
+              használhatja a weboldalt jogellenes vagy tiltott célokra. Nem
+              használhatja a webhelyet olyan módon, amely letilthatja,
+              károsíthatja vagy zavarhatja a webhelyet.
               <br />
               <br />
-              ⦁ All content present on the website includes text, code,
-              graphics, logos, images, compilation, software used on the website
-              (hereinafter and hereinbefore the "Content"). The Content is the
-              property of the Company or its contractors and protected by
-              intellectual property laws that protect such rights. You agree to
-              use all copyright and other proprietary notices or restrictions
-              contained in the Content and you are prohibited from changing the
-              Content. <br />
-              <br /> You may not publish, transmit, modify, reverse engineer,
-              participate in the transfer, or create and sell derivative works,
-              or in any way use any of the Content. Your enjoyment of the
-              website shall not entitle you to make any illegal and disallowed
-              use of the Content, and in particular you shall not change
-              proprietary rights or notices in the Content. You shall use the
-              Content only for your personal and non-commercial use. The Company
-              does not grant you any licenses to the intellectual property of
-              the Company.
+              ⦁ A weboldalon található összes tartalom magában foglalja a
+              szöveget, kódot, grafikát, logókat, képeket, összeállítást, a
+              weboldalon használt szoftvert (a továbbiakban és a továbbiakban:
+              "Tartalom"). A Tartalom a Társaság vagy alvállalkozóinak
+              tulajdonát képezi, és az ilyen jogokat védő szellemi tulajdonjogi
+              törvények védik. Ön beleegyezik abba, hogy a Tartalomban található
+              összes szerzői jogi és egyéb tulajdonjogi értesítést vagy
+              korlátozást felhasználja, és tilos a Tartalom megváltoztatása.
+              <br />
+              <br /> Ön nem teheti közzé, továbbíthatja, módosíthatja, fejtheti
+              vissza, nem vehet részt az átruházásban, nem hozhat létre és nem
+              értékesíthet származékos műveket, és semmilyen módon nem
+              használhatja fel a Tartalmat. A weboldal élvezete nem jogosítja
+              fel Önt a tartalom illegális és tiltott felhasználására, és
+              különösen nem változtathatja meg a tartalom tulajdonjogait vagy
+              értesítéseit. A Tartalmat csak személyes és nem kereskedelmi célra
+              használhatja. A Társaság nem ad Önnek licencet a Társaság szellemi
+              tulajdonához.
             </p>
           </div>
 
           <div id="The Company Materials" className={containerStyle}>
-            <h3 className={headStyle}>The Company Materials</h3>
+            <h3 className={headStyle}>A cég anyagai</h3>
             <p className={paraStyle}>
               <br />
-              <br /> ⦁ By posting, uploading, inputting, providing or submitting
-              your Content you are granting the Company to use your Content in
-              connection with the operation of Company's business including, but
-              not limited to, the rights to transmit, publicly display,
-              distribute, publicly perform, copy, reproduce, and translate your
-              Content; and to publish your name in connection with your Content.
+              <br /> ⦁ A Tartalom közzétételével, feltöltésével, bevitelével,
+              rendelkezésre bocsátásával vagy benyújtásával Ön felhatalmazza a
+              Társaságot arra, hogy az Ön Tartalmát a Társaság üzleti
+              tevékenységével összefüggésben használja, beleértve, de nem
+              kizárólagosan a Tartalom továbbításának, nyilvános
+              megjelenítésének, terjesztésének, nyilvános előadásának,
+              másolásának, sokszorosításának és fordításának jogát; és az Ön
+              nevének közzétételére a Tartalommal kapcsolatban.
               <br />
               <br />
-              ⦁ No compensation shall be paid with regard to the use of your
-              Content. The Company shall have no obligation to publish or enjoy
-              any Content you may send us and may remove your Content at any
-              time.
+              ⦁ Nem fizetünk kompenzációt az Ön Tartalmának használatáért. A
+              Társaság nem köteles közzétenni vagy élvezni az Ön által küldött
+              Tartalmat, és bármikor eltávolíthatja a Tartalmat.
               <br />
               <br />
-              ⦁ By posting, uploading, inputting, providing or submitting your
-              Content you warrant and represent that you own all of the rights
-              to your Content. <br />
+              ⦁ A Tartalom közzétételével, feltöltésével, bevitelével,
+              rendelkezésre bocsátásával vagy beküldésével Ön szavatolja és
+              kijelenti, hogy a Tartalmához fűződő összes jog az Ön tulajdonában
+              van.
+              <br />
               <br />
             </p>
           </div>
@@ -197,178 +212,197 @@ const Infoeng = () => {
             id="Disclaimer of Certain Liabilities"
             className={containerStyle}
           >
-            <h3 className={headStyle}>Disclaimer of Certain Liabilities</h3>
+            <h3 className={headStyle}>Bizonyos kötelezettségek kizárása</h3>
             <p className={paraStyle}>
               <br />
-              <br /> ⦁ The information available via the website may include
-              typographical errors or inaccuracies. The Company shall not be
-              liable for these inaccuracies and errors. <br />
+              <br /> ⦁ A weboldalon keresztül elérhető információk tipográfiai
+              hibákat vagy pontatlanságokat tartalmazhatnak. A Vállalat nem
+              vállal felelősséget ezekért a pontatlanságokért és hibákért.
               <br />
-              ⦁ The Company makes no representations about the availability,
-              accuracy, reliability, suitability, and timeliness of the Content
-              contained on and services available on the website. To the maximum
-              extent allowed by the applicable law, all such Content and
-              services are provided on the "as is" basis. The Company disclaims
-              all warranties and conditions regarding this Content and services,
-              including warranties and provisions of merchantability, fitness
-              for a certain purpose. <br />
               <br />
-              ⦁ To the maximum extent permitted by the applicable law, in no
-              event shall the Company be liable for any direct, indirect,
-              incidental, consequential, special, punitive damages including,
-              but not limited to, damages for loss of enjoyment, data or
-              profits, in the connection with the enjoyment or execution of the
-              website in the context of the inability or delay to enjoy the
-              website or its services, or for any Content of the website, or
-              otherwise arising out of the enjoyment of the website, based on
-              contract and non-contract liability or other reason. <br />
+              ⦁ A Társaság nem vállal felelősséget a weboldalon található
+              Tartalom és az azon elérhető szolgáltatások elérhetőségéért,
+              pontosságáért, megbízhatóságáért, alkalmasságáért és
+              időszerűségéért. Az alkalmazandó jogszabályok által megengedett
+              legnagyobb mértékben minden ilyen Tartalmat és szolgáltatást
+              "adott állapotban" biztosítunk. A Vállalat kizár minden garanciát
+              és feltételt a jelen Tartalommal és szolgáltatásokkal
+              kapcsolatban, beleértve az eladhatóságra és az adott célra való
+              alkalmasságra vonatkozó garanciákat és rendelkezéseket.
+              <br />
+              <br />
+              ⦁ Az alkalmazandó jogszabályok által megengedett legnagyobb
+              mértékben a Társaság semmilyen esetben sem vállal felelősséget
+              semmilyen közvetlen, közvetett, véletlenszerű, következményes,
+              különleges, büntető jellegű kárért, beleértve, de nem
+              kizárólagosan az élvezet, az adatok vagy a nyereség elvesztéséből
+              eredő károkat, a weboldal élvezetével vagy végrehajtásával
+              összefüggésben, a weboldal vagy szolgáltatásai élvezetének
+              képtelenségével vagy késedelmével összefüggésben, vagy a weboldal
+              bármely tartalmáért, vagy más módon, amely a weboldal élvezetéből
+              ered, szerződéses és szerződésen kívüli felelősségen vagy más
+              okból ered.
+              <br />
               <br /> <br />
               <br />
-              If the exclusion or limitation of liability for damages, whether
-              consequential or incidental, are prohibited in a particular case,
-              the exclusion or limitation of liability shall not apply to you.{" "}
+              Ha egy adott esetben tilos a felelősségért való felelősség
+              kizárása vagy korlátozása, akár következményes, akár véletlen, a
+              felelősség kizárása vagy korlátozása nem vonatkozik Önre.
               <br />
               <br />
             </p>
           </div>
 
           <div id="Earnings Disclaimer" className={containerStyle}>
-            <h3 className={headStyle}>Earnings Disclaimer</h3>
+            <h3 className={headStyle}>Nyereségre vonatkozó jogi nyilatkozat</h3>
             <p className={paraStyle}>
               <br />
-              <br /> ⦁ While we make every effort to ensure that we accurately
-              represent all the products and services reviewed on this website,
-              it should be noted that Qoodo and its advertisers / sponsors have
-              explicitly stated that the NAP Token (hereinafter and hereinbefore
-              the "token"). has no earnings intention associated with it nor it
-              is meant to be used as such a tool. The token will give the buyers
-              the opportunity to take part in multiple enterprises that are
-              clearly listed on our whitepaper, and that is where its utility
-              ends.
+              <br /> ⦁ Bár mindent megteszünk annak biztosítása érdekében, hogy
+              pontosan képviseljük az ezen a weboldalon felülvizsgált összes
+              terméket és szolgáltatást, meg kell jegyezni, hogy a Qoodo és
+              hirdetői / szponzorai kifejezetten kijelentették, hogy a NAP-token
+              (a továbbiakban és a továbbiakban: "token") nem kapcsolódik
+              bevételi szándékhoz, és nem is szándékozik ilyen eszközként
+              használni. A token lehetőséget ad a vásárlóknak, hogy részt
+              vegyenek több olyan vállalkozásban, amelyek egyértelműen
+              szerepelnek a fehér könyvünkben, és itt ér véget a hasznossága.
               <br />
-              <br />⦁ The use of our information, products and services should
-              be based on your own due diligence and you agree that Nap Token
-              and the advertisers / sponsors of this website are not liable for
-              any success or failure of your business that is directly or
-              indirectly related to the purchase and use of our information,
-              products and services reviewed or advertised on this website.
+              <br />⦁ Információink, termékeink és szolgáltatásaink
+              használatának saját átvilágításán kell alapulnia, és elfogadja,
+              hogy a Nap Token és a weboldal hirdetői / szponzorai nem vállalnak
+              felelősséget vállalkozásának sikeréért vagy kudarcáért, amely
+              közvetlenül vagy közvetve kapcsolódik az ezen a weboldalon
+              felülvizsgált vagy hirdetett információink, termékeink és
+              szolgáltatásaink megvásárlásához és használatához.
               <br />
               <br />
             </p>
           </div>
 
           <div id="Volatility Risks" className={containerStyle}>
-            <h3 className={headStyle}>Volatility Risks</h3>
+            <h3 className={headStyle}>Volatilitási kockázatok</h3>
             <p className={paraStyle}>
               <br />
-              <br /> ⦁ User acknowledges that cryptocurrencies, blockchain
-              tokens, and other digital assets are extremely volatile due to
-              many factors including but not limited to adoption, demand,
-              technology, security, and global economic factors.
+              <br /> ⦁ A felhasználó tudomásul veszi, hogy a kriptovaluták, a
+              blokklánc tokenek és más digitális eszközök rendkívül ingadozóak
+              számos tényező miatt, beleértve, de nem kizárólagosan az
+              elfogadást, a keresletet, a technológiát, a biztonságot és a
+              globális gazdasági tényezőket.
               <br />
               <br />
-              ⦁ User acknowledges that the price of our token can change rapidly
-              in a very short time, due to factors including but not limited to
-              market conditions, global political conditions, economic trends,
-              technological advancements, regulatory factors, and adaptability
-              of new technologies.
+              ⦁ A felhasználó tudomásul veszi, hogy tokenünk ára nagyon rövid
+              idő alatt gyorsan változhat, többek között a piaci feltételek, a
+              globális politikai feltételek,economic trends, technological
+              advancements, regulatory factors, and adaptability of new
+              technologies.
               <br />
               <br />
-              ⦁ User acknowledges that such volatility could potentially expose
-              the user to significant losses. User shall thus make sure to
-              consider all risk factors, including their financial condition and
-              risk tolerance levels, before participating in any transactions.
+              ⦁ A Felhasználó tudomásul veszi, hogy az ilyen volatilitás
+              potenciálisan jelentős veszteségeknek teheti ki a felhasználót. A
+              Felhasználónak ezért minden tranzakcióban való részvétel előtt
+              figyelembe kell vennie az összes kockázati tényezőt, beleértve
+              azok pénzügyi helyzetét és kockázattűrési szintjét.
               <br />
               <br />
-              ⦁ We are not responsible for any loss that user might incur as a
-              result of such volatility and user agrees to not hold Company
-              liable for any financial damages or losses.
+              ⦁ Nem vállalunk felelősséget semmilyen veszteségért, amelyet a
+              felhasználó az ilyen volatilitás következtében elszenvedhet, és a
+              felhasználó vállalja, hogy nem tartja felelősnek a Vállalatot
+              semmilyen pénzügyi kárért vagy veszteségért.
               <br />
               <br />
-              ⦁ It is solely the user’s responsibility to determine whether the
-              potential benefits outweigh the inherent risks associated with the
-              purchase, holding, and/or sale of our token. Users are highly
-              advised to consult with the appropriate legal, financial, and tax
-              advisors before participating in any transactions.
+              ⦁ Kizárólag a felhasználó felelőssége annak meghatározása, hogy a
+              potenciális előnyök meghaladják-e a tokenünk megvásárlásával,
+              birtoklásával és/vagy eladásával járó kockázatokat. Javasoljuk,
+              hogy a felhasználók konzultáljanak a megfelelő jogi, pénzügyi és
+              adótanácsadókkal, mielőtt bármilyen tranzakcióban részt vennének.
               <br />
               <br />
               <br />
               <br />
               <br />
               <br />
-              Qoodo makes no representation and disclaims any and all liability
-              as to the suitability of the tokens for any particular user or any
-              user’s financial situation, and each user shall be solely liable
-              for any decision to purchase, hold, or sell tokens based on such
-              user’s own judgment and research. <br />
+              A Qoodo nem vállal felelősséget és kizár minden felelősséget a
+              tokenek alkalmasságával kapcsolatban egy adott felhasználó vagy
+              bármely felhasználó pénzügyi helyzete szempontjából, és minden
+              felhasználó kizárólagos felelősséggel tartozik a tokenek
+              vásárlására, tartására vagy eladására vonatkozó döntésekért,
+              amelyek a felhasználó saját megítélésén és kutatásán alapulnak.
+              <br />
               <br />
             </p>
           </div>
 
           <div id="Indenification" className={containerStyle}>
-            <h3 className={headStyle}>Indenification</h3>
+            <h3 className={headStyle}>Függetlenség</h3>
             <p className={paraStyle}>
-              You agree to indemnify, defend and hold harmless the Company, its
-              managers, directors, employees, agents, and third parties, for any
-              costs, losses, expenses (including attorneys' fees), liabilities
-              regarding or arising out of your enjoyment of or inability to
-              enjoy the website or its services and Company’s services and
-              products, Userr violation of the Terms or your violation of any
-              rights of third parties, or your violation of the applicable law.
-              The Company may assume the exclusive defense and you shall
-              cooperate with the Company in asserting any available defenses.
+              Ön vállalja, hogy kártalanítja, megvédi és mentesíti a Társaságot,
+              annak vezetőit, igazgatóit, alkalmazottait, ügynökeit és harmadik
+              feleit minden költségért, veszteségért, kiadásért (beleértve az
+              ügyvédi díjakat is), a weboldal, annak szolgáltatásai, valamint a
+              Társaság szolgáltatásainak és termékeinek élvezetével vagy
+              élvezetére való képtelenségével kapcsolatos vagy abból eredő
+              felelősségekért, a Felhasználó a Feltételek megsértéséért vagy
+              harmadik felek jogainak megsértéséért, vagy az alkalmazandó
+              jogszabályok Ön általi megsértése. A Vállalat vállalhatja a
+              kizárólagos védelmet, és Önnek együtt kell működnie a Társasággal
+              a rendelkezésre álló védekezés érvényesítésében.
               <br />
               <br />
               <br />
               <br />
               <br />
               <br />
-              ⦁ Termination and Access Restriction
+              ⦁ Megszüntetés és hozzáférés korlátozása
               <br />
               <br />
-              ⦁ The Company may terminate your access and account to the website
-              and its related services or any part at any time, without notice,
-              in case of your violation of the Terms.
+              ⦁ A Társaság bármikor, előzetes értesítés nélkül megszüntetheti az
+              Ön hozzáférését és fiókját a weboldalhoz és a kapcsolódó
+              szolgáltatásokhoz, vagy bármely részéhez, ha megsérti a
+              Feltételeket.
               <br />
               <br />
-              Compliance Responsibility Clause
+              Megfelelőségi felelősségi záradék
               <br />
               <br />
               <br />
               <br />
               <br />
               <br />
-              ⦁ Compliance Responsibility
+              ⦁ Megfelelőségi felelősség
               <br />
               <br />
-              ⦁ The User is solely responsible for their compliance with all
-              applicable laws, regulations, and rules, including, but not
-              limited to, those governing cryptocurrency, blockchain, data
-              protection, privacy, taxation, and anti-money laundering.
+              ⦁ A Felhasználó kizárólagos felelőssége, hogy betartsa az összes
+              vonatkozó törvényt, szabályozást és szabályt, beleértve, de nem
+              kizárólagosan azokat, amelyek a kriptovalutát, a blokkláncot, az
+              adatvédelmet, a magánélet védelmét, az adózást és a pénzmosás
+              elleni küzdelmet szabályozzák.
               <br />
               <br />
-              ⦁ Qoodo is not responsible for auditing or ensuring User’s
-              compliance with laws, regulations, and rules, and disclaims all
-              liability or responsibility in that regard.
+              ⦁ A Qoodo nem felelős a törvények, rendeletek és szabályok
+              Felhasználó általi betartásának ellenőrzéséért vagy
+              biztosításáért, és kizár minden felelősséget vagy felelősséget
+              ebben a tekintetben.
               <br />
               <br />
-              ⦁ In the event that the User fails to comply with any relevant
-              laws, regulations, and rules, and a fine, penalty, or other
-              liability is imposed, the User will be solely responsible for
-              paying such fine or penalty, and for fulfilling any other
-              liability.
+              ⦁ Abban az esetben, ha a Felhasználó nem tartja be a vonatkozó
+              törvényeket, rendeleteket és szabályokat, és bírságot, büntetést
+              vagy egyéb felelősséget szabnak ki, kizárólag a Felhasználó
+              felelős az ilyen bírság vagy büntetés megfizetéséért, valamint
+              bármely más felelősség teljesítéséért.
               <br />
               <br />
-              ⦁ The User agrees to indemnify and hold Qoodo harmless from any
-              claims, demands, actions, damages, losses, costs or expenses,
-              including without limitation, legal and accounting fees, arising
-              out of or in connection with the User's non-compliance.
+              ⦁ A Felhasználó vállalja, hogy kártalanítja és mentesíti Qoodo-t
+              minden olyan követeléstől, igénytől, intézkedéstől, kártól,
+              veszteségtől, költségtől vagy kiadástól, korlátozás nélkül
+              beleértve a jogi és számviteli díjakat, amelyek a Felhasználó be
+              nem tartásából erednek vagy azzal kapcsolatosak.
               <br />
               <br />
-              ⦁ Users are advised to seek independent legal advice to ensure
-              their operations comply with all applicable laws, regulations, and
-              rules. Qoodo does not provide any legal advice regarding
-              compliance issues. <br />
+              ⦁ A felhasználóknak azt tanácsoljuk, hogy kérjenek független jogi
+              tanácsot annak biztosítása érdekében, hogy működésük megfeleljen
+              az összes alkalmazandó törvénynek, szabályozásnak és szabálynak. A
+              Qoodo nem nyújt jogi tanácsot megfelelőségi kérdésekben.
+              <br />
               <br />
             </p>
           </div>
@@ -378,66 +412,70 @@ const Infoeng = () => {
 "
             className={containerStyle}
           >
-            <h3 className={headStyle}>General Clauses</h3>
+            <h3 className={headStyle}>Általános rendelkezések</h3>
             <p className={paraStyle}>
               <br />
-              <br /> ⦁ The governing law of the Terms shall be the substantive
-              laws of the country where the Company is set up, except the
-              conflict of laws rules. You shall not use the website in
-              jurisdictions that do not give effect to all provisions of the
-              Terms.
+              <br /> ⦁ A Feltételek irányadó joga annak az országnak az anyagi
+              joga, ahol a Társaságot alapították, kivéve a kollíziós
+              szabályokat. Nem használhatja a weboldalt olyan joghatóságokban,
+              amelyek nem érvényre juttatják a Feltételek összes rendelkezését.
               <br />
-              <br />⦁ No joint venture, partnership, employment, or agency
-              relationship shall be implied between you and the Company as a
-              result of the Terms or use of the website.
+              <br />⦁ A Feltételek vagy a weboldal használata következtében
+              semmilyen vegyesvállalati, partnerségi, foglalkoztatási vagy
+              ügynöki kapcsolat nem jöhet létre Ön és a Vállalat között.
               <br />
-              <br />⦁ Nothing in the Terms shall be a derogation of the
-              Company's right to comply with governmental, court, police, and
-              law enforcement requests or requirements regarding your enjoyment
-              of the website.
+              <br />⦁ A Feltételek egyetlen rendelkezése sem csorbítja a
+              Vállalat azon jogát, hogy megfeleljen a kormányzati, bírósági,
+              rendőrségi és bűnüldözési kéréseknek vagy követelményeknek a
+              weboldal élvezetével kapcsolatban.
               <br />
-              <br />⦁ If any part of the Terms is determined to be void or
-              unenforceable in accordance with applicable law then the void or
-              unenforceable clauses will be deemed superseded by valid and
-              enforceable clauses shall be similar to the original version of
-              the Terms and other parts and sections of the Terms shall be
-              applicable to you and the Company.
+              <br />⦁ Ha a Feltételek bármely része érvénytelennek vagy
+              végrehajthatatlannak bizonyul az alkalmazandó jogszabályokkal
+              összhangban, akkor az érvénytelen vagy végrehajthatatlan
+              záradékokat érvényes és végrehajtható záradékok váltják fel,
+              hasonlónak kell lenniük a Feltételek eredeti verziójához, és a
+              Feltételek egyéb részei és szakaszai alkalmazandók Önre és a
+              Vállalatra.
               <br />
-              <br />⦁ The Terms constitute the entire agreement between you and
-              the Company regarding the enjoyment of the website and the Terms
-              supersede all prior or communications and offers, whether
-              electronic, oral or written, between you and the Company.
+              <br />⦁ A Feltételek alkotják a teljes megállapodást Ön és a
+              Vállalat között a weboldal élvezetére vonatkozóan, és a Feltételek
+              hatályon kívül helyeznek minden korábbi kommunikációt és
+              ajánlatot, legyen az elektronikus, szóbeli vagy írásbeli, Ön és a
+              Vállalat között.
               <br />
-              <br />⦁ The Company and its affiliates shall not be liable for a
-              failure or delay to fulfill its obligations where the failure or
-              delay results from any cause beyond Company's reasonable control,
-              including technical failures, natural disasters, blockages,
-              embargoes, riots, acts, regulation, legislation, or orders of
-              government, terror acts, war, or any other force outside of
-              Company's control.
+              <br />⦁ A Vállalat és leányvállalatai nem vállalnak felelősséget
+              kötelezettségei teljesítésének elmulasztásáért vagy késedelméért,
+              ha a hiba vagy késedelem a Vállalat ésszerű ellenőrzésén kívül eső
+              okból ered, beleértve a műszaki hibákat, természeti
+              katasztrófákat, akadályokat, embargókat, zavargásokat,
+              törvényeket, rendeleteket, jogszabályokat vagy
+              kormányrendeleteket, terrorcselekményeket, háborút vagy bármely
+              más, a Társaság ellenőrzésén kívül eső erőt.
               <br />
-              <br />⦁ In case of controversies, demands, claims, disputes, or
-              causes of action between the Company and you relating to the
-              website or other related issues, or the Terms, you and the Company
-              agree to attempt to resolve such controversies, demands, claims,
-              disputes, or causes of action by good faith negotiation, and in
-              case of failure of such negotiation, exclusively through the
-              courts of the country where the Company is set up.
+              <br />⦁ A Társaság és Ön között a weboldallal vagy más kapcsolódó
+              kérdésekkel vagy a Feltételekkel kapcsolatos viták, igények,
+              követelések, viták vagy kereseti jogalapok esetén Ön és a Vállalat
+              megállapodnak abban, hogy megpróbálják megoldani az ilyen
+              ellentmondásokat, igényeket, követeléseket, vitákat vagy kereseti
+              jogalapokat jóhiszemű tárgyalással, és az ilyen tárgyalások
+              sikertelensége esetén, kizárólag annak az országnak a bíróságain
+              keresztül, ahol a Társaságot alapították.
             </p>
           </div>
 
           <div id="Complaints" className={containerStyle}>
-            <h3 className={headStyle}>Complaints</h3>
+            <h3 className={headStyle}>Panaszok</h3>
             <p className={paraStyle}>
-              We are committed to resolve any complaints about our collection or
-              use of your personal data. If you would like to make a complaint
-              regarding this Terms or our practices in relation to your personal
-              data, please contact us through our website. We will reply to your
-              complaint as soon as we can and in any event, within 30 days. We
-              hope to resolve any complaint brought to our attention, however if
-              you feel that your complaint has not been adequately resolved, you
-              reserve the right to contact your local data protection
-              supervisory authority.
+              Elkötelezettek vagyunk az Ön személyes adatainak gyűjtésével vagy
+              felhasználásával kapcsolatos panaszok megoldása iránt. Ha panaszt
+              szeretne tenni a jelen Feltételekkel vagy a személyes adataival
+              kapcsolatos gyakorlatunkkal kapcsolatban, kérjük, vegye fel velünk
+              a kapcsolatot weboldalunkon keresztül. Panaszára a lehető
+              leghamarabb, de legkésőbb 30 napon belül válaszolunk. Reméljük,
+              hogy a tudomásunkra hozott panaszokat megoldjuk, azonban ha úgy
+              érzi, hogy panaszát nem oldották meg megfelelően, fenntartja
+              magának a jogot, hogy kapcsolatba lépjen a helyi adatvédelmi
+              felügyeleti hatósággal.
             </p>
           </div>
 
@@ -446,11 +484,11 @@ const Infoeng = () => {
 "
             className={containerStyle}
           >
-            <h3 className={headStyle}>Contact Information</h3>
+            <h3 className={headStyle}>Kapcsolattartási adatok</h3>
             <p className={paraStyle}>
-              We welcome your comments or questions about our Terms. You may
-              contact us through the contact information available on our
-              website.
+              Örömmel fogadjuk a Feltételeinkkel kapcsolatos észrevételeit vagy
+              kérdéseit. Felveheti velünk a kapcsolatot a weboldalunkon elérhető
+              elérhetőségeken keresztül.
             </p>
           </div>
         </div>
