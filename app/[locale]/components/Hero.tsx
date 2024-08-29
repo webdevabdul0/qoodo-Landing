@@ -10,11 +10,14 @@ interface HeroProps {
 }
 
 const Hero: React.FC<HeroProps> = ({ t }) => {
-  const title = t("Digital inspection like never before");
+  const title = t("The common language of quality and progress");
 
   return (
-    <div className="pb-[50px] pt-36 mx-auto relative md:px-[50px]">
-      <div>
+    <div className="pb-5 pt-36 mx-auto relative md:px-[50px]">
+      {/**
+       * 
+       * 
+       * <div>
         <Spotlight
           className="-top-40 -left-10 md:-left-50 md:-top-50 h-screen"
           fill="white"
@@ -30,8 +33,6 @@ const Hero: React.FC<HeroProps> = ({ t }) => {
           fill="purple"
         />
       </div>
-
-      {/**
        *  UI: grid
        *  change bg color to bg-black-100 and reduce grid color from
        *  0.2 to 0.03
@@ -41,11 +42,7 @@ const Hero: React.FC<HeroProps> = ({ t }) => {
        absolute top-0 left-0 flex items-center justify-center"
       >
         {/* Radial gradient for the container to give a faded look */}
-        <div
-          // chnage the bg to bg-black-100, so it matches the bg color and will blend in
-          className=" pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100
-         bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"
-        />
+        <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100 bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
       </div>
 
       <div className="flex justify-center relative  mx-auto max-w-[100rem] z-10">

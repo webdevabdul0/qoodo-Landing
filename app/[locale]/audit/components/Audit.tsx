@@ -133,7 +133,7 @@ const QoodoAudit: React.FC<AuditProps> = ({ t }) => {
         <div className="flex  flex-col lg:flex-row md:justify-between items-center  gap-[20px] md:gap-[100px] max-w-[1440px]">
           <div className="w-full flex flex-col justify-center items-center lg:items-start gap-5 text-center lg:text-start">
             <div className="p-[10px] bg-[#222222] border border-[#4A60FF]  rounded-full text-white font-semibold text-[14px] md:text-[16px]">
-              {t("Assign Team Members")}{" "}
+              {t("Assign Audits")}{" "}
             </div>
 
             <h3 className="text-white heading3">

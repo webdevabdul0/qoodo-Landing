@@ -5,6 +5,7 @@ import { FaChevronRight } from "react-icons/fa";
 import { FiMenu, FiX } from "react-icons/fi";
 import Link from "next/link";
 import { useTranslation } from "react-i18next";
+import LanguageChanger from "../components/LanguageChanger";
 
 const Header = () => {
   const { t } = useTranslation();
@@ -41,7 +42,7 @@ const Header = () => {
         bg ? "bg-[#08081a]" : ""
       } ${scrollDirection === "down" ? "-top-24" : "top-0"}`}
     >
-      <div className="w-full sm:px-[20px] xl:px-[100px] sm:py-5">
+      <div className="w-full sm:px-[20px] xl:px-[100px] sm:py-2">
         <div className="h-[90px] pl-[30px] pr-5 py-5 rounded-[30px] flex justify-between items-center">
           <div className="justify-start items-center gap-[50px] xl:gap-[100px] flex">
             <Link href="/">
@@ -250,6 +251,7 @@ const Header = () => {
               </Link>
             </li>
             <li>
+              <LanguageChanger />
               <a
                 href="bookDemo"
                 onClick={() => setHeaderToggle(false)}
