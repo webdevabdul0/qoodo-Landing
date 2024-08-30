@@ -2,6 +2,7 @@
 import React, { useRef, useState } from "react";
 import Image from "next/image";
 import { useTranslation } from "react-i18next";
+import { Metadata } from "next";
 
 interface Point {
   title?: string;
@@ -18,6 +19,10 @@ interface DataItem {
   icon: string;
   points: Point[];
 }
+
+export const metadata: Metadata = {
+  title: "Qoodo Funkciók",
+};
 const QoodoFeatures: React.FC = () => {
   const { t } = useTranslation();
   // State to track current tab

@@ -1,10 +1,17 @@
 import React from "react";
 import Image from "next/image";
 import { TFunction } from "i18next";
+import { Metadata } from "next";
 
 interface QoodoLogsProps {
   t: TFunction<["translation", ...string[]], undefined>;
 }
+
+export const metadata: Metadata = {
+  title: "Qoodo Naplók",
+  description: "Digitális naplózás a hatékony ellenőrzés érdekében",
+};
+
 const QoodoLogs: React.FC<QoodoLogsProps> = ({ t }) => {
   return (
     <div className="bg-neutral-950 flex flex-col py-[50px]  md:px-0">
