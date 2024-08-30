@@ -3,7 +3,7 @@ import { Inter } from "next/font/google";
 import localfont from "next/font/local";
 import "./globals.css";
 import { ThemeProvider } from "@/app/[locale]/components/theme-provider";
-import CookieConsent from "./components/CookieConsent";
+import GoogleAnalytics from "./components/GoogleAnalytics";
 const inter = Inter({ subsets: ["latin"] });
 
 const gilroy = localfont({
@@ -48,6 +48,7 @@ export default function RootLayout({ children, params }: RootLayoutProps) {
           enableSystem
           disableTransitionOnChange
         >
+          <GoogleAnalytics />
           {children}
         </ThemeProvider>
       </body>
