@@ -27,8 +27,8 @@ const gilroy = localfont({
 });
 
 export const metadata: Metadata = {
-  title: "Qoodo",
-  description: "Qoodo",
+  title: "Qoodo digitális naplózás",
+  description: "Önellenőrzés a szabályoknak megfelelően",
 };
 
 interface RootLayoutProps {
