@@ -180,7 +180,7 @@ const QoodoFeatures: React.FC = () => {
   return (
     <div className="py-[70px] gap-[70px] w-full md:px-[30px]">
       <h3 className="text-white text-3xl md:text-h3 text-start font-bold">
-        {t("Efficient Tools for Quality Management and Compliance")}
+        {t("Efficient Solutions for Quality Management and Compliance")}
       </h3>
 
       <div

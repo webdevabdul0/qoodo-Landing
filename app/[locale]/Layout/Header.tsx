@@ -6,8 +6,11 @@ import { FiMenu, FiX } from "react-icons/fi";
 import Link from "next/link";
 import { useTranslation } from "react-i18next";
 import LanguageChanger from "../components/LanguageChanger";
+import { FaGlobe } from "react-icons/fa";
 
 const Header = () => {
+  const { i18n } = useTranslation();
+  const currentLocale = i18n.language;
   const { t } = useTranslation();
   const [headerToggle, setHeaderToggle] = useState(false);
   const [bg, setBg] = useState(false);
@@ -139,7 +142,7 @@ const Header = () => {
               <ul className="flex flex-col lg:flex-row gap-5 lg:gap-10">
                 <li>
                   <Link href="/#features" scroll={true}>
-                    {t("Features")}
+                    {t("Solutions")}
                   </Link>
                 </li>
                 <li>
@@ -166,14 +169,29 @@ const Header = () => {
             </nav>
           </div>
 
-          <a href="bookDemo" className="hidden lg:block">
-            <div className="h-[49px] px-[25px] py-[15px] bg-[#4a60ff] rounded-[14px] border border-[#6971a2] justify-center items-center gap-2.5 inline-flex">
-              <div className="text-white text-base font-medium leading-tight">
-                {t("Book a Demo")}
-              </div>
-              <FaChevronRight />
+          <div className="hidden lg:block">
+            <div className="flex gap-8 justify-center items-center">
+              <div className="flex justify-center items-center gap-2">
+                <FaGlobe />
+                <p className="text-sm text-white font-semibold">
+                  {currentLocale === "en"
+                    ? "English"
+                    : currentLocale === "hu"
+                    ? "Hungarian"
+                    : "Unknown"}
+                </p>
+                <LanguageChanger />
+              </div>{" "}
+              <a href="bookDemo" className="hidden lg:block">
+                <div className="h-[49px] px-[25px] py-[15px] bg-[#4a60ff] rounded-[14px] border border-[#6971a2] justify-center items-center gap-2.5 inline-flex">
+                  <div className="text-white text-base font-medium leading-tight">
+                    {t("Book a Demo")}
+                  </div>
+                  <FaChevronRight />
+                </div>
+              </a>
             </div>
-          </a>
+          </div>
 
           <div
             onClick={() => setHeaderToggle((prev) => !prev)}
@@ -207,7 +225,7 @@ const Header = () => {
                 onClick={() => setHeaderToggle(false)}
                 className="font-semibold text-white "
               >
-                Features
+                {t("Solutions")}
               </Link>
             </li>
             <li>
@@ -251,7 +269,19 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <LanguageChanger />
+              <div className="flex justify-center items-center gap-2">
+                <FaGlobe />
+                <p className="text-sm text-white font-semibold">
+                  {currentLocale === "en"
+                    ? "English"
+                    : currentLocale === "hu"
+                    ? "Hungarian"
+                    : "Unknown"}
+                </p>
+                <LanguageChanger />
+              </div>{" "}
+            </li>
+            <li>
               <a
                 href="bookDemo"
                 onClick={() => setHeaderToggle(false)}

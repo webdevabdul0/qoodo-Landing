@@ -27,8 +27,8 @@ const gilroy = localfont({
 });
 
 export const metadata: Metadata = {
-  title: "Qoodo digitális naplózás",
-  description: "Önellenőrzés a szabályoknak megfelelően",
+  title: "Qoodo: Digitális naplózás, újragondolva",
+  description: "Könnyű és szabályos önellenőrzés egy modern platformon.",
 };
 
 interface RootLayoutProps {

@@ -10,8 +10,6 @@ interface HeroProps {
 }
 
 const Hero: React.FC<HeroProps> = ({ t }) => {
-  const title = t("The common language of quality and progress");
-
   return (
     <div className="pb-5 pt-36 mx-auto relative md:px-[50px]">
       {/**
@@ -38,11 +36,11 @@ const Hero: React.FC<HeroProps> = ({ t }) => {
        *  0.2 to 0.03
        */}
       <div
-        className="h-screen w-full   dark:bg-grid-white/[0.03] bg-grid-black-100/[0.2]
+        className="h-screen w-full   bg-grid-white/[0.03] 
        absolute top-0 left-0 flex items-center justify-center"
       >
         {/* Radial gradient for the container to give a faded look */}
-        <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100 bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
+        <div className="absolute pointer-events-none inset-0 flex items-center justify-center bg-black-100 [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
       </div>
 
       <div className="flex justify-center relative  mx-auto max-w-[100rem] z-10">
@@ -57,7 +55,8 @@ const Hero: React.FC<HeroProps> = ({ t }) => {
               />*/}
 
               <h1 className="mb-8  xl:mb-16 text-center md:text-start text-white text-4xl tracking-[-1px] font-bold md:text-5xl lg:text-6xl 2xl:text-7xl">
-                {title}
+                <span className="text-[#4A60FF]">Qoodo:</span>{" "}
+                {t("The common language of quality and progress")}
               </h1>
 
               <a href="bookDemo">

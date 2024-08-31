@@ -13,7 +13,7 @@ const Hero: React.FC<HeroProps> = ({ t }) => {
       <div className="flex justify-center relative  mx-auto max-w-[100rem] z-10">
         <div className="flex flex-col w-full items-center justify-center px-[10px] sm:px-0  sm:mb-32">
           <div className="w-full flex flex-col lg:flex-row items-start justify-center md:justify-between">
-            <div className="w-full flex flex-col px-8 md:px-0 max-w-[750px] pb-[50px] xl:pt-[100px] items-center md:items-start ">
+            <div className="w-full flex flex-col px-8 md:px-0 max-w-[750px] pb-[50px] xl:pt-14 items-center md:items-start ">
               <h1 className="mb-5 text-center md:text-start text-white text-4xl font-bold md:text-5xl lg:text-6xl 2xl:text-7xl tracking-[-1px]">
                 {t("One-Click Auditing with Qoodo Audit")}
               </h1>
