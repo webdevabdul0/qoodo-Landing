@@ -1,15 +1,16 @@
+"use client";
 import { GoArrowUpRight } from "react-icons/go";
 import MagicButton from "./MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import Image from "next/image";
 import { TFunction } from "i18next";
-
-interface HeroProps {
-  t: TFunction<["translation", ...string[]], undefined>;
-}
-
-const Hero: React.FC<HeroProps> = ({ t }) => {
+import { GooglePlayButton, AppStoreButton } from "react-mobile-app-button";
+import { useTranslation } from "react-i18next";
+const Hero: React.FC = () => {
+  const APKUrl = "https://play.google.com/store/apps/details?id=com.io.qoodo";
+  const iOSUrl = "https://apps.apple.com/hu/app/qoodo/id6460819008";
+  const { t } = useTranslation();
   return (
     <div className="pb-5 pt-36 mx-auto relative md:px-[50px]">
       {/**
@@ -66,6 +67,20 @@ const Hero: React.FC<HeroProps> = ({ t }) => {
                   </div>
                 </button>
               </a>
+
+              <div className="flex flex-row gap-1 sm:gap-5  mt-8 xl:mt-16">
+                <GooglePlayButton
+                  url={""}
+                  theme={"dark"}
+                  className={"tp-button-play-style"}
+                />
+
+                <AppStoreButton
+                  url={""}
+                  theme={"dark"}
+                  className={"tp-button-apple-style"}
+                />
+              </div>
             </div>
 
             <div className="flex-1 relative w-full justify-center items-center ">

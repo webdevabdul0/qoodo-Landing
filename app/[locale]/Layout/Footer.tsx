@@ -4,12 +4,7 @@ import Link from "next/link";
 import { FaFacebook, FaLinkedinIn } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { TFunction } from "i18next";
-import {
-  GooglePlayButton,
-  AppStoreButton,
-  AppGalleryButton,
-  ButtonsContainer,
-} from "react-mobile-app-button";
+import { GooglePlayButton, AppStoreButton } from "react-mobile-app-button";
 import { useTranslation } from "react-i18next";
 
 const Footer: React.FC = () => {
@@ -17,7 +12,7 @@ const Footer: React.FC = () => {
   const APKUrl = "https://play.google.com/store/apps/details?id=com.io.qoodo";
   const iOSUrl = "https://apps.apple.com/hu/app/qoodo/id6460819008";
   return (
-    <div className="w-full bg-black py-24 px-5 md:px-12 xl:px-24 text-white overflow-hidden ">
+    <div className="w-full bg-black py-24 px-2 md:px-12 xl:px-24 text-white overflow-hidden ">
       <div className="container mx-auto">
         <div className="md:flex md:justify-between pb-20">
           {/* Logo */}
@@ -222,19 +217,21 @@ const Footer: React.FC = () => {
           </div>
         </div>
         {/* Footer Bottom */}
-        <div className="mt-10 border-t border-gray-700 pt-6 text-center">
-          <div className="flex sm:flex-row sm:gap-[10px] flex-col gap-[30px]">
+        <div className="mt-10 border-t border-gray-700 pt-6 text-center flex flex-col sm:flex-row sm:justify-between ">
+          <div className="flex flex-row gap-1 sm:gap-5 mb-8 sm:mb-0">
             <GooglePlayButton
-              url={APKUrl}
+              url={""}
               theme={"dark"}
-              className={"custom-style"}
+              className={"tp-button-play-style"}
             />
+
             <AppStoreButton
-              url={iOSUrl}
+              url={""}
               theme={"dark"}
-              className={"custom-style"}
+              className={"tp-button-apple-style"}
             />
           </div>
+
           <p className="text-sm">
             &copy;{t("2024 Qoodo. All rights reserved")} .
           </p>
