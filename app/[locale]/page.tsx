@@ -54,7 +54,7 @@ const Page = async ({ params: { locale } }: { params: { locale: string } }) => {
           <ContactForm />
         </div>
       </main>
-      <Footer t={t} />
+      <Footer />
 
       <CookieConsent />
     </TranslationsProvider>

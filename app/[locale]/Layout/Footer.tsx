@@ -1,13 +1,21 @@
+"use client";
 import React from "react";
 import Link from "next/link";
 import { FaFacebook, FaLinkedinIn } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { TFunction } from "i18next";
+import {
+  GooglePlayButton,
+  AppStoreButton,
+  AppGalleryButton,
+  ButtonsContainer,
+} from "react-mobile-app-button";
+import { useTranslation } from "react-i18next";
 
-interface FooterProps {
-  t: TFunction<["translation", ...string[]], undefined>;
-}
-const Footer: React.FC<FooterProps> = ({ t }) => {
+const Footer: React.FC = () => {
+  const { t } = useTranslation();
+  const APKUrl = "https://play.google.com/store/apps/details?id=com.io.qoodo";
+  const iOSUrl = "https://apps.apple.com/hu/app/qoodo/id6460819008";
   return (
     <div className="w-full bg-black py-24 px-5 md:px-12 xl:px-24 text-white overflow-hidden ">
       <div className="container mx-auto">
@@ -215,6 +223,18 @@ const Footer: React.FC<FooterProps> = ({ t }) => {
         </div>
         {/* Footer Bottom */}
         <div className="mt-10 border-t border-gray-700 pt-6 text-center">
+          <div className="flex sm:flex-row sm:gap-[10px] flex-col gap-[30px]">
+            <GooglePlayButton
+              url={APKUrl}
+              theme={"dark"}
+              className={"custom-style"}
+            />
+            <AppStoreButton
+              url={iOSUrl}
+              theme={"dark"}
+              className={"custom-style"}
+            />
+          </div>
           <p className="text-sm">
             &copy;{t("2024 Qoodo. All rights reserved")} .
           </p>

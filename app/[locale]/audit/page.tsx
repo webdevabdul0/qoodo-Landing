@@ -21,7 +21,7 @@ const page = async ({ params: { locale } }: { params: { locale: string } }) => {
         <Header />
         <Hero t={t} />
         <Audit t={t} />
-        <Footer t={t} />
+        <Footer />
         <CookieConsent />
       </TranslationsProvider>
     </div>

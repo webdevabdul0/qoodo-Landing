@@ -18,7 +18,7 @@ const Page = async ({ params: { locale } }: { params: { locale: string } }) => {
     >
       <Header />
       <Demo />
-      <Footer t={t} />
+      <Footer />
       <CookieConsent />
     </TranslationsProvider>
   );

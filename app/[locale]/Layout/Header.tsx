@@ -177,7 +177,7 @@ const Header = () => {
                   {currentLocale === "en"
                     ? "English"
                     : currentLocale === "hu"
-                    ? "Hungarian"
+                    ? "Magyar"
                     : "Unknown"}
                 </p>
                 <LanguageChanger />
@@ -275,7 +275,7 @@ const Header = () => {
                   {currentLocale === "en"
                     ? "English"
                     : currentLocale === "hu"
-                    ? "Hungarian"
+                    ? "Magyar"
                     : "Unknown"}
                 </p>
                 <LanguageChanger />
