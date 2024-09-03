@@ -57,7 +57,9 @@ const Hero: React.FC = () => {
 
               <h1 className="mb-8  xl:mb-16 text-center md:text-start text-white text-4xl tracking-[-1px] font-bold md:text-5xl lg:text-6xl 2xl:text-7xl">
                 <span className="text-[#4A60FF]">Qoodo:</span>{" "}
-                {t("The common language of quality and progress")}
+                {t(
+                  "Efficient digital logging, next-generation self-assessment"
+                )}
               </h1>
 
               <a href="bookDemo">
