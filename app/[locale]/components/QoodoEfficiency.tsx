@@ -40,7 +40,7 @@ const QoodoEfficiency: React.FC = () => {
   };
 
   return (
-    <div className="w-full flex justify-center items-center px-5">
+    <div className="w-full flex justify-center items-center px-5 py-14">
       <div className="w-[1400px] py-12  overflow-hidden px-5 sm:px-14 bg-[#4a60ff] rounded-[50px] lg:rounded-[180px] ">
         <div className="flex flex-col w-full justify-center items-center">
           <h3 className="text-white text-3xl md:text-h3 text-center font-bold mb-[20px]">
@@ -51,7 +51,7 @@ const QoodoEfficiency: React.FC = () => {
           </p>
         </div>
 
-        <div className="py-12 w-full">
+        <div className="py-10 w-full">
           <div className="flex w-full flex-col pb-20">
             <Tabs
               aria-label="Options"
