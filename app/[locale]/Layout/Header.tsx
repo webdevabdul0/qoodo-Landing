@@ -6,7 +6,6 @@ import { FiMenu, FiX } from "react-icons/fi";
 import Link from "next/link";
 import { useTranslation } from "react-i18next";
 import LanguageChanger from "../components/LanguageChanger";
-import { FaGlobe } from "react-icons/fa";
 
 const Header = () => {
   const { i18n } = useTranslation();
@@ -172,7 +171,6 @@ const Header = () => {
           <div className="hidden lg:block">
             <div className="flex gap-8 justify-center items-center">
               <div className="flex justify-center items-center gap-2">
-                <FaGlobe />
                 <p className="text-sm text-white font-semibold">
                   {currentLocale === "en"
                     ? "English"
@@ -270,7 +268,6 @@ const Header = () => {
             </li>
             <li>
               <div className="flex justify-center items-center gap-2">
-                <FaGlobe />
                 <p className="text-sm text-white font-semibold">
                   {currentLocale === "en"
                     ? "English"

@@ -87,7 +87,7 @@ const Hero: React.FC<HeroProps> = ({ t }) => {
           <div className="w-full flex justify-center sm:justify-end z-10">
             <div className="p-5  flex flex-row gap-1 sm:gap-5  -mt-8 xl:-mt-16 justify-center items-center bg-black bg-opacity-50 rounded-2xl">
               <p className="text-white text-xl font-gilroy font-semibold ">
-                Get it on
+                {t("Get it on:")}
               </p>
 
               <Link href="https://apps.apple.com/hu/app/qoodo/id6460819008">
