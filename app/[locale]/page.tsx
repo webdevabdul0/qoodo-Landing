@@ -28,7 +28,7 @@ const Page = async ({ params: { locale } }: { params: { locale: string } }) => {
       <Header />
       <main className="relative bg-black-100 flex justify-center items-center flex-col overflow-hidden mx-auto">
         <div className="w-full">
-          <Hero />
+          <Hero t={t} />
           <div className="mt-[-55px]">
             <Partners t={t} />
           </div>

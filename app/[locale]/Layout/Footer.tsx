@@ -3,9 +3,9 @@ import React from "react";
 import Link from "next/link";
 import { FaFacebook, FaLinkedinIn } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
-import { TFunction } from "i18next";
-import { GooglePlayButton, AppStoreButton } from "react-mobile-app-button";
+import Image from "next/image";
 import { useTranslation } from "react-i18next";
+import { FaApple } from "react-icons/fa";
 
 const Footer: React.FC = () => {
   const { t } = useTranslation();
@@ -217,19 +217,26 @@ const Footer: React.FC = () => {
           </div>
         </div>
         {/* Footer Bottom */}
-        <div className="mt-10 border-t border-gray-700 pt-6 text-center flex flex-col sm:flex-row sm:justify-between ">
+        <div className="mt-10 border-t border-gray-700 pt-6 text-center flex flex-col sm:flex-row sm:justify-between items-center">
           <div className="flex flex-row gap-1 sm:gap-5 mb-8 sm:mb-0">
-            <GooglePlayButton
-              url={""}
-              theme={"dark"}
-              className={"tp-button-play-style"}
-            />
+            <div className="p-5  flex flex-row gap-1 sm:gap-5   justify-center items-center bg-black bg-opacity-50 rounded-2xl">
+              <p className="text-white text-xl font-gilroy font-semibold ">
+                Get it on
+              </p>
 
-            <AppStoreButton
-              url={""}
-              theme={"dark"}
-              className={"tp-button-apple-style"}
-            />
+              <Link href="https://apps.apple.com/hu/app/qoodo/id6460819008">
+                <FaApple size={32} />
+              </Link>
+
+              <Link href="https://play.google.com/store/apps/details?id=com.io.qoodo">
+                <Image
+                  src="/images/hero/logos_google-play-icon.png"
+                  width={24}
+                  height={24}
+                  alt="Image"
+                />
+              </Link>
+            </div>
           </div>
 
           <p className="text-sm">

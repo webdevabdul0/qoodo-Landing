@@ -1,16 +1,12 @@
-"use client";
-import { GoArrowUpRight } from "react-icons/go";
-import MagicButton from "./MagicButton";
-import { Spotlight } from "./ui/Spotlight";
-import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import Image from "next/image";
 import { TFunction } from "i18next";
-import { GooglePlayButton, AppStoreButton } from "react-mobile-app-button";
-import { useTranslation } from "react-i18next";
-const Hero: React.FC = () => {
-  const APKUrl = "https://play.google.com/store/apps/details?id=com.io.qoodo";
-  const iOSUrl = "https://apps.apple.com/hu/app/qoodo/id6460819008";
-  const { t } = useTranslation();
+import Link from "next/link";
+import { FaApple } from "react-icons/fa";
+
+interface HeroProps {
+  t: TFunction<["translation", ...string[]], undefined>;
+}
+const Hero: React.FC<HeroProps> = ({ t }) => {
   return (
     <div className="pb-5 pt-36 mx-auto relative md:px-[50px]">
       {/**
@@ -57,9 +53,7 @@ const Hero: React.FC = () => {
 
               <h1 className="mb-8  xl:mb-16 text-center md:text-start text-white text-4xl tracking-[-1px] font-bold md:text-5xl lg:text-6xl 2xl:text-7xl">
                 <span className="text-[#4A60FF]">Qoodo:</span>{" "}
-                {t(
-                  "Efficient digital logging, next-generation self-assessment"
-                )}
+                {t("Efficient digital logging")}
               </h1>
 
               <a href="bookDemo">
@@ -69,20 +63,6 @@ const Hero: React.FC = () => {
                   </div>
                 </button>
               </a>
-
-              <div className="flex flex-row gap-1 sm:gap-5  mt-8 xl:mt-16">
-                <GooglePlayButton
-                  url={""}
-                  theme={"dark"}
-                  className={"tp-button-play-style"}
-                />
-
-                <AppStoreButton
-                  url={""}
-                  theme={"dark"}
-                  className={"tp-button-apple-style"}
-                />
-              </div>
             </div>
 
             <div className="flex-1 relative w-full justify-center items-center ">
@@ -103,9 +83,30 @@ const Hero: React.FC = () => {
               />
             </div>
           </div>
+
+          <div className="w-full flex justify-center sm:justify-end z-10">
+            <div className="p-5  flex flex-row gap-1 sm:gap-5  -mt-8 xl:-mt-16 justify-center items-center bg-black bg-opacity-50 rounded-2xl">
+              <p className="text-white text-xl font-gilroy font-semibold ">
+                Get it on
+              </p>
+
+              <Link href="https://apps.apple.com/hu/app/qoodo/id6460819008">
+                <FaApple size={32} />
+              </Link>
+
+              <Link href="https://play.google.com/store/apps/details?id=com.io.qoodo">
+                <Image
+                  src="/images/hero/logos_google-play-icon.png"
+                  width={24}
+                  height={24}
+                  alt="Image"
+                />
+              </Link>
+            </div>
+          </div>
         </div>
 
-        <div className="-z-10 w-[1152px] h-[664px] opacity-20 bg-gradient-to-br from-[#7bcbe8] via-[#8615e5] to-[#33fdff] rounded-full blur-[200px] absolute  bottom-0" />
+        <div className="-z-10 w-[1152px] h-[664px] opacity-20 bg-[#4A60FF] rounded-full blur-[200px] absolute  bottom-0" />
       </div>
     </div>
   );
