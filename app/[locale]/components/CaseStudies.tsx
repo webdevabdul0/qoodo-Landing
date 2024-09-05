@@ -1,11 +1,39 @@
 "use client";
 import React from "react";
-import { companies, testimonials } from "@/app/[locale]/data";
 import { ScrollableCards } from "./ui/InfiniteCards";
 import { useTranslation } from "react-i18next";
 
 const CaseStudies = () => {
   const { t } = useTranslation();
+
+  const companies = [
+    {
+      id: 1,
+      name: "Qoodo",
+      img: "/images/company/qoodo.svg",
+      nameImg: "/images/company/qoodoName.svg",
+    },
+  ];
+
+  const testimonials = [
+    {
+      quote: t(
+        "The online logging with Qoodo makes it easier for us to close units and check workflows. The assessment of colleagues and their tasks can be traced. Reminding annual/semi-year/quarterly logs to be less frequent greatly reduced our error opportunities."
+      ),
+      name: "Patrik Panácz ",
+      title: "(A Grund)",
+      img: "/images/company/part3.png",
+    },
+
+    {
+      quote:
+        "Az alkalmazás és a szolgáltató is professzionális.A mai világban ritka az ilyen magas színvonalú elhivatottság. Csak ajánlani tudom. ",
+      name: "Simon György",
+      title: "Nagyhegyes",
+      img: "/images/company/part1.png",
+    },
+  ];
+
   return (
     <div className="px-[50px] py-[50px] md:py-[130px] relative z-10">
       <div className="text-center w-full flex flex-col justify-center items-center relative">

@@ -45,9 +45,9 @@
   "Paper - based": "Papíralapú",
   "Other platforms": "Más platformok",
   "Qoodo": "Qoodo",
-  "85% Time Savings in quality management with Qoodo.": "85% időmegtakarítás a minőségirányításban a Qoodo-val.",
-  "95% Efficiency and Productivity in quality management with Qoodo.": "95% hatékonyság és termelékenység a minőségirányításban a Qoodo-val. ",
-  "99% Regulatory compliance in quality management with Qoodo.": "99% szabályozási megfelelés a minőségirányításban a Qoodo-val.",
+  "85% Time Savings in quality management with Qoodo.": "85%-os időmegtakarítás a Qoodo-val.",
+  "95% Efficiency and Productivity in quality management with Qoodo.": "95%-os hatékonyság és produktivitás a Qoodo-val a minőségirányításban.",
+  "99% Regulatory compliance in quality management with Qoodo.": "99%-os szabályozási megfelelés a Qoodo-val a minőségirányításban.",
 
   "---------------------------------------------------------------------------------------------------------------------------------------------------------QOODO Featuress--------------------------------------------------------------------------------------------------------------------------------------------": ",",
   "Fire Safety Tracking": "Tűzvédelmi Nyomonkövetés",
@@ -153,6 +153,7 @@
 
   "Case Studies": "Tapasztalatok",
   "Learn how Qoodo has helped businesses achieve their quality management goals.": "Tudd meg, hogyan segített a Qoodo a vállalkozásoknak elérni céljaikat.",
+  "The online logging with Qoodo makes it easier for us to close units and check workflows. The assessment of colleagues and their tasks can be traced. Reminding annual/semi-year/quarterly logs to be less frequent greatly reduced our error opportunities.": "Az online naplózás megkönnyíti nekünk az egységek zárásának és a munkafolyamatok ellenőrzését. Akollégák értékelése és feladataik elvégzése nyomon követhető. Ritkábban töltendő éves / féléves / negyedéves naplók emlékeztetése nagyban lecsökkenti a hibalehetőségeinket.",
 
   "---------------------------------------------------------------------------------------------------------------------------------------------------------Contact Form--------------------------------------------------------------------------------------------------------------------------------------------": ",",
 
@@ -164,7 +165,7 @@
   "Submit": "Küldés",
 
   "---------------------------------------------------------------------------------------------------------------------------------------------------------Header--------------------------------------------------------------------------------------------------------------------------------------------": ",",
-  "Solutions": "Megoldás",
+  "Solutions": "Megoldások",
   "Logs": "Naplók",
   "Industries": "Iparágak",
   "Standards": "Szabványok",

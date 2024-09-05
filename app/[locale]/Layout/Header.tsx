@@ -44,9 +44,9 @@ const Header = () => {
         bg ? "bg-[#08081a]" : ""
       } ${scrollDirection === "down" ? "-top-24" : "top-0"}`}
     >
-      <div className="w-full sm:px-[20px] xl:px-[100px] sm:py-2">
-        <div className="h-[90px] pl-[30px] pr-5 py-5 rounded-[30px] flex justify-between items-center">
-          <div className="justify-start items-center gap-[50px] xl:gap-[100px] flex">
+      <div className="w-full sm:px-4 lg:px-3 2xl:px-[100px] sm:py-2">
+        <div className="h-[90px] px-5 xl:pl-8 xl:pr-5 py-5 rounded-[30px] flex justify-between items-center">
+          <div className="justify-start items-center gap-12 2xl:gap-24 flex">
             <Link href="/">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -138,7 +138,7 @@ const Header = () => {
               </svg>
             </Link>
             <nav className="hidden lg:flex gap-10 font-semibold font-gilroy">
-              <ul className="flex flex-col lg:flex-row gap-5 lg:gap-10">
+              <ul className="flex flex-col lg:flex-row gap-5 xl:gap-10">
                 <li>
                   <Link href="/#features" scroll={true}>
                     {t("Solutions")}

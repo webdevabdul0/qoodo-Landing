@@ -117,7 +117,7 @@ const Footer: React.FC = () => {
                     scroll={true}
                     className="hover:text-[#4A60FF]  text-[#A6A6A6] text-base font-semibold"
                   >
-                    {t("Features")}
+                    {t("Solutions")}
                   </Link>
                 </li>
                 <li>
