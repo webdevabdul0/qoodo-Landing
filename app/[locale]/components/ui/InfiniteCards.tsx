@@ -27,7 +27,7 @@ export const ScrollableCards = ({
     event.preventDefault(); // Prevent text selection
     api.start({ x: memo + mx * 2 }); // Adjusted for faster scrolling
     if (containerRef.current) {
-      containerRef.current.scrollLeft -= mx * 2; // Adjusted for faster scrolling
+      containerRef.current.scrollLeft -= mx * 1; // Adjusted for faster scrolling
     }
     return memo;
   });
@@ -35,8 +35,12 @@ export const ScrollableCards = ({
   const addAnimation = () => {
     if (scrollerRef.current) {
       const scrollerContent = Array.from(scrollerRef.current.children);
+      const visibleItems = Math.floor(
+        containerRef.current!.offsetWidth / scrollerContent[0].clientWidth
+      );
 
-      scrollerContent.forEach((item) => {
+      // Only duplicate enough items to fill the visible container
+      scrollerContent.slice(0, visibleItems).forEach((item) => {
         const duplicatedItem = item.cloneNode(true);
         scrollerRef.current?.appendChild(duplicatedItem);
       });
@@ -60,7 +64,7 @@ export const ScrollableCards = ({
     >
       <animated.ul
         {...bind()}
-        style={{ x }}
+        style={{ x, touchAction: "none" }} // Add touchAction here
         className="flex gap-16 py-4 flex-nowrap"
         ref={scrollerRef}
       >
