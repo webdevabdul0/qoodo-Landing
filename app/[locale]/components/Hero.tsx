@@ -57,8 +57,8 @@ const Hero: React.FC<HeroProps> = ({ t }) => {
               </h1>
 
               <a href="bookDemo">
-                <button className="h-16 px-10 py-[22px] bg-gradient-to-r from-[#4a60ff] to-[#2c3999] rounded-[14px] border border-[#6971a2] inline-flex items-center justify-center gap-2.5">
-                  <div className="text-white text-base font-medium font-['Gilroy'] leading-tight">
+                <button className="h-16 px-10 py-[22px] bg-[#4a60ff]  rounded-[14px] inline-flex items-center justify-center gap-2.5">
+                  <div className="text-white text-base font-medium font-gilroy leading-tight">
                     {t("Book a Demo")}
                   </div>
                 </button>

@@ -110,7 +110,9 @@ const QoodoFeatures: React.FC = () => {
 
         {
           title: t("Customizable Logs:"),
-          text: t("Work Safety Tracking"),
+          text: t(
+            "No matter which point of the Self-Inspection Plan you're dealing with, within our system, you can easily and quickly create the necessary inspection log."
+          ),
         },
       ],
     },

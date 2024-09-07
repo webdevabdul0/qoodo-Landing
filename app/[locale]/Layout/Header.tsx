@@ -181,7 +181,7 @@ const Header = () => {
                 <LanguageChanger />
               </div>{" "}
               <a href="bookDemo" className="hidden lg:block">
-                <div className="h-[49px] px-[25px] py-[15px] bg-[#4a60ff] rounded-[14px] border border-[#6971a2] justify-center items-center gap-2.5 inline-flex">
+                <div className="h-[49px] px-[25px] py-[15px] bg-[#4a60ff] rounded-[14px] justify-center items-center gap-2.5 inline-flex">
                   <div className="text-white text-base font-medium leading-tight">
                     {t("Book a Demo")}
                   </div>

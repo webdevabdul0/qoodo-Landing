@@ -124,13 +124,13 @@ const Contact: React.FC = () => {
               <div></div>
 
               <a href="#" onClick={handleClick}>
-                <div className="h-[60px] px-[25px] py-[15px] bg-[#4a60ff] rounded-[14px] border border-[#6971a2] justify-center items-center gap-2.5 inline-flex">
+                <button className="h-16 px-10 py-[22px] bg-[#4a60ff]  rounded-[14px] inline-flex items-center justify-center gap-2.5">
                   <div className="text-white text-base font-medium font-['Gilroy'] leading-tight">
                     {t("Submit")}
                   </div>
 
                   <FaChevronRight />
-                </div>
+                </button>
               </a>
             </form>
           </div>
