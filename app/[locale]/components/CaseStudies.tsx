@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
-import { ScrollableCards } from "./ui/InfiniteCards";
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { useTranslation } from "react-i18next";
 
 const CaseStudies = () => {
@@ -20,14 +21,13 @@ const CaseStudies = () => {
       quote: t(
         "The online logging with Qoodo makes it easier for us to close units and check workflows. The assessment of colleagues and their tasks can be traced. Reminding annual/semi-year/quarterly logs to be less frequent greatly reduced our error opportunities."
       ),
-      name: "Patrik Panácz ",
+      name: "Patrik Panácz",
       title: "(A Grund)",
       img: "/images/company/part3.png",
     },
-
     {
       quote:
-        "Az alkalmazás és a szolgáltató is professzionális.A mai világban ritka az ilyen magas színvonalú elhivatottság. Csak ajánlani tudom. ",
+        "Az alkalmazás és a szolgáltató is professzionális.A mai világban ritka az ilyen magas színvonalú elhivatottság. Csak ajánlani tudom.",
       name: "Simon György",
       title: "Nagyhegyes",
       img: "/images/company/part1.png",
@@ -39,7 +39,7 @@ const CaseStudies = () => {
       <div className="text-center w-full flex flex-col justify-center items-center relative">
         <h3 className="heading2 mb-[20px]">{t("Case Studies")}</h3>
 
-        <p className="subtitle text-[#E4ECFF] ">
+        <p className="subtitle text-[#E4ECFF]">
           {t(
             "Learn how Qoodo has helped businesses achieve their quality management goals."
           )}
@@ -47,12 +47,50 @@ const CaseStudies = () => {
       </div>
 
       <div className="flex flex-col items-center max-lg:mt-10">
-        <div
-          // remove bg-white dark:bg-black dark:bg-grid-white/[0.05], h-[40rem] to 30rem , md:h-[30rem] are for the responsive design
-          className="h-[50vh] md:h-[30rem] rounded-md flex flex-col antialiased  items-center justify-center relative overflow-hidden"
+        {/* Static Carousel */}
+        <Carousel
+          showArrows={true}
+          infiniteLoop={true}
+          showThumbs={false}
+          showStatus={false}
+          className="w-full"
         >
-          <ScrollableCards items={testimonials} />
-        </div>
+          {testimonials.map((testimonial, idx) => (
+            <div key={idx} className="flex justify-center items-center">
+              <div
+                className="w-[90vw] max-w-full relative rounded-2xl border border-b-0 flex-shrink-0 border-slate-800 p-5 md:p-16 md:w-[60vw]"
+                style={{
+                  background: "rgb(4,7,29)",
+                  backgroundColor:
+                    "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
+                }}
+              >
+                <blockquote>
+                  <span className="relative z-20 text-sm md:text-lg leading-[1.6] text-white font-normal">
+                    {testimonial.quote}
+                  </span>
+                  <div className="relative z-20 mt-6 flex flex-row items-center">
+                    <div className="me-3">
+                      <img
+                        src={testimonial.img}
+                        alt="profile"
+                        style={{ filter: "grayscale(100%)" }}
+                      />
+                    </div>
+                    <span className="flex flex-col gap-1">
+                      <span className="text-xl font-bold leading-[1.6] text-white">
+                        {testimonial.name}
+                      </span>
+                      <span className="text-sm leading-[1.6] text-white-200 font-normal">
+                        {testimonial.title}
+                      </span>
+                    </span>
+                  </div>
+                </blockquote>
+              </div>
+            </div>
+          ))}
+        </Carousel>
 
         <div className="flex flex-wrap items-center justify-center gap-4 md:gap-16 max-lg:mt-10">
           {companies.map((company) => (

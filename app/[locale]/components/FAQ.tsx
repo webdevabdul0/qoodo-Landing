@@ -56,10 +56,10 @@ const FAQ: React.FC<FAQProps> = ({ t }) => {
               value={`item-${index}`}
               className="border-[#333333] mb-[30px]"
             >
-              <AccordionTrigger className="text-start text-white text-xl md:text-2xl font-semibold font-['Gilroy'] leading-10 ">
+              <AccordionTrigger className="text-start text-white text-xl md:text-2xl font-semibold font-gilroy leading-10 ">
                 {qna.question}
               </AccordionTrigger>
-              <AccordionContent className="text-white text-[16px] md:text-xl font-normal font-['Gilroy'] leading-[30px]">
+              <AccordionContent className="text-white text-[16px] md:text-xl font-normal font-gilroy leading-[30px]">
                 {qna.answer}
               </AccordionContent>
             </AccordionItem>
