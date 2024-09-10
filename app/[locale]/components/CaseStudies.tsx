@@ -46,14 +46,14 @@ const CaseStudies = () => {
         </p>
       </div>
 
-      <div className="flex flex-col items-center max-lg:mt-10">
+      <div className="flex flex-col items-center ">
         {/* Static Carousel */}
         <Carousel
           showArrows={true}
           infiniteLoop={true}
           showThumbs={false}
           showStatus={false}
-          className="w-full"
+          className="w-full my-14"
         >
           {testimonials.map((testimonial, idx) => (
             <div key={idx} className="flex justify-center items-center">
