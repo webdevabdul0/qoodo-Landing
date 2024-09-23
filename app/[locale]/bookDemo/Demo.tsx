@@ -49,7 +49,7 @@ const Demo = () => {
 
   async function onSubmit(data: z.infer<typeof FormSchema>) {
     try {
-      const response = await fetch("/api/sendmail", {
+      const response = await fetch("https://dev-apis.naplozz.hu/api/v1/users/sendDemoMail", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
