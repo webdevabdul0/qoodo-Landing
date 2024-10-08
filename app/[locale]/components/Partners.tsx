@@ -44,7 +44,7 @@ const Partners: React.FC<PartnerProps> = ({ t }) => {
             <Image
               src="/Featured/partner (2).png"
               alt="Partner 2"
-              width={120}
+              width={140}
               height={1}
               className="filter grayscale transition-transform duration-300 ml-[100px] hover:grayscale-0"
             />
