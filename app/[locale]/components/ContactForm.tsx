@@ -26,7 +26,8 @@ const Contact: React.FC = () => {
 
       axios
         .post(
-          "https://apis.naplozz.hu/api/v1/users/sendmail?server=qoodo",
+          /* "https://apis.naplozz.hu/api/v1/users/sendmail?server=qoodo",*/
+          "#",
           input
         )
         .then(() => {

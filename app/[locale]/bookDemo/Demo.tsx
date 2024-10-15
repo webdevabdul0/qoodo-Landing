@@ -49,13 +49,16 @@ const Demo = () => {
 
   async function onSubmit(data: z.infer<typeof FormSchema>) {
     try {
-      const response = await fetch("https://dev-apis.naplozz.hu/api/v1/users/sendDemoMail", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(data),
-      });
+      const response = await fetch(
+        /*"https://dev-apis.naplozz.hu/api/v1/users/sendDemoMail"*/ "#",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(data),
+        }
+      );
 
       if (response.ok) {
         setPopUp(true);
