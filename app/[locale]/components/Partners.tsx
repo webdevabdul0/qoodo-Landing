@@ -138,6 +138,26 @@ const Partners: React.FC<PartnerProps> = ({ t }) => {
               className="filter grayscale transition-transform duration-300 ml-[100px] hover:grayscale-0"
             />
           </div>
+
+          <div>
+            <Image
+              src="/Featured/partner (13).png"
+              alt="Partner 13"
+              width={110}
+              height={1}
+              className="filter grayscale transition-transform duration-300 ml-[100px] hover:grayscale-0"
+            />
+          </div>
+
+          <div>
+            <Image
+              src="/Featured/partner (14).png"
+              alt="Partner 13"
+              width={90}
+              height={1}
+              className="filter grayscale transition-transform duration-300 ml-[100px] hover:grayscale-0"
+            />
+          </div>
         </Marquee>
       </div>
     </div>
