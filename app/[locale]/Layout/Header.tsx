@@ -273,8 +273,11 @@ const Header = () => {
                     ? "English"
                     : currentLocale === "hu"
                     ? "Magyar"
+                    : currentLocale === "es"
+                    ? "Español"
                     : "Unknown"}
                 </p>
+
                 <LanguageChanger />
               </div>{" "}
             </li>

@@ -44,6 +44,7 @@ export default function LanguageChanger() {
     >
       <option value="en">En</option>
       <option value="hu">Hu</option>
+      <option value="es">Es</option>
     </select>
   );
 }
