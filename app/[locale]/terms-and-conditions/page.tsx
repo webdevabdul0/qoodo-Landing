@@ -10,14 +10,21 @@ import Terms from "./components/Terms";
 const i18nNamespaces = ["home"];
 
 const page = async ({ params: { locale } }: { params: { locale: string } }) => {
-  const { t, resources } = await initTranslations(locale, i18nNamespaces);
+  const { resources } = await initTranslations(locale, i18nNamespaces);
+
   return (
-    <div>
-      <Header />
-      <Terms />
-      <Footer t={t} />
-      <CookieConsent />
-    </div>
+    <TranslationsProvider
+      namespaces={i18nNamespaces}
+      locale={locale}
+      resources={resources}
+    >
+      <div>
+        <Header />
+        <Terms />
+        <Footer />
+        <CookieConsent />
+      </div>
+    </TranslationsProvider>
   );
 };
 

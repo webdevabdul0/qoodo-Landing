@@ -255,5 +255,31 @@
   "Accept": "Elfogadom",
   "Decline": "Elutasítom",
 
-  "Get it on:": "Töltsd le:"
+  "Get it on:": "Töltsd le:",
+
+  "Table of contents": "Tartalomjegyzék",
+  "Introduction": "Bevezetés",
+  "Privacy Policy": "Adatvédelmi szabályzat",
+  "Your Account": "Az Ön fiókja",
+  "Services": "Szolgáltatások",
+  "Third Party Services": "Harmadik féltől származó szolgáltatások",
+  "Prohibited Uses and Intellectual Property": "Tiltott felhasználás és szellemi tulajdon",
+  "The Company Materials": "A vállalat anyagai",
+  "Disclaimer of Certain Liabilities": "Egyes felelősségek kizárása",
+  "Earnings Disclaimer": "Bevételi nyilatkozat",
+  "Volatility Risks": "Volatilitási kockázatok",
+  "Indenification": "Kártalanítás",
+  "General Clauses": "Általános rendelkezések",
+  "Complaints": "Panaszok",
+  "Contact Information": "Kapcsolattartási információk",
+
+  "Purposes of Processing": "A feldolgozás céljai",
+  "Collecting Your Personal Data": "Személyes adatainak gyűjtése",
+  "Advertising": "Hirdetés",
+  "Sharing Your Personal Data": "Személyes adatainak megosztása",
+  "User Generated Content": "Felhasználó által generált tartalom",
+  "International Data Transfer": "Nemzetközi adatátvitel",
+  "Security": "Biztonság",
+  "Retention": "Megőrzés",
+  "Our Policy on Children": "Gyermekekre vonatkozó szabályzatunk"
 }
