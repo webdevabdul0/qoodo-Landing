@@ -164,6 +164,11 @@ const Header = () => {
                     {t("Audit")}
                   </Link>
                 </li>
+                <li>
+                  <Link href="/attendance" scroll={true}>
+                    {t("Attendance")}
+                  </Link>
+                </li>
               </ul>
             </nav>
           </div>
@@ -258,6 +263,7 @@ const Header = () => {
                 {t("Standards")}
               </Link>
             </li>
+
             <li>
               <Link
                 href="/audit"
@@ -266,6 +272,17 @@ const Header = () => {
                 className="font-semibold text-white "
               >
                 {t("Audit")}
+              </Link>
+            </li>
+
+            <li>
+              <Link
+                href="/attendance"
+                scroll={true}
+                onClick={() => setHeaderToggle(false)}
+                className="font-semibold text-white "
+              >
+                {t("Attendance")}
               </Link>
             </li>
             <li>

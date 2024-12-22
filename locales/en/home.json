@@ -272,5 +272,25 @@
   "International Data Transfer": "International Data Transfer",
   "Security": "Security",
   "Retention": "Retention",
-  "Our Policy on Children": "Our Policy on Children"
+  "Our Policy on Children": "Our Policy on Children",
+
+  "---------------------------------------------------------------------------------------------------------------------------------------------------------Qoodo Attendance--------------------------------------------------------------------------------------------------------------------------------------------": ",",
+
+  "Stay on Track, Every Moment Counts!": "Stay on Track, Every Moment Counts!",
+  "Simplify attendance tracking with ease and accuracy—anytime, anywhere.": "Simplify attendance tracking with ease and accuracy—anytime, anywhere.",
+  "Quick Access and Role Management": "Quick Access and Role Management",
+  "Access and User Roles": "Access and User Roles",
+  "Easily open the Attendance Assistant from the homepage. Leaders can manage their own and others' attendance, while staff manage only their own.": "Easily open the Attendance Assistant from the homepage. Leaders can manage their own and others' attendance, while staff manage only their own.",
+  "Effortless Check-In/Out": "Effortless Check-In/Out",
+  "Check-In/Out": "Check-In/Out",
+  "Swipe the Check In button to log start times and Check Out to log end times. Alternatively you can use our Attendance Console where all the employees can easily check in and check out by typing their individual PIN codes.": "Swipe the Check In button to log start times and Check Out to log end times. Alternatively you can use our Attendance Console where all the employees can easily check in and check out by typing their individual PIN codes.",
+  "Manage Past Activities": "Manage Past Activities",
+  "Manage and Review Activities": "Manage and Review Activities",
+  "Review and edit past activities as needed. Leaders can view all users' attendance data and check in/out on their behalf.": "Review and edit past activities as needed. Leaders can view all users' attendance data and check in/out on their behalf.",
+  "Smart Notifications and Reports": "Smart Notifications and Reports",
+  "Notifications and Reports": "Notifications and Reports",
+  "Set up smart notifications for attendance timeframes. Generate QR codes for easy check-in/out and export attendance sheets to PDF.": "Set up smart notifications for attendance timeframes. Generate QR codes for easy check-in/out and export attendance sheets to PDF.",
+  "Location-Based Restrictions": "Location-Based Restrictions",
+  "Limit location": "Limit location",
+  "Admins can restrict check-in/out locations using mobile GPS. Enable GPS, activate restriction, and select users for location-based restrictions.": "Admins can restrict check-in/out locations using mobile GPS. Enable GPS, activate restriction, and select users for location-based restrictions."
 }

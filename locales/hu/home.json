@@ -281,5 +281,24 @@
   "International Data Transfer": "Nemzetközi adatátvitel",
   "Security": "Biztonság",
   "Retention": "Megőrzés",
-  "Our Policy on Children": "Gyermekekre vonatkozó szabályzatunk"
+  "Our Policy on Children": "Gyermekekre vonatkozó szabályzatunk",
+
+  "---------------------------------------------------------------------------------------------------------------------------------------------------------Qoodo Attendance--------------------------------------------------------------------------------------------------------------------------------------------": ",",
+  "Stay on Track, Every Moment Counts!": "Maradjon a pályán, minden pillanat számít!",
+  "Simplify attendance tracking with ease and accuracy—anytime, anywhere.": "Egyszerűsítse a jelenléti nyilvántartást könnyedén és pontosan – bármikor, bárhol.",
+  "Quick Access and Role Management": "Gyors hozzáférés és szerepkör-kezelés",
+  "Access and User Roles": "Hozzáférés és felhasználói szerepek",
+  "Easily open the Attendance Assistant from the homepage. Leaders can manage their own and others' attendance, while staff manage only their own.": "Egyszerűen nyissa meg a Jelenléti Asszisztenst a kezdőlapról. A vezetők kezelhetik saját és mások jelenlétét, míg a dolgozók csak a sajátjukat kezelhetik.",
+  "Effortless Check-In/Out": "Egyszerű be- és kijelentkezés",
+  "Check-In/Out": "Be-/Kijelentkezés",
+  "Swipe the Check In button to log start times and Check Out to log end times. Alternatively you can use our Attendance Console where all the employees can easily check in and check out by typing their individual PIN codes.": "Húzza el a Bejelentkezés gombot a kezdési idő rögzítéséhez, és a Kijelentkezés gombot a befejezési idő rögzítéséhez. Alternatívaként használhatja a Jelenléti Konzolt, ahol minden alkalmazott egyszerűen be- és kijelentkezhet saját PIN-kódjának megadásával.",
+  "Manage Past Activities": "Korábbi tevékenységek kezelése",
+  "Manage and Review Activities": "Tevékenységek kezelése és áttekintése",
+  "Review and edit past activities as needed. Leaders can view all users' attendance data and check in/out on their behalf.": "Szükség szerint tekintse át és szerkessze a korábbi tevékenységeket. A vezetők megtekinthetik az összes felhasználó jelenléti adatait, és helyettük is be-/kijelentkezhetnek.",
+  "Smart Notifications and Reports": "Intelligens értesítések és jelentések",
+  "Notifications and Reports": "Értesítések és jelentések",
+  "Set up smart notifications for attendance timeframes. Generate QR codes for easy check-in/out and export attendance sheets to PDF.": "Állítson be intelligens értesítéseket a jelenléti időkeretekhez. Készítsen QR-kódokat az egyszerű be-/kijelentkezéshez, és exportálja a jelenléti íveket PDF-be.",
+  "Location-Based Restrictions": "Helyalapú korlátozások",
+  "Limit location": "Hely korlátozása",
+  "Admins can restrict check-in/out locations using mobile GPS. Enable GPS, activate restriction, and select users for location-based restrictions.": "Az adminisztrátorok korlátozhatják a be-/kijelentkezési helyeket mobil GPS használatával. Engedélyezze a GPS-t, aktiválja a korlátozást, és válassza ki a felhasználókat a helyalapú korlátozásokhoz."
 }
