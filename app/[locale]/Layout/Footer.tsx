@@ -169,6 +169,15 @@ const Footer: React.FC = () => {
                     {t("Audit")}
                   </Link>
                 </li>
+                <li>
+                  <Link
+                    href="/#attendance"
+                    scroll={true}
+                    className="hover:text-[#4A60FF]  text-[#A6A6A6] text-base font-semibold"
+                  >
+                    {t("Attendance")}
+                  </Link>
+                </li>
               </ul>
             </div>
 
