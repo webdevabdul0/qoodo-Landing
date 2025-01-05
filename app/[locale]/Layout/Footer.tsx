@@ -243,7 +243,7 @@ const Footer: React.FC = () => {
           <div className="flex flex-row gap-1 sm:gap-5 mb-8 sm:mb-0">
             <div className="p-5  flex flex-row gap-1 sm:gap-5   justify-center items-center bg-black bg-opacity-50 rounded-2xl">
               <p className="text-white text-xl font-gilroy font-semibold ">
-                Get it on
+                {t("Get it on:")}  
               </p>
 
               <Link href="https://apps.apple.com/hu/app/qoodo/id6460819008">
