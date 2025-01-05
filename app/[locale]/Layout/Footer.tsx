@@ -262,7 +262,7 @@ const Footer: React.FC = () => {
           </div>
 
           <p className="text-sm">
-            &copy;{t("2024 Qoodo. All rights reserved")} .
+            &copy;{t("2025 Qoodo. All rights reserved")} .
           </p>
         </div>
       </div>
