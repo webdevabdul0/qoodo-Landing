@@ -49,7 +49,7 @@ const QoodoAttendance: React.FC<AttendanceProps> = ({ t }) => {
             <h3 className="text-white heading3">{t("Check-In/Out")}</h3>
             <p className="text-[16px] md:text-xl font-gilroy font-medium ">
               {t(
-                "Swipe the Check In button to log start times and Check Out to log end times. Alternatively you can use our Attendance Console where all the employees can easily check in and check out by typing their individual PIN codes. "
+                "Swipe the Check In button to log start times and Check Out to log end times. Alternatively you can use our Attendance Console where all the employees can easily check in and check out by typing their individual PIN codes."
               )}
             </p>
           </div>
