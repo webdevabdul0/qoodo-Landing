@@ -1,6 +1,7 @@
 "use client";
+
 import { GoChevronLeft } from "react-icons/go";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { FaTimes, FaCheckCircle } from "react-icons/fa";
 import { useEffect, FC } from "react";
 
 interface ContactModalProps {
@@ -11,52 +12,50 @@ interface ContactModalProps {
 const ContactModal: FC<ContactModalProps> = ({ setModal, whiteListModal }) => {
   useEffect(() => {
     if (!whiteListModal) {
-      setTimeout(() => {
+      const timer = setTimeout(() => {
         setModal(false);
       }, 5000);
+
+      return () => clearTimeout(timer); // Cleanup timeout
     }
   }, [setModal, whiteListModal]);
 
   return (
     <>
+      {/* Background overlay */}
       <div
+        role="button"
+        aria-label="Close modal"
         onClick={() => setModal(false)}
         className="fixed top-0 left-0 w-full h-full z-[99] bg-black opacity-60"
       ></div>
-      <div className="fixed rounded-[20px] z-[100] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-[#050505] flex justify-between  overflow-hidden items-center py-8 px-6 lg:p-0 lg:h-[300px] w-[90%] max-w-[700px]">
-        <img
-          src="/close.png"
-          className="absolute right-3 top-4 object-contain w-[33px] cursor-pointer z-10"
-          alt="close"
+
+      {/* Modal content */}
+      <div className="fixed rounded-[20px] z-[100] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-[#050505] border border-white/10 shadow-lg flex justify-center items-center flex-col gap-6 py-8 px-6 lg:p-10 lg:h-[300px] w-[90%] max-w-[700px] overflow-hidden">
+        {/* Decorative blurred circles */}
+        <div className="absolute top-[-20%] left-[-20%] w-[300px] h-[300px] bg-[#2BD1FF] opacity-20 blur-[150px] rounded-full"></div>
+        <div className="absolute bottom-[-30%] right-[-25%] w-[400px] h-[400px] bg-[#0262F7] opacity-20 blur-[200px] rounded-full"></div>
+
+        {/* Close button */}
+        <FaTimes
+          className="absolute right-3 top-3 text-white text-2xl cursor-pointer z-10"
+          aria-label="Close modal"
           onClick={() => setModal(false)}
         />
-        <div className="absolute top-[50%] opacity-[0.15] -left-[50%] -z-10 w-[603px] h-[242px] blur-[100px] bg-[#0262f7] rotate-[41.82deg]"></div>
-        <div className="absolute bottom-[50%] opacity-[0.15] -left-[10%] -z-10 w-[603px] h-[242px] blur-[100px] bg-btnGr rotate-[-2.41deg]"></div>
-        <div className="flex lg:w-auto w-full justify-start items-center lg:text-left text-center lg:items-start flex-col gap-4 lg:gap-3 lg:px-5">
-          <img
-            src="/tick.png"
-            className="object-contain w-[60px] self-center"
-            alt="tick"
-          />
-          <p className="text-[#B3B3B3] font-medium text-lg sm:text-xl leading-[1]">
-            Thank you for submitting the form
-          </p>
-          <h4 className="gr-text text-[35px] sm:text-[40px] font-extrabold leading-[1.1]">
-            We will Contact <br /> you shortly
-          </h4>
-          {whiteListModal ? (
-            <a
-              onClick={() => setModal(false)}
-              target="blank"
-              className="rounded-full ml-2 border-none lg:-translate-y-[40%] cursor-pointer bg-[#2BD1FF] w-[170px] h-[50px] text-[#141338] font-bold text-base inline-flex justify-center items-center gap-3"
-              style={{ marginTop: "1.5rem" }}
-            >
-              <FontAwesomeIcon icon={GoChevronLeft} className="text-sm" />
-              Go Back{" "}
-            </a>
-          ) : null}
-        </div>
-        <img src="/pop-up-bg.png" className="lg:block hidden" alt="background" />
+
+        {/* Success icon */}
+        <FaCheckCircle
+          className="text-[#2BD1FF] text-[60px]"
+          aria-label="Success Icon"
+        />
+
+        {/* Message */}
+        <p className="text-[#B3B3B3] font-medium text-lg sm:text-xl text-center">
+          Thank you for submitting the form
+        </p>
+        <h4 className="gr-text text-[35px] sm:text-[40px] font-extrabold text-center leading-[1.1]">
+          We will contact <br /> you shortly
+        </h4>
       </div>
     </>
   );
