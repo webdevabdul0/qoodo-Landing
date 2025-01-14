@@ -110,7 +110,7 @@ const Contact: React.FC = () => {
               <ReCAPTCHA
                 ref={recaptchaRef}
                 sitekey={RECAPTCHA_SITE_KEY}
-                size="invisible"
+                size="normal"
               />
 
               <button
