@@ -7,6 +7,7 @@ import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import axios from "axios";
 import { FaChevronRight } from "react-icons/fa";
+import ReCAPTCHA from "react-google-recaptcha";
 import {
   Form,
   FormControl,
@@ -20,6 +21,7 @@ import { Checkbox } from "@/app/[locale]/components/ui/checkbox";
 import { toast } from "@/app/[locale]/components/ui/use-toast";
 import ContactModal from "@/app/[locale]/components/ui/ContactModal";
 import { useTranslation } from "react-i18next";
+import { useRef } from "react";
 
 import React, { useState } from "react";
 
@@ -36,6 +38,8 @@ const Demo = () => {
   });
 
   const [popUp, setPopUp] = useState(false);
+  const RECAPTCHA_SITE_KEY = process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY || "";
+  const recaptchaRef = useRef();
 
   const form = useForm<z.infer<typeof FormSchema>>({
     resolver: zodResolver(FormSchema),
@@ -49,8 +53,17 @@ const Demo = () => {
 
   async function onSubmit(data: z.infer<typeof FormSchema>) {
     try {
+      const recaptchaToken = await recaptchaRef.current?.executeAsync();
+      if (!recaptchaToken) {
+        toast({
+          title: t("Captcha Required"),
+          description: t("Please complete the CAPTCHA."),
+        });
+        return;
+      }
+
       const response = await fetch(
-        "https://dev-apis.naplozz.hu/api/v1/users/sendDemoMail" ,
+        "https://dev-apis.naplozz.hu/api/v1/users/sendDemoMail",
         {
           method: "POST",
           headers: {
@@ -332,6 +345,11 @@ const Demo = () => {
                           <FormMessage />
                         </FormItem>
                       )}
+                    />
+                    <ReCAPTCHA
+                      ref={recaptchaRef}
+                      sitekey={RECAPTCHA_SITE_KEY}
+                      size="normal"
                     />
 
                     <Button

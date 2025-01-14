@@ -3,7 +3,8 @@ import React, { useState, ChangeEvent, FormEvent, MouseEvent } from "react";
 import { FaChevronRight } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
 import axios from "axios";
-
+import ReCAPTCHA from "react-google-recaptcha";
+import { useRef } from "react";
 const Contact: React.FC = () => {
   const { t } = useTranslation();
   const [popUp, setPopUp] = useState(false);
@@ -13,7 +14,10 @@ const Contact: React.FC = () => {
   const [message, setMessage] = useState("");
   const [isSubmitted, setSubmitted] = useState(false);
 
-  const onSubmit = (e: FormEvent) => {
+  const RECAPTCHA_SITE_KEY = process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY || "";
+  const recaptchaRef = useRef();
+
+  const onSubmit = async (e: FormEvent) => {
     e.preventDefault();
 
     if (firstName && lastName && email && message) {
@@ -21,28 +25,38 @@ const Contact: React.FC = () => {
         firstName,
         lastName,
         email,
-        message, // Assuming "message" is the same as "description"
+        message, // Assuming "message" refers to the form description
       };
 
-      axios
-        .post(
-          /* "https://apis.naplozz.hu/api/v1/users/sendmail?server=qoodo",*/
-          "#",
+      try {
+        // Execute the reCAPTCHA and get the token
+        const recaptchaToken = await recaptchaRef.current?.executeAsync();
+        if (!recaptchaToken) {
+          toast({
+            title: t("Captcha Required"),
+            description: t("Please complete the CAPTCHA."),
+          });
+          return;
+        }
+
+        // Send the email via an API call
+        await axios.post(
+          "https://apis.naplozz.hu/api/v1/users/sendmail?server=qoodo",
+
           input
-        )
-        .then(() => {
-          setSubmitted(true);
-          console.log("Email Submitted");
-        })
-        .catch((err) => {
-          console.error("Error", err);
-        })
-        .finally(() => {
-          setfirstName("");
-          setlastName("");
-          setEmail("");
-          setMessage("");
-        });
+        );
+
+        setSubmitted(true);
+        console.log("Email Submitted");
+
+        // Clear the form fields
+        setfirstName("");
+        setlastName("");
+        setEmail("");
+        setMessage("");
+      } catch (err) {
+        console.error("Error", err);
+      }
     } else {
       alert("Please fill in all required fields");
     }
@@ -93,6 +107,11 @@ const Contact: React.FC = () => {
                   className="w-full h-[100px] text-white pt-5 resize-none text-base text-[rgba(163, 163, 163, 0.6)] bg-[rgba(13,13,13,0.5)] rounded-[20px] pl-5"
                 />
               </div>
+              <ReCAPTCHA
+                ref={recaptchaRef}
+                sitekey={RECAPTCHA_SITE_KEY}
+                size="invisible"
+              />
 
               <button
                 type="submit"
