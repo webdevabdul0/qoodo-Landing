@@ -20,12 +20,6 @@ const Partners: React.FC<PartnerProps> = ({ t }) => {
             "Streamline compliance, enhance safety, and drive efficiency with our smart QMS software"
           )}
         </p>
-
-        {/*
-        <p className="subtitle text-[#E4ECFF] text-center mb-[30px]">
-          Experience the excellence trusted by Fortune 500 companies and leading
-          enterprises worldwide.
-        </p>*/}
       </div>
 
       <div className=" mb-[50px] ">
@@ -103,7 +97,7 @@ const Partners: React.FC<PartnerProps> = ({ t }) => {
           <div>
             <Image
               src="/Featured/partner (9).png"
-              alt="Partner 9"
+              alt="Partner 8"
               width={150}
               height={1}
               className="filter grayscale transition-transform duration-300 ml-[100px] hover:grayscale-0"
@@ -112,7 +106,7 @@ const Partners: React.FC<PartnerProps> = ({ t }) => {
           <div>
             <Image
               src="/Featured/partner (8).png"
-              alt="Partner 8"
+              alt="Partner 9"
               width={70}
               height={1}
               className="filter grayscale transition-transform duration-300 ml-[100px] hover:grayscale-0"
@@ -122,7 +116,7 @@ const Partners: React.FC<PartnerProps> = ({ t }) => {
           <div>
             <Image
               src="/Featured/partner (11).png"
-              alt="Partner 8"
+              alt="Partner 10"
               width={130}
               height={1}
               className="filter grayscale transition-transform duration-300 ml-[100px] hover:grayscale-0"
@@ -132,7 +126,7 @@ const Partners: React.FC<PartnerProps> = ({ t }) => {
           <div>
             <Image
               src="/Featured/partner (12).png"
-              alt="Partner 8"
+              alt="Partner 11"
               width={110}
               height={1}
               className="filter grayscale transition-transform duration-300 ml-[100px] hover:grayscale-0"
@@ -142,7 +136,7 @@ const Partners: React.FC<PartnerProps> = ({ t }) => {
           <div>
             <Image
               src="/Featured/partner (13).png"
-              alt="Partner 13"
+              alt="Partner 12"
               width={110}
               height={1}
               className="filter grayscale transition-transform duration-300 ml-[100px] hover:grayscale-0"
@@ -154,6 +148,56 @@ const Partners: React.FC<PartnerProps> = ({ t }) => {
               src="/Featured/partner (14).png"
               alt="Partner 13"
               width={90}
+              height={1}
+              className="filter grayscale transition-transform duration-300 ml-[100px] hover:grayscale-0"
+            />
+          </div>
+
+          <div>
+            <Image
+              src="/Featured/partner (15).png"
+              alt="Partner 15"
+              width={90}
+              height={1}
+              className="filter grayscale transition-transform duration-300 ml-[100px] hover:grayscale-0"
+            />
+          </div>
+
+          <div>
+            <Image
+              src="/Featured/partner (16).png"
+              alt="Partner 16"
+              width={220}
+              height={1}
+              className="filter grayscale transition-transform duration-300 ml-[100px] hover:grayscale-0"
+            />
+          </div>
+
+          <div>
+            <Image
+              src="/Featured/partner (17).png"
+              alt="Partner 17"
+              width={90}
+              height={1}
+              className="filter grayscale transition-transform duration-300 ml-[100px] hover:grayscale-0"
+            />
+          </div>
+
+          <div>
+            <Image
+              src="/Featured/partner (18).png"
+              alt="Partner 18"
+              width={90}
+              height={1}
+              className="filter grayscale transition-transform duration-300 ml-[100px] hover:grayscale-0"
+            />
+          </div>
+
+          <div>
+            <Image
+              src="/Featured/partner (19).png"
+              alt="Partner 19"
+              width={120}
               height={1}
               className="filter grayscale transition-transform duration-300 ml-[100px] hover:grayscale-0"
             />
