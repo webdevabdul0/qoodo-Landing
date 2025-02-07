@@ -248,22 +248,6 @@
 
   "Get it on:": "Get it on:",
 
-  "Table of contents": "Table of contents",
-  "Introduction": "Introduction",
-  "Privacy Policy": "Privacy Policy",
-  "Your Account": "Your Account",
-  "Services": "Services",
-  "Third Party Services": "Third Party Services",
-  "Prohibited Uses and Intellectual Property": "Prohibited Uses and Intellectual Property",
-  "The Company Materials": "The Company Materials",
-  "Disclaimer of Certain Liabilities": "Disclaimer of Certain Liabilities",
-  "Earnings Disclaimer": "Earnings Disclaimer",
-  "Volatility Risks": "Volatility Risks",
-  "Indenification": "Indenification",
-  "General Clauses": "General Clauses",
-  "Complaints": "Complaints",
-  "Contact Information": "Contact Information",
-
   "Purposes of Processing": "Purposes of Processing",
   "Collecting Your Personal Data": "Collecting Your Personal Data",
 
@@ -293,5 +277,18 @@
   "Set up smart notifications for attendance timeframes. Generate QR codes for easy check-in/out and export attendance sheets to PDF.": "Set up smart notifications for attendance timeframes. Generate QR codes for easy check-in/out and export attendance sheets to PDF.",
   "Location-Based Restrictions": "Location-Based Restrictions",
   "Limit location": "Limit location",
-  "Admins can restrict check-in/out locations using mobile GPS. Enable GPS, activate restriction, and select users for location-based restrictions.": "Admins can restrict check-in/out locations using mobile GPS. Enable GPS, activate restriction, and select users for location-based restrictions."
+  "Admins can restrict check-in/out locations using mobile GPS. Enable GPS, activate restriction, and select users for location-based restrictions.": "Admins can restrict check-in/out locations using mobile GPS. Enable GPS, activate restriction, and select users for location-based restrictions.",
+
+  "Table of contents": "Table of contents",
+  "Introduction": "Introduction",
+  "General Provisions": "General Provisions",
+  "Privacy and GDPR Compliance": "Privacy and GDPR Compliance",
+  "Your Account": "Your Account",
+  "Services": "Services",
+  "Technical Requirements": "Technical Requirements",
+  "Intellectual Property": "Intellectual Property",
+  "Limitations of Liability": "Limitations of Liability",
+  "Complaints and Legal Remedies": "Complaints and Legal Remedies",
+  "Contact Information": "Contact Information",
+  "Final Provisions": "Final Provisions"
 }

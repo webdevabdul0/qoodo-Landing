@@ -258,22 +258,6 @@
 
   "Get it on:": "Töltsd le:",
 
-  "Table of contents": "Tartalomjegyzék",
-  "Introduction": "Bevezetés",
-  "Privacy Policy": "Adatvédelmi szabályzat",
-  "Your Account": "Az Ön fiókja",
-  "Services": "Szolgáltatások",
-  "Third Party Services": "Harmadik féltől származó szolgáltatások",
-  "Prohibited Uses and Intellectual Property": "Tiltott felhasználás és szellemi tulajdon",
-  "The Company Materials": "A vállalat anyagai",
-  "Disclaimer of Certain Liabilities": "Egyes felelősségek kizárása",
-  "Earnings Disclaimer": "Bevételi nyilatkozat",
-  "Volatility Risks": "Volatilitási kockázatok",
-  "Indenification": "Kártalanítás",
-  "General Clauses": "Általános rendelkezések",
-  "Complaints": "Panaszok",
-  "Contact Information": "Kapcsolattartási információk",
-
   "Purposes of Processing": "A feldolgozás céljai",
   "Collecting Your Personal Data": "Személyes adatainak gyűjtése",
   "Advertising": "Hirdetés",
@@ -301,5 +285,18 @@
   "Set up smart notifications for attendance timeframes. Generate QR codes for easy check-in/out and export attendance sheets to PDF.": "Állítsd be az értesítéseket a jelenléti időkeretekhez igazítva. Generálj QR-kódokat az egyszerű be-/kijelentkezéshez, és exportáld a jelenléti íveket PDF formátumban.",
   "Location-Based Restrictions": "Helyalapú Korlátozások",
   "Limit location": "Helykorlátozás Beállítása",
-  "Admins can restrict check-in/out locations using mobile GPS. Enable GPS, activate restriction, and select users for location-based restrictions.": "Az adminok mobil GPS segítségével korlátozhatják a be-/kijelentkezések helyét. Kapcsold be a GPS-t, aktiváld a korlátozást, és válaszd ki, kikre vonatkozzon a helyszínhez kötött nyomon követés."
+  "Admins can restrict check-in/out locations using mobile GPS. Enable GPS, activate restriction, and select users for location-based restrictions.": "Az adminok mobil GPS segítségével korlátozhatják a be-/kijelentkezések helyét. Kapcsold be a GPS-t, aktiváld a korlátozást, és válaszd ki, kikre vonatkozzon a helyszínhez kötött nyomon követés.",
+
+  "Table of contents": "Tartalomjegyzék",
+  "Introduction": "Bevezetés",
+  "General Provisions": "Általános rendelkezések",
+  "Privacy and GDPR Compliance": "Adatvédelem és GDPR megfelelőség",
+  "Your Account": "Fiókja",
+  "Services": "Szolgáltatások",
+  "Technical Requirements": "Műszaki követelmények",
+  "Intellectual Property": "Szellemi tulajdon",
+  "Limitations of Liability": "Felelősség korlátozása",
+  "Complaints and Legal Remedies": "Panaszkezelés és jogorvoslat",
+  "Contact Information": "Kapcsolattartási információk",
+  "Final Provisions": "Záró rendelkezések"
 }

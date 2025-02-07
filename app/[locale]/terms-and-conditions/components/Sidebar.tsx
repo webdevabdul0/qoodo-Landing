@@ -9,128 +9,82 @@ const Sidebar = () => {
       <h3 className="text-2xl xl:block hidden font-bold mb-3 text-[#b3b3b3]">
         {t("Table of contents")}
       </h3>
+
       <a
         href="#Introduction"
-        className="text-lightPink  font-semibold text-base border-0 xl:border-b-2 border-solid border-[#FF866D1A] min-w-max xl:w-full py-4"
+        className="text-lightPink font-semibold text-base border-0 xl:border-b-2 border-solid border-[#FF866D1A] min-w-max xl:w-full py-4"
       >
         {t("Introduction")}
       </a>
 
       <a
-        href="#Privacy Policy"
-        className="text-lightPink  font-semibold text-base border-0 xl:border-b-2 border-solid border-[#FF866D1A] min-w-max xl:w-full py-4"
+        href="#GeneralProvisions"
+        className="text-lightPink font-semibold text-base border-0 xl:border-b-2 border-solid border-[#FF866D1A] min-w-max xl:w-full py-4"
       >
-        {t("Privacy Policy")}
+        {t("General Provisions")}
       </a>
+
       <a
-        href="#Your Account"
-        className="text-lightPink  font-semibold text-base border-0 xl:border-b-2 border-solid border-[#FF866D1A] min-w-max xl:w-full py-4"
+        href="#Privacy"
+        className="text-lightPink font-semibold text-base border-0 xl:border-b-2 border-solid border-[#FF866D1A] min-w-max xl:w-full py-4"
+      >
+        {t("Privacy and GDPR Compliance")}
+      </a>
+
+      <a
+        href="#YourAccount"
+        className="text-lightPink font-semibold text-base border-0 xl:border-b-2 border-solid border-[#FF866D1A] min-w-max xl:w-full py-4"
       >
         {t("Your Account")}
       </a>
+
       <a
         href="#Services"
-        className="text-lightPink  font-semibold text-base border-0 xl:border-b-2 border-solid border-[#FF866D1A] min-w-max xl:w-full py-4"
+        className="text-lightPink font-semibold text-base border-0 xl:border-b-2 border-solid border-[#FF866D1A] min-w-max xl:w-full py-4"
       >
         {t("Services")}
       </a>
+
       <a
-        href="#Third Party Services"
-        className="text-lightPink  font-semibold text-base border-0 xl:border-b-2 border-solid border-[#FF866D1A] min-w-max xl:w-full py-4"
+        href="#TechnicalRequirements"
+        className="text-lightPink font-semibold text-base border-0 xl:border-b-2 border-solid border-[#FF866D1A] min-w-max xl:w-full py-4"
       >
-        {t("Third Party Services")}
+        {t("Technical Requirements")}
       </a>
 
       <a
-        href="#Prohibited Uses and Intellectual Property"
-        className="text-lightPink  font-semibold text-base border-0 xl:border-b-2 border-solid border-[#FF866D1A] min-w-max xl:w-full py-4"
+        href="#IntellectualProperty"
+        className="text-lightPink font-semibold text-base border-0 xl:border-b-2 border-solid border-[#FF866D1A] min-w-max xl:w-full py-4"
       >
-        {t("Prohibited Uses and Intellectual Property")}
+        {t("Intellectual Property")}
       </a>
 
       <a
-        href="#The Company Materials"
-        className="text-lightPink  font-semibold text-base border-0 xl:border-b-2 border-solid border-[#FF866D1A] min-w-max xl:w-full py-4"
+        href="#Liability"
+        className="text-lightPink font-semibold text-base border-0 xl:border-b-2 border-solid border-[#FF866D1A] min-w-max xl:w-full py-4"
       >
-        {t("The Company Materials")}
-      </a>
-
-      <a
-        href="#Disclaimer of Certain Liabilities"
-        className="text-lightPink  font-semibold text-base border-0 xl:border-b-2 border-solid border-[#FF866D1A] min-w-max xl:w-full py-4"
-      >
-        {t("Disclaimer of Certain Liabilities")}
-      </a>
-
-      <a
-        href="#Earnings Disclaimer"
-        className="text-lightPink  font-semibold text-base border-0 xl:border-b-2 border-solid border-[#FF866D1A] min-w-max xl:w-full py-4"
-      >
-        {t("Earnings Disclaimer")}
-      </a>
-
-      <a
-        href="#Volatility Risks"
-        className="text-lightPink  font-semibold text-base border-0 xl:border-b-2 border-solid border-[#FF866D1A] min-w-max xl:w-full py-4"
-      >
-        {t("Volatility Risks")}
-      </a>
-
-      <a
-        href="#Indenification"
-        className="text-lightPink  font-semibold text-base border-0 xl:border-b-2 border-solid border-[#FF866D1A] min-w-max xl:w-full py-4"
-      >
-        {t("Indenification")}
-      </a>
-
-      {/*}
-      <a
-        href="#Termination and Access Restriction"
-        className="text-lightPink  font-semibold text-base border-0 xl:border-b-2 border-solid border-[#FF866D1A] min-w-max xl:w-full py-4"
-      >
-
-        {t('Termination and Access Restriction') }
-      </a>
-
-
-
-      <a
-        href="#Compliance Responsibility Clause"
-        className="text-lightPink  font-semibold text-base border-0 xl:border-b-2 border-solid border-[#FF866D1A] min-w-max xl:w-full py-4"
-      >
-
-        {t('Compliance Responsibility Clause') }
-      </a>
-
-
-      <a
-        href="#Compliance Responsibility"
-        className="text-lightPink  font-semibold text-base border-0 xl:border-b-2 border-solid border-[#FF866D1A] min-w-max xl:w-full py-4"
-      >
-
-        {t('Compliance Responsibility') }
-      </a>
-  {*/}
-
-      <a
-        href="#General Clauses"
-        className="text-lightPink  font-semibold text-base border-0 xl:border-b-2 border-solid border-[#FF866D1A] min-w-max xl:w-full py-4"
-      >
-        {t("General Clauses")}
+        {t("Limitations of Liability")}
       </a>
 
       <a
         href="#Complaints"
-        className="text-lightPink  font-semibold text-base border-0 xl:border-b-2 border-solid border-[#FF866D1A] min-w-max xl:w-full py-4"
+        className="text-lightPink font-semibold text-base border-0 xl:border-b-2 border-solid border-[#FF866D1A] min-w-max xl:w-full py-4"
       >
-        {t("Complaints")}
+        {t("Complaints and Legal Remedies")}
       </a>
 
       <a
-        href="#Contact Information"
-        className="text-lightPink  font-semibold text-base border-0 xl:border-b-2 border-solid border-[#FF866D1A] min-w-max xl:w-full py-4"
+        href="#Contact"
+        className="text-lightPink font-semibold text-base border-0 xl:border-b-2 border-solid border-[#FF866D1A] min-w-max xl:w-full py-4"
       >
         {t("Contact Information")}
+      </a>
+
+      <a
+        href="#final"
+        className="text-lightPink font-semibold text-base border-0 xl:border-b-2 border-solid border-[#FF866D1A] min-w-max xl:w-full py-4"
+      >
+        {t("Final Provisions")}
       </a>
     </div>
   );

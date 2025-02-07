@@ -247,22 +247,6 @@
   "Decline": "Rechazar",
   "Get it on:": "Consíguelo en:",
 
-  "Table of contents": "Tabla de contenidos",
-  "Introduction": "Introducción",
-  "Privacy Policy": "Política de privacidad",
-  "Your Account": "Tu cuenta",
-  "Services": "Servicios",
-  "Third Party Services": "Servicios de terceros",
-  "Prohibited Uses and Intellectual Property": "Usos prohibidos y propiedad intelectual",
-  "The Company Materials": "Materiales de la empresa",
-  "Disclaimer of Certain Liabilities": "Renuncia de ciertas responsabilidades",
-  "Earnings Disclaimer": "Renuncia de ganancias",
-  "Volatility Risks": "Riesgos de volatilidad",
-  "Indenification": "Indemnización",
-  "General Clauses": "Cláusulas generales",
-  "Complaints": "Quejas",
-  "Contact Information": "Información de contacto",
-
   "Purposes of Processing": "Finalidades del procesamiento",
   "Collecting Your Personal Data": "Recopilación de sus datos personales",
   "Advertising": "Publicidad",
@@ -290,5 +274,18 @@
   "Set up smart notifications for attendance timeframes. Generate QR codes for easy check-in/out and export attendance sheets to PDF.": "Configure notificaciones inteligentes para los horarios de asistencia. Genere códigos QR para un registro de entrada/salida fácil y exporte las hojas de asistencia a PDF.",
   "Location-Based Restrictions": "Restricciones basadas en ubicación",
   "Limit location": "Limitar ubicación",
-  "Admins can restrict check-in/out locations using mobile GPS. Enable GPS, activate restriction, and select users for location-based restrictions.": "Los administradores pueden restringir las ubicaciones de registro de entrada/salida utilizando el GPS móvil. Habilite el GPS, active la restricción y seleccione usuarios para las restricciones basadas en ubicación."
+  "Admins can restrict check-in/out locations using mobile GPS. Enable GPS, activate restriction, and select users for location-based restrictions.": "Los administradores pueden restringir las ubicaciones de registro de entrada/salida utilizando el GPS móvil. Habilite el GPS, active la restricción y seleccione usuarios para las restricciones basadas en ubicación.",
+
+  "Table of contents": "Table of contents",
+  "Introduction": "Introduction",
+  "General Provisions": "General Provisions",
+  "Privacy and GDPR Compliance": "Privacy and GDPR Compliance",
+  "Your Account": "Your Account",
+  "Services": "Services",
+  "Technical Requirements": "Technical Requirements",
+  "Intellectual Property": "Intellectual Property",
+  "Limitations of Liability": "Limitations of Liability",
+  "Complaints and Legal Remedies": "Complaints and Legal Remedies",
+  "Contact Information": "Contact Information",
+  "Final Provisions": "Final Provisions"
 }
