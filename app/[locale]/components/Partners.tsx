@@ -165,16 +165,6 @@ const Partners: React.FC<PartnerProps> = ({ t }) => {
 
           <div>
             <Image
-              src="/Featured/partner (16).png"
-              alt="Partner 16"
-              width={220}
-              height={1}
-              className="filter grayscale transition-transform duration-300 ml-[100px] hover:grayscale-0"
-            />
-          </div>
-
-          <div>
-            <Image
               src="/Featured/partner (17).png"
               alt="Partner 17"
               width={90}
