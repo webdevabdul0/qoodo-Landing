@@ -26,16 +26,6 @@ const Partners: React.FC<PartnerProps> = ({ t }) => {
         <Marquee>
           <div>
             <Image
-              src="/Featured/partner (19).png"
-              alt="Partner 1"
-              width={120}
-              height={1}
-              className="filter grayscale transition-transform duration-300 ml-[100px] hover:grayscale-0"
-            />
-          </div>
-
-          <div>
-            <Image
               src="/Featured/partner (13).png"
               alt="Partner 2"
               width={110}
