@@ -26,8 +26,18 @@ const Partners: React.FC<PartnerProps> = ({ t }) => {
         <Marquee>
           <div>
             <Image
+              src="/Featured/partner (19).png"
+              alt="Partner 1"
+              width={110}
+              height={1}
+              className="filter grayscale transition-transform duration-300 ml-[100px] hover:grayscale-0"
+            />
+          </div>
+
+          <div>
+            <Image
               src="/Featured/partner (13).png"
-              alt="Partner 2"
+              alt="Partner 1"
               width={110}
               height={1}
               className="filter grayscale transition-transform duration-300 ml-[100px] hover:grayscale-0"
@@ -37,7 +47,7 @@ const Partners: React.FC<PartnerProps> = ({ t }) => {
           <div>
             <Image
               src="/Featured/partner (18).png"
-              alt="Partner 3"
+              alt="Partner 2"
               width={90}
               height={1}
               className="filter grayscale transition-transform duration-300 ml-[100px] hover:grayscale-0"
@@ -47,7 +57,7 @@ const Partners: React.FC<PartnerProps> = ({ t }) => {
           <div>
             <Image
               src="/Featured/partner (8).png"
-              alt="Partner 4"
+              alt="Partner 3"
               width={70}
               height={1}
               className="filter grayscale transition-transform duration-300 ml-[100px] hover:grayscale-0"
@@ -57,7 +67,7 @@ const Partners: React.FC<PartnerProps> = ({ t }) => {
           <div>
             <Image
               src="/Featured/partner (6).png"
-              alt="Partner 5"
+              alt="Partner 4"
               width={90}
               height={1}
               className="filter grayscale transition-transform duration-300 ml-[100px] hover:grayscale-0"
@@ -67,6 +77,16 @@ const Partners: React.FC<PartnerProps> = ({ t }) => {
           <div>
             <Image
               src="/Featured/partner (15).png"
+              alt="Partner 5"
+              width={90}
+              height={1}
+              className="filter grayscale transition-transform duration-300 ml-[100px] hover:grayscale-0"
+            />
+          </div>
+
+          <div>
+            <Image
+              src="/Featured/partner (20).png"
               alt="Partner 6"
               width={90}
               height={1}
@@ -77,7 +97,7 @@ const Partners: React.FC<PartnerProps> = ({ t }) => {
           <div>
             <Image
               src="/Featured/partner (17).png"
-              alt="Partner 7"
+              alt="Partner 8"
               width={90}
               height={1}
               className="filter grayscale transition-transform duration-300 ml-[100px] hover:grayscale-0"
@@ -87,7 +107,7 @@ const Partners: React.FC<PartnerProps> = ({ t }) => {
           <div>
             <Image
               src="/Featured/partner (2).png"
-              alt="Partner 8"
+              alt="Partner 9"
               width={140}
               height={1}
               className="filter grayscale transition-transform duration-300 ml-[100px] hover:grayscale-0"
@@ -97,7 +117,7 @@ const Partners: React.FC<PartnerProps> = ({ t }) => {
           <div>
             <Image
               src="/Featured/partner (1).png"
-              alt="Partner 9"
+              alt="Partner 10"
               width={120}
               height={1}
               className="filter grayscale transition-transform duration-300 ml-[100px] hover:grayscale-0"
@@ -107,7 +127,7 @@ const Partners: React.FC<PartnerProps> = ({ t }) => {
           <div>
             <Image
               src="/Featured/partner (9).png"
-              alt="Partner 10"
+              alt="Partner 11"
               width={150}
               height={1}
               className="filter grayscale transition-transform duration-300 ml-[100px] hover:grayscale-0"
@@ -117,7 +137,17 @@ const Partners: React.FC<PartnerProps> = ({ t }) => {
           <div>
             <Image
               src="/Featured/partner (14).png"
-              alt="Partner 11"
+              alt="Partner 12"
+              width={90}
+              height={1}
+              className="filter grayscale transition-transform duration-300 ml-[100px] hover:grayscale-0"
+            />
+          </div>
+
+          <div>
+            <Image
+              src="/Featured/partner (21).png"
+              alt="Partner 12"
               width={90}
               height={1}
               className="filter grayscale transition-transform duration-300 ml-[100px] hover:grayscale-0"
@@ -127,7 +157,7 @@ const Partners: React.FC<PartnerProps> = ({ t }) => {
           <div>
             <Image
               src="/Featured/partner (11).png"
-              alt="Partner 12"
+              alt="Partner 13"
               width={130}
               height={1}
               className="filter grayscale transition-transform duration-300 ml-[100px] hover:grayscale-0"
@@ -137,7 +167,7 @@ const Partners: React.FC<PartnerProps> = ({ t }) => {
           <div>
             <Image
               src="/Featured/partner (12).png"
-              alt="Partner 13"
+              alt="Partner 14"
               width={110}
               height={1}
               className="filter grayscale transition-transform duration-300 ml-[100px] hover:grayscale-0"
@@ -147,7 +177,7 @@ const Partners: React.FC<PartnerProps> = ({ t }) => {
           <div>
             <Image
               src="/Featured/partner (7).png"
-              alt="Partner 14"
+              alt="Partner 15"
               width={90}
               height={1}
               className="filter grayscale transition-transform duration-300 ml-[100px] hover:grayscale-0"
@@ -157,7 +187,7 @@ const Partners: React.FC<PartnerProps> = ({ t }) => {
           <div>
             <Image
               src="/Featured/partner (3).png"
-              alt="Partner 15"
+              alt="Partner 16"
               width={140}
               height={1}
               className="filter grayscale transition-transform duration-300 ml-[100px] hover:grayscale-0"
@@ -167,22 +197,12 @@ const Partners: React.FC<PartnerProps> = ({ t }) => {
           <div className="relative">
             <Image
               src="/Featured/partner (5).png"
-              alt="Partner 16"
+              alt="Partner 17"
               width={110}
               height={1}
               className="filter grayscale transition-transform duration-300 ml-[100px] hover:grayscale-0"
             />
           </div>
-
-          {/*  <div className="relative">
-            <Image
-              src="/Featured/partner (4).png"
-              alt="Partner 17"
-              width={140}
-              height={1}
-              className="filter grayscale transition-transform duration-300 ml-[100px] hover:grayscale-0"
-            />
-          </div>*/}
         </Marquee>
       </div>
     </div>

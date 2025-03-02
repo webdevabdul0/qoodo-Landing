@@ -53,6 +53,8 @@ const Demo = () => {
 
   async function onSubmit(data: z.infer<typeof FormSchema>) {
     try {
+      console.log("Submission called");
+
       const recaptchaToken = await recaptchaRef.current?.executeAsync();
       if (!recaptchaToken) {
         toast({
