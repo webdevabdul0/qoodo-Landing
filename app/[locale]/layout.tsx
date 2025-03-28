@@ -34,13 +34,13 @@ export const metadata: Metadata = {
 interface RootLayoutProps {
   children: React.ReactNode;
   params: {
-    lang: string;
+    locale: string;
   };
 }
 
 export default function RootLayout({ children, params }: RootLayoutProps) {
   return (
-    <html lang={params.lang} className={`${gilroy.variable} font-gilroy`}>
+    <html lang={params.locale} className={`${gilroy.variable} font-gilroy`}>
       <body>
         <ThemeProvider
           attribute="class"
