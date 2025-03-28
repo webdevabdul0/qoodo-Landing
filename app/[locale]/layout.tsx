@@ -39,8 +39,10 @@ interface RootLayoutProps {
 }
 
 export default function RootLayout({ children, params }: RootLayoutProps) {
+  console.log("Current Locale:", params.locale); // Debugging
+
   return (
-    <html lang={params.lang} className={`${gilroy.variable} font-gilroy`}>
+    <html lang={params.locale} className={`${gilroy.variable} font-gilroy`}>
       <body>
         <ThemeProvider
           attribute="class"
