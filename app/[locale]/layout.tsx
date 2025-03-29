@@ -34,7 +34,7 @@ export const metadata: Metadata = {
 interface RootLayoutProps {
   children: React.ReactNode;
   params: {
-    lang: string;
+    locale: string;
   };
 }
 

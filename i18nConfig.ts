@@ -1,11 +1,8 @@
 import { Config } from "next-i18n-router/dist/types";
 
 const i18nConfig: Config = {
-  locales: ["es", "hu", "en"], // Order matters! Ensure "es" is first
-  defaultLocale: "es", // Default should be "es"
-  localeDetector: (request) => {
-    return "es"; // Force "es" as the detected locale
-  },
+  locales: ["en", "hu", "es"],
+  defaultLocale: "hu",
 };
 
 export default i18nConfig;
