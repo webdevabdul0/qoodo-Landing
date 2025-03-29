@@ -5,6 +5,7 @@ import Footer from "../Layout/Footer";
 import initTranslations from "../../i18n";
 import TranslationsProvider from "../TranslationsProvider";
 import CookieConsent from "../components/CookieConsent";
+import SeatCard from "./components/SeatCard";
 
 const i18nNamespaces = ["home"];
 
@@ -21,6 +22,7 @@ const page = async ({ params: { locale } }: { params: { locale: string } }) => {
         <Header />
         <Hero t={t} />
         <Attendance t={t} />
+        <SeatCard t={t} />
         <Footer />
         <CookieConsent />
       </TranslationsProvider>
