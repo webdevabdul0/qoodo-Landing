@@ -2,6 +2,9 @@ import React from "react";
 import { Button } from "@/app/[locale]/components/ui/button";
 import { TFunction } from "i18next";
 import { Check } from "lucide-react";
+import Link from "next/link";
+import { FaApple } from "react-icons/fa";
+import Image from "next/image";
 
 interface SeatProps {
   t: TFunction<["translation", ...string[]], undefined>;
@@ -21,7 +24,7 @@ const SeatCard: React.FC<SeatProps> = ({ t }) => {
 
   return (
     <div className="w-full font-[Gilroy] max-w-[1440px] mb-16 px-5 2xl:px-0">
-      <div className="bg-[#4A60FF] border-white/20 border-2 px-8 py-10 rounded-2xl flex flex-col text-white w-full">
+      <div className="bg-[#4A60FF] border-white/20 border-2 px-8 py-10 rounded-3xl flex flex-col text-white w-full">
         <div className="flex flex-col  lg:flex-row text-center lg:text-start">
           <div className="flex flex-col items-center lg:items-start gap-4 mb-10 lg:mb-0">
             <h3 className="heading3">
@@ -37,10 +40,10 @@ const SeatCard: React.FC<SeatProps> = ({ t }) => {
             <div className="flex flex-row gap-4 text-[16px] md:text-xl font-gilroy font-medium">
               <p>{t("From")}</p>
 
-              <h3 className="heading3">€1.50</h3>
+              <h3 className="heading3">{t("€1.50")}</h3>
 
               <div className="flex flex-col">
-                <p>/user/month</p>
+                <p>{t("/user/month")}</p>
                 <p className="font-bold">{t("when billed annually")}</p>
               </div>
             </div>
@@ -48,9 +51,20 @@ const SeatCard: React.FC<SeatProps> = ({ t }) => {
             <div className="mt-4 flex flex-col items-center lg:items-start gap-5 heading3 ">
               <h3 className="text-4xl">{t("Get Started Now")}</h3>
 
-              <p className="font-medium text-[16px] md:text-xl font-gilroy ">
-                {t("Download on Web")}
-              </p>
+              <div className="p-5  flex flex-row gap-5   justify-center items-center rounded-2xl">
+                <Link href="https://apps.apple.com/hu/app/qoodo/id6460819008">
+                  <FaApple size={40} />
+                </Link>
+
+                <Link href="https://play.google.com/store/apps/details?id=com.io.qoodo">
+                  <Image
+                    src="/images/hero/logos_google-play-icon.png"
+                    width={26}
+                    height={26}
+                    alt="Image"
+                  />
+                </Link>
+              </div>
 
               <a href="https://app.qoodo.io/register">
                 <Button
@@ -67,7 +81,7 @@ const SeatCard: React.FC<SeatProps> = ({ t }) => {
 
           <div className="flex flex-col  gap-4 ml-10">
             <p className="text-[16px] md:text-xl font-gilroy font-bold text-start">
-              Includes
+              {t("Includes")}
             </p>
 
             <ul className="space-y-3 flex flex-col ">
