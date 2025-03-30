@@ -351,7 +351,7 @@ const Demo = () => {
                     <ReCAPTCHA
                       ref={recaptchaRef}
                       sitekey={RECAPTCHA_SITE_KEY}
-                      size="normal"
+                      size="invisible" // Required for `executeAsync()`
                     />
 
                     <Button
