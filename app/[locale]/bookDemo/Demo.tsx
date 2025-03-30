@@ -55,7 +55,7 @@ const Demo = () => {
     try {
       console.log("Submission called");
 
-      const recaptchaToken = await recaptchaRef.current?.executeAsync();
+      const recaptchaToken = recaptchaRef.current?.getValue();
       if (!recaptchaToken) {
         toast({
           title: t("Captcha Required"),
@@ -351,7 +351,7 @@ const Demo = () => {
                     <ReCAPTCHA
                       ref={recaptchaRef}
                       sitekey={RECAPTCHA_SITE_KEY}
-                      size="invisible" // Required for `executeAsync()`
+                      size="normal" // Required for `executeAsync()`
                     />
 
                     <Button
