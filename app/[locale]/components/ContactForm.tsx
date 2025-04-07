@@ -30,7 +30,7 @@ const Contact: React.FC = () => {
 
       try {
         // Execute the reCAPTCHA and get the token
-        const recaptchaToken = await recaptchaRef.current?.executeAsync();
+        const recaptchaToken = recaptchaRef.current?.getValue();
         if (!recaptchaToken) {
           toast({
             title: t("Captcha Required"),
