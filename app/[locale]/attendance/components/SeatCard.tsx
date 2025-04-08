@@ -66,16 +66,28 @@ const SeatCard: React.FC<SeatProps> = ({ t }) => {
                 </Link>
               </div>
 
-              <a href="https://app.qoodo.io/register">
-                <Button
-                  type="button"
-                  className="h-[60px] px-[25px] py-[15px] bg-black-100 rounded-[24px] flex justify-center items-center gap-2.5 hover:bg-black-200"
-                >
-                  <div className="text-white text-base font-medium font-['Gilroy'] leading-tight">
-                    {t("Book a Demo")}
-                  </div>
-                </Button>
-              </a>
+              <div className="flex gap-4">
+                <a href="https://app.qoodo.io/register">
+                  <Button
+                    type="button"
+                    className="h-[60px] px-[25px] py-[15px] bg-black-100 rounded-[24px] flex justify-center items-center gap-2.5 hover:bg-black-200"
+                  >
+                    <div className="text-white text-base font-medium font-['Gilroy'] leading-tight">
+                      {t("Register Now")}
+                    </div>
+                  </Button>
+                </a>
+                <a href="bookDemo">
+                  <Button
+                    type="button"
+                    className="h-[60px] px-[25px] py-[15px] bg-black-100 rounded-[24px] flex justify-center items-center gap-2.5 hover:bg-black-200"
+                  >
+                    <div className="text-white text-base font-medium font-['Gilroy'] leading-tight">
+                      {t("Book a Demo")}
+                    </div>
+                  </Button>
+                </a>
+              </div>
             </div>
           </div>
 
