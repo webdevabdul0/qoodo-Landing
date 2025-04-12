@@ -3,6 +3,7 @@
 import { GoChevronLeft } from "react-icons/go";
 import { FaTimes, FaCheckCircle } from "react-icons/fa";
 import { useEffect, FC } from "react";
+import { useTranslation } from "react-i18next";
 
 interface ContactModalProps {
   setModal: (state: boolean) => void;
@@ -10,6 +11,7 @@ interface ContactModalProps {
 }
 
 const ContactModal: FC<ContactModalProps> = ({ setModal, whiteListModal }) => {
+  const { t } = useTranslation();
   useEffect(() => {
     if (!whiteListModal) {
       const timer = setTimeout(() => {
@@ -51,10 +53,10 @@ const ContactModal: FC<ContactModalProps> = ({ setModal, whiteListModal }) => {
 
         {/* Message */}
         <p className="text-[#B3B3B3] font-medium text-lg sm:text-xl text-center">
-          Thank you for submitting the form
+          {t("Thank you for submitting the form.")}
         </p>
         <h4 className="gr-text text-[35px] sm:text-[40px] font-extrabold text-center leading-[1.1]">
-          We will contact <br /> you shortly
+          {t("We will contact you shortly")}
         </h4>
       </div>
     </>
