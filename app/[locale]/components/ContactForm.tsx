@@ -15,7 +15,7 @@ const Contact: React.FC = () => {
   const [message, setMessage] = useState("");
   const [isSubmitted, setSubmitted] = useState(false);
 
-  const RECAPTCHA_SITE_KEY = "6LcTLjQrAAAAALaYWohd-je2RSHC8wc84eMhFNy4";
+  const RECAPTCHA_SITE_KEY = "6LeNMDQrAAAAAMF8eUVfL4DINl3AHHuXRXEYof2f";
   const [recaptchaToken, setRecaptchaToken] = useState("");
   const recaptchaRef = useRef<ReCAPTCHA>(null);
 
@@ -101,8 +101,6 @@ const Contact: React.FC = () => {
               <ReCAPTCHA
                 ref={recaptchaRef}
                 sitekey={RECAPTCHA_SITE_KEY}
-                size="invisible"
-                badge="bottomright"
                 onChange={(token) => setRecaptchaToken(token || "")}
               />
 
