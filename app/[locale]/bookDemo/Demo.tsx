@@ -8,6 +8,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import axios from "axios";
 import { FaChevronRight } from "react-icons/fa";
 import ReCAPTCHA from "react-google-recaptcha";
+import type ReCAPTCHAType from "react-google-recaptcha";
 import {
   Form,
   FormControl,
@@ -21,9 +22,9 @@ import { Checkbox } from "@/app/[locale]/components/ui/checkbox";
 import { toast } from "@/app/[locale]/components/ui/use-toast";
 import ContactModal from "@/app/[locale]/components/ui/ContactModal";
 import { useTranslation } from "react-i18next";
-import { useRef } from "react";
+import { useRef, useState } from "react";
 
-import React, { useState } from "react";
+import React from "react";
 
 const Demo = () => {
   const { t } = useTranslation();
@@ -38,8 +39,9 @@ const Demo = () => {
   });
 
   const [popUp, setPopUp] = useState(false);
-  const RECAPTCHA_SITE_KEY = process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY || "";
-  const recaptchaRef = useRef();
+  const RECAPTCHA_SITE_KEY = "6LcTLjQrAAAAALaYWohd-je2RSHC8wc84eMhFNy4";
+  const [recaptchaToken, setRecaptchaToken] = useState("");
+  const recaptchaRef = useRef<ReCAPTCHAType>(null);
 
   const form = useForm<z.infer<typeof FormSchema>>({
     resolver: zodResolver(FormSchema),
@@ -53,9 +55,6 @@ const Demo = () => {
 
   async function onSubmit(data: z.infer<typeof FormSchema>) {
     try {
-      console.log("Submission called");
-
-      const recaptchaToken = recaptchaRef.current?.getValue();
       if (!recaptchaToken) {
         toast({
           title: t("Captcha Required"),
@@ -63,7 +62,6 @@ const Demo = () => {
         });
         return;
       }
-
       const response = await fetch(
         "https://dev-apis.naplozz.hu/api/v1/users/sendDemoMail",
         {
@@ -71,10 +69,9 @@ const Demo = () => {
           headers: {
             "Content-Type": "application/json",
           },
-          body: JSON.stringify(data),
+          body: JSON.stringify({ ...data, recaptchaToken }),
         }
       );
-
       if (response.ok) {
         setPopUp(true);
         toast({
@@ -82,6 +79,8 @@ const Demo = () => {
           description: t("Your demo request has been sent successfully."),
         });
         form.reset();
+        setRecaptchaToken("");
+        if (recaptchaRef.current) recaptchaRef.current.reset();
       } else {
         toast({
           title: t("Submission Failed"),
@@ -351,12 +350,15 @@ const Demo = () => {
                     <ReCAPTCHA
                       ref={recaptchaRef}
                       sitekey={RECAPTCHA_SITE_KEY}
-                      size="normal" // Required for `executeAsync()`
+                      size="invisible"
+                      badge="bottomright"
+                      onChange={(token) => setRecaptchaToken(token || "")}
                     />
 
                     <Button
                       type="submit"
                       className="h-[60px] px-[25px] py-[15px] bg-[#4a60ff] rounded-[14px] border border-[#6971a2] justify-center items-center gap-2.5 w-full flex flex-row"
+                      disabled={!recaptchaToken}
                     >
                       <div className="text-white text-base font-medium font-gilroy leading-tight">
                         {t("Book a Demo")}

@@ -4,6 +4,7 @@ import { FaChevronRight } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
 import axios from "axios";
 import ReCAPTCHA from "react-google-recaptcha";
+import type ReCAPTCHAT from "react-google-recaptcha";
 import { useRef } from "react";
 const Contact: React.FC = () => {
   const { t } = useTranslation();
@@ -14,46 +15,36 @@ const Contact: React.FC = () => {
   const [message, setMessage] = useState("");
   const [isSubmitted, setSubmitted] = useState(false);
 
-  const RECAPTCHA_SITE_KEY = process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY || "";
-  const recaptchaRef = useRef();
+  const RECAPTCHA_SITE_KEY = "6LcTLjQrAAAAALaYWohd-je2RSHC8wc84eMhFNy4";
+  const [recaptchaToken, setRecaptchaToken] = useState("");
+  const recaptchaRef = useRef<ReCAPTCHA>(null);
 
   const onSubmit = async (e: FormEvent) => {
     e.preventDefault();
-
+    if (!recaptchaToken) {
+      alert("Please complete the CAPTCHA.");
+      return;
+    }
     if (firstName && lastName && email && message) {
       const input = {
         firstName,
         lastName,
         email,
-        message, // Assuming "message" refers to the form description
+        message,
+        recaptchaToken, // send token to backend
       };
-
       try {
-        // Execute the reCAPTCHA and get the token
-        const recaptchaToken = recaptchaRef.current?.getValue();
-        if (!recaptchaToken) {
-          toast({
-            title: t("Captcha Required"),
-            description: t("Please complete the CAPTCHA."),
-          });
-          return;
-        }
-
-        // Send the email via an API call
         await axios.post(
-          "https://apis.naplozz.hu/api/v1/users/sendmail?server=qoodo",
-
+          "/api/contact", // use your backend endpoint
           input
         );
-
         setSubmitted(true);
-        console.log("Email Submitted");
-
-        // Clear the form fields
         setfirstName("");
         setlastName("");
         setEmail("");
         setMessage("");
+        setRecaptchaToken("");
+        if (recaptchaRef.current) recaptchaRef.current.reset();
       } catch (err) {
         console.error("Error", err);
       }
@@ -110,12 +101,15 @@ const Contact: React.FC = () => {
               <ReCAPTCHA
                 ref={recaptchaRef}
                 sitekey={RECAPTCHA_SITE_KEY}
-                size="normal"
+                size="invisible"
+                badge="bottomright"
+                onChange={(token) => setRecaptchaToken(token || "")}
               />
 
               <button
                 type="submit"
                 className="h-16 px-10 py-[22px] bg-[#4a60ff] rounded-[14px] inline-flex items-center justify-center gap-2.5"
+                disabled={!recaptchaToken || isSubmitted}
               >
                 <div className="text-white text-base font-medium font-gilroy leading-tight">
                   {t("Submit")}

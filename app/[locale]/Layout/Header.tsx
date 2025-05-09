@@ -137,8 +137,8 @@ const Header = () => {
                 />
               </svg>
             </Link>
-            <nav className="hidden lg:flex gap-10 font-semibold font-gilroy">
-              <ul className="flex flex-col lg:flex-row gap-5 xl:gap-10">
+            <nav className="hidden xl:flex gap-10 font-semibold font-gilroy">
+              <ul className="flex flex-col lg:flex-row gap-5 2xl:gap-7">
                 <li>
                   <Link href="/#features" scroll={true}>
                     {t("Solutions")}
@@ -304,7 +304,7 @@ const Header = () => {
               <a
                 href="bookDemo"
                 onClick={() => setHeaderToggle(false)}
-                className="font-semibold text-[#4A60FF] "
+                className="font-semibold text-[#4A60FF] text-center"
               >
                 {t("Book Demo")}
               </a>
