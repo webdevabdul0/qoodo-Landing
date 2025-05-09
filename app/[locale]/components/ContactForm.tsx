@@ -6,6 +6,8 @@ import axios from "axios";
 import ReCAPTCHA from "react-google-recaptcha";
 import type ReCAPTCHAT from "react-google-recaptcha";
 import { useRef } from "react";
+import ContactModal from "./ui/ContactModal";
+
 const Contact: React.FC = () => {
   const { t } = useTranslation();
   const [popUp, setPopUp] = useState(false);
@@ -27,16 +29,20 @@ const Contact: React.FC = () => {
     }
     if (firstName && lastName && email && message) {
       const input = {
-        firstName,
-        lastName,
+        name: `${firstName} ${lastName}`,
         email,
-        message,
-        recaptchaToken, // send token to backend
+        phoneNumber: "N/A",
+        interests: ["Contact"],
+        recaptchaToken,
       };
       try {
-        await axios.post(
-          "/api/contact", // use your backend endpoint
-          input
+        await fetch(
+          "https://dev-apis.naplozz.hu/api/v1/users/sendDemoMail",
+          {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(input),
+          }
         );
         setSubmitted(true);
         setfirstName("");
@@ -45,6 +51,7 @@ const Contact: React.FC = () => {
         setMessage("");
         setRecaptchaToken("");
         if (recaptchaRef.current) recaptchaRef.current.reset();
+        setPopUp(true); // Show Thank You popup
       } catch (err) {
         console.error("Error", err);
       }
@@ -118,6 +125,7 @@ const Contact: React.FC = () => {
           </div>
         </div>
       </div>
+      {popUp && <ContactModal setModal={setPopUp} whiteListModal={false} />}
     </>
   );
 };
